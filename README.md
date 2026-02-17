@@ -1,5 +1,7 @@
 # DGIdb MCP Server
 
+Preprint: https://www.biorxiv.org/content/10.64898/2026.01.18.700012v1
+
 This is a Cloudflare Workers-based Model Context Protocol (MCP) server that provides tools for querying the DGIdb (Drug Gene Interaction Database) API. 
 
 DGIdb streamlines the search for druggable therapeutic targets through the aggregation, categorization, and curation of drug and gene data from publications and expert resources. 
