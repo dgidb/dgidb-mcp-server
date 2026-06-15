@@ -180,3 +180,12 @@ Once configured, restart Claude Desktop. The server provides 4 main tools:
 2. **`get_gene_info`**: Gets gene category info for a list of genes.
 3. **`get_drug_interactions_for_gene_list`**: Gets drugs that interact with a list of genes.
 4. **`get_gene_interactions_for_drug_list`**: Gets genes that interact with a list of drugs.
+
+
+## GPT-5 Evaluation
+
+GPT_eval/src details the scripts used for the published evaluation. The randomly sampled input files used for this are available. The full experiment can be run with this command:
+
+```bash
+bash run_experiments.sh
+```
