@@ -147,6 +147,30 @@ Add this configuration to your `claude_desktop_config.json` file:
 }
 ```
 
+## Usage
+
+Once configured, restart Claude Desktop. The server provides 4 main tools:
+
+1. **`get_drug_info`**: Gets drug info including approval, if used in immunotherapy, and other drug attributes for a list of drugs.
+2. **`get_gene_info`**: Gets gene category info for a list of genes.
+3. **`get_drug_interactions_for_gene_list`**: Gets drugs that interact with a list of genes.
+4. **`get_gene_interactions_for_drug_list`**: Gets genes that interact with a list of drugs.
+
+### Example Use Cases
+
+| Category | Example Query | Intended Output* |
+| --- | --- | --- |
+| Drug Discovery | Which FDA-approved drugs target the gene KIT? | A ranked list of FDA-approved KIT-interacting drugs with interaction scores, interaction types, approval status, and links to supporting sources. [Chat Link](https://claude.ai/share/62d8e788-7b0f-453a-af08-dc066d34b9b1). |
+| Drug Info | What information is available about Imatinib? | A structured overview of Imatinib including its FDA approval status, year of approval, therapeutic and drug class annotations. [Chat Link](https://claude.ai/share/999dfa2e-aa4b-4a5c-bcf7-9be72886b873). |
+| Gene Category Info | What categories and functional annotations are associated with the gene BRAF? | A structured summary of BRAF annotations, including clinical actionability, drug resistance relevance, druggability, enzyme class, and kinase classification, with the supporting source databases listed for each category. [Chat Link](https://claude.ai/share/91a62f7d-d278-4a4b-a70c-8f54d598d147). |
+| Gene Symbol Disambiguation | Is FLT3 an unambiguous gene symbol? | An assessment of whether FLT3 maps uniquely to a single gene, including any known aliases/synonyms, overlapping symbols, and the resolved canonical gene identifier(s), with supporting source links. [Chat Link](https://claude.ai/share/5fa0883b-538b-47c8-8b68-99b8d9db4045). |
+| Mechanism-specific targeting | Which inhibitors interact with EGFR? | A filtered list of EGFR inhibitors, prioritized by FDA approval and interaction score, with evidence sources cited. [Chat Link](https://claude.ai/share/0daf9c70-b6cd-4c00-b2af-ff2c91a6aff7). |
+| Interaction type interpretation | What genes interact with the drug Ibrutinib and by what mechanism of interaction? | A structured summary of Ibrutinib-gene interactions, annotated with interaction direction and type (e.g., inhibitor, modulator). [Chat Link](https://claude.ai/share/1297b4d8-d55b-408d-9648-ef34e266f7ca). |
+
+Chat links to conversations with Opus 4.5 via Claude Desktop on 1/14/2026.
+
+*API responses are not visible in the linked chats.
+
 ## Joint Access to DGIdb and CIViC via MCP
 Add this configuration to your `claude_desktop_config.json` file:
 
@@ -172,15 +196,20 @@ Add this configuration to your `claude_desktop_config.json` file:
 }
 ```
 
-## Usage
+### Joint Use Cases (DGIdb + CIViC)
 
-Once configured, restart Claude Desktop. The server provides 4 main tools:
+| Category | Example Query | Intended Output* |
+| --- | --- | --- |
+| Resistance-guided drug discovery (CIViC→DGIdb) | What genes can cause resistance to ibrutinib in chronic lymphocytic leukemia, and what alternative drugs can target them? | CIViC-supported resistance genes for ibrutinib in CLL and a ranked list of interacting alternative drugs from DGIdb, with citations. [Chat Link](https://claude.ai/share/be18a9b9-0a1b-4831-9dc9-9f72dd9d5049). |
+| Oncogenicity-driven functional validation (CIViC→DGIdb) | What is the evidence for oncogenicity of variants in ERBB2 for breast cancer, and what inhibitors could I use to experimentally validate their importance in vitro? | CIViC-supported oncogenic ERBB2 variants in breast cancer with summarized evidence and citations, plus a ranked list of ERBB2-targeting inhibitors from DGIdb suitable for in vitro validation. [Chat Link](https://claude.ai/share/1bd81002-fe12-44aa-9b5c-775a0fb426d2). |
+| Drug target profiling with clinical evidence (DGIdb→CIViC) | What genes interact with the drug Ibrutinib, and which of those genes have specific variants in CIViC associated with sensitivity or resistance? | A list of genes interacting with ibrutinib annotated with CIViC sensitivity or resistance evidence where available. [Chat Link](https://claude.ai/share/9ad52a71-74c1-40a5-aa22-afc03e5fa940). |
+| Target resistance interpretation (DGIdb→CIViC) | Are there known resistance mechanisms for genes targeted by Osimertinib? | Osimertinib target genes with CIViC-documented resistance mechanisms and supporting evidence links. [Chat Link](https://claude.ai/share/9da56313-74b4-4978-954b-43437a63e47f). |
+| Gene-guided therapy matching (DGIdb→CIViC) | Which drugs interact with PIK3CA, and is there evidence of sensitivity to these drugs in breast cancer? | PIK3CA-interacting drugs prioritized by DGIdb and annotated with CIViC sensitivity evidence in breast cancer. [Chat Link](https://claude.ai/share/b73748ee-74d6-4b7f-92f1-8a8620960bcd). |
+| Expression-based therapy matching (DGIdb→CIViC) | For tumors with EGFR amplification, which drugs target EGFR and is there clinical evidence supporting sensitivity? | EGFR-targeting drugs with CIViC evidence supporting sensitivity in EGFR-amplified tumors. [Chat Link](https://claude.ai/share/b2d6ffa7-a2a2-4c2f-9805-3d6aad577362). |
 
-1. **`get_drug_info`**: Gets drug info including approval, if used in immunotherapy, and other drug attributes for a list of drugs.
-2. **`get_gene_info`**: Gets gene category info for a list of genes.
-3. **`get_drug_interactions_for_gene_list`**: Gets drugs that interact with a list of genes.
-4. **`get_gene_interactions_for_drug_list`**: Gets genes that interact with a list of drugs.
+Chat links to conversations with Opus 4.5 via Claude Desktop on 1/14/2026 and 3/25/2026.
 
+*API responses are not visible in the linked chats.
 
 ## GPT-5 Evaluation
 
