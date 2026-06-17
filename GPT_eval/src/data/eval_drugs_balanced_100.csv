@@ -1,0 +1,101 @@
+index,drug_claim_name,nomenclature,concept_id,drug_name,approved,immunotherapy,anti_neoplastic,source_db_name,source_db_version
+0,encorafenib,Primary Drug Name,rxcui:2049106,ENCORAFENIB,True,False,True,RxNorm,20240401
+1,tamoxifen,Primary Drug Name,rxcui:10324,TAMOXIFEN,True,False,True,RxNorm,20240401
+2,ASLAN-003,Primary Name,iuphar.ligand:12106,FARUDODSTAT,False,False,False,ChEMBL,33
+3,IUPHAR.LIGAND:2028,GuideToPharmacology Ligand ID,iuphar.ligand:2028,[D-TYR8]CYN 154806,False,False,False,GuideToPharmacology,2024.1
+4,fam-trastuzumab deruxtecan-nxki,Primary Drug Name,rxcui:2267574,FAM-TRASTUZUMAB DERUXTECAN-NXKI,True,False,True,RxNorm,20240401
+5,rituximab,Primary Drug Name,rxcui:121191,RITUXIMAB,True,True,True,RxNorm,20240401
+6,Homogentisic acid,Primary Name,drugbank:DB08327,HOMOGENTISIC ACID,False,False,False,DrugBank,5.1.12
+7,GW785804X,Primary Name,chembl:CHEMBL361237,GW785804X,False,False,False,DTC,9/2/20
+8,GSK2245840,Primary Name,iuphar.ligand:9515,SRT2104,False,False,False,TTD,2020.06.01
+9,nivolumab,Primary Drug Name,rxcui:1597876,NIVOLUMAB,True,True,True,RxNorm,20240401
+10,Interferon alfacon-1,Primary Name,rxcui:59744,INTERFERON ALFACON-1,True,True,True,DrugBank,5.1.12
+11,olaparib,Primary Drug Name,rxcui:1597582,OLAPARIB,True,False,True,RxNorm,20240401
+12,exemestane,Primary Drug Name,rxcui:258494,EXEMESTANE,True,False,True,RxNorm,20240401
+13,mogamulizumab,Primary Drug Name,rxcui:2054068,MOGAMULIZUMAB,True,True,True,RxNorm,20240401
+14,IUPHAR.LIGAND:2356,GuideToPharmacology Ligand ID,iuphar.ligand:2356,CS+,False,False,False,GuideToPharmacology,2024.1
+15,Anti-Thymocyte Globulin,Primary Drug Name,ncit:C278,ANTI-THYMOCYTE GLOBULIN,True,True,False,NCIt,24.02d
+16,everolimus,Primary Drug Name,rxcui:141704,EVEROLIMUS,True,True,True,RxNorm,20240401
+17,IUPHAR.LIGAND:2015,GuideToPharmacology Ligand ID,iuphar.ligand:2015,"L-797,591",False,False,False,GuideToPharmacology,2024.1
+18,pembrolizumab,Primary Drug Name,rxcui:1547545,PEMBROLIZUMAB,True,True,True,RxNorm,20240401
+19,interferon alfa-2b,Primary Drug Name,rxcui:5880,INTERFERON ALFA-2B,True,True,True,RxNorm,20240401
+20,dalotuzumab,Primary Drug Name,rxcui:1432293,DALOTUZUMAB,False,True,True,RxNorm,20240401
+21,peginterferon alfa-2a,Primary Drug Name,rxcui:120608,PEGINTERFERON ALFA-2A,True,True,True,RxNorm,20240401
+22,thalidomide,Primary Drug Name,rxcui:10432,THALIDOMIDE,True,True,True,RxNorm,20240401
+23,IUPHAR.LIGAND:1280,GuideToPharmacology Ligand ID,iuphar.ligand:1280,[125I]TYR45-KISSPEPTIN-15,False,False,False,GuideToPharmacology,2024.1
+24,ibritumomab tiuxetan,Primary Drug Name,rxcui:262323,IBRITUMOMAB TIUXETAN,True,True,True,RxNorm,20240401
+25,ATN-161,Primary Name,drugbank:DB05491,ATN-161,False,False,False,ChEMBL,33
+26,eculizumab,Primary Drug Name,rxcui:591781,ECULIZUMAB,True,True,False,RxNorm,20240401
+27,Ficlatuzumab,Primary Drug Name,ncit:C78844,FICLATUZUMAB,False,True,True,NCIt,24.02d
+28,Aldoxorubicin,Primary Drug Name,ncit:C68921,ALDOXORUBICIN,False,False,False,NCIt,24.02d
+29,"2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,9-HEPTADECAFLUORO-NONANOIC ACID",Primary Name,chembl:CHEMBL426404,CHEMBL:CHEMBL426404,False,False,False,DTC,9/2/20
+30,2-(STYRYL)-BENZIMIDAZOLE,Primary Name,chembl:CHEMBL473721,CHEMBL:CHEMBL473721,False,False,False,DTC,9/2/20
+31,muromonab-CD3,Primary Drug Name,rxcui:42405,MUROMONAB-CD3,True,True,False,RxNorm,20240401
+32,Dulanermin,Primary Drug Name,ncit:C1685,DULANERMIN,False,True,True,NCIt,24.02d
+33,romidepsin,Primary Drug Name,rxcui:877510,ROMIDEPSIN,True,False,True,RxNorm,20240401
+34,alefacept,Primary Drug Name,rxcui:299635,ALEFACEPT,True,True,False,RxNorm,20240401
+35,ixazomib citrate,Primary Drug Name,rxcui:1723734,IXAZOMIB CITRATE,True,False,True,RxNorm,20240401
+36,Pidilizumab,Primary Drug Name,ncit:C71014,PIDILIZUMAB,False,True,True,NCIt,24.02d
+37,necitumumab,Primary Drug Name,rxcui:1723738,NECITUMUMAB,True,True,True,RxNorm,20240401
+38,Conatumumab,Primary Drug Name,ncit:C71015,CONATUMUMAB,False,True,True,NCIt,24.02d
+39,IUPHAR.LIGAND:6082,GuideToPharmacology Ligand ID,iuphar.ligand:6082,"[SAR1, D-ALA12]GALANIN(1-16)",False,False,False,GuideToPharmacology,2024.1
+40,GSK-2586881,Primary Name,chembl:CHEMBL4297887,GSK-2586881,False,False,False,ChEMBL,33
+41,ODM-203,Primary Name,drugbank:DB16843,ODM-203,False,False,False,JAX-CKB,10-Apr-24
+42,IUPHAR.LIGAND:932,GuideToPharmacology Ligand ID,iuphar.ligand:932,(+)-ADTN,False,False,False,GuideToPharmacology,2024.1
+43,Nimotuzumab,Primary Drug Name,ncit:C2733,NIMOTUZUMAB,False,True,True,NCIt,24.02d
+44,Anti-IGF-1R Recombinant Monoclonal Antibody BIIB022,Primary Drug Name,ncit:C71530,ANTI-IGF-1R RECOMBINANT MONOCLONAL ANTIBODY BIIB022,False,True,True,NCIt,24.02d
+45,belimumab,Primary Drug Name,rxcui:1092437,BELIMUMAB,True,True,True,RxNorm,20240401
+46,Selective Estrogen Receptor Modulator,Primary Drug Name,ncit:C1821,SELECTIVE ESTROGEN RECEPTOR MODULATOR,False,False,False,NCIt,24.02d
+47,IUPHAR.LIGAND:10358,GuideToPharmacology Ligand ID,iuphar.ligand:10358,GSK065,False,False,False,GuideToPharmacology,2024.1
+48,cyclosporine,Primary Drug Name,rxcui:3008,CYCLOSPORINE,True,True,False,RxNorm,20240401
+49,"3-(2,6-difluorophenyl)-2-(methylthio)quinazolin-4(3H)-one",Primary Name,drugbank:DB08602,"3-(2,6-DIFLUOROPHENYL)-2-(METHYLTHIO)QUINAZOLIN-4(3H)-ONE",False,False,False,DrugBank,5.1.12
+50,pemigatinib,Primary Drug Name,rxcui:2359268,PEMIGATINIB,True,False,True,RxNorm,20240401
+51,chloroquine,Primary Drug Name,rxcui:2393,CHLOROQUINE,True,False,True,RxNorm,20240401
+52,aflibercept,Primary Drug Name,rxcui:1232150,AFLIBERCEPT,True,True,True,RxNorm,20240401
+53,Tigatuzumab,Primary Drug Name,ncit:C62482,TIGATUZUMAB,False,False,False,NCIt,24.02d
+54,interferon alfa-n3,Primary Drug Name,rxcui:612937,INTERFERON ALFA-N3,True,True,True,RxNorm,20240401
+55,IUPHAR.LIGAND:7812,GuideToPharmacology Ligand ID,iuphar.ligand:7812,RXP470.1,False,False,False,GuideToPharmacology,2024.1
+56,ABT-239,Primary Name,iuphar.ligand:1218,ABT-239,False,False,False,TTD,2020.06.01
+57,OC000459,Primary Name,iuphar.ligand:9277,TIMAPIPRANT,False,False,False,TdgClinicalTrial,Jan-14
+58,Ofatumumab,Primary Drug Name,rxcui:712566,OFATUMUMAB,True,True,True,NCIt,24.02d
+59,imiquimod,Primary Drug Name,rxcui:59943,IMIQUIMOD,True,True,False,RxNorm,20240401
+60,Difluoromethionine,Primary Name,drugbank:DB03816,DIFLUOROMETHIONINE,False,False,False,DrugBank,5.1.12
+61,alemtuzumab,Primary Drug Name,rxcui:117055,ALEMTUZUMAB,True,True,True,RxNorm,20240401
+62,ifosfamide,Primary Drug Name,rxcui:5657,IFOSFAMIDE,True,False,True,RxNorm,20240401
+63,canakinumab,Primary Drug Name,rxcui:853491,CANAKINUMAB,True,True,True,RxNorm,20240401
+64,Apomab,Primary Drug Name,ncit:C71693,APOMAB,False,True,True,NCIt,24.02d
+65,DIPLAMINE B,Primary Name,chembl:CHEMBL513108,DIPLAMINE B,False,False,False,DTC,9/2/20
+66,carboplatin,Primary Drug Name,rxcui:40048,CARBOPLATIN,True,False,True,RxNorm,20240401
+67,"4,5,6,7-TETRABROMOBENZIMIDAZOLE",Primary Name,chembl:CHEMBL373937,CHEMBL:CHEMBL373937,False,False,False,DTC,9/2/20
+68,leucovorin calcium,Primary Drug Name,rxcui:225852,LEUCOVORIN CALCIUM,True,False,True,RxNorm,20240401
+69,LBY-135,Primary Name,chembl:CHEMBL2109247,LBY-135,False,True,True,ChEMBL,33
+70,IUPHAR.LIGAND:10128,GuideToPharmacology Ligand ID,iuphar.ligand:10128,STING AGONIST 3,False,False,False,GuideToPharmacology,2024.1
+71,sirolimus,Primary Drug Name,rxcui:35302,SIROLIMUS,True,True,True,RxNorm,20240401
+72,Anti-ErbB3 Monoclonal Antibody AV-203,Primary Drug Name,ncit:C102535,ANTI-ERBB3 MONOCLONAL ANTIBODY AV-203,False,True,True,NCIt,24.02d
+73,JNJ-5207852,Primary Name,iuphar.ligand:1256,JNJ-5207852,False,False,False,DTC,9/2/20
+74,IUPHAR.LIGAND:9377,GuideToPharmacology Ligand ID,iuphar.ligand:9377,JNK INHIBITOR 9L,False,False,False,GuideToPharmacology,2024.1
+75,ISOBAVACHALCONE,Primary Name,chembl:CHEMBL253467,ISOBAVACHALCONE,False,False,False,DTC,9/2/20
+76,golimumab,Primary Drug Name,rxcui:819300,GOLIMUMAB,True,True,False,RxNorm,20240401
+77,panitumumab,Primary Drug Name,rxcui:263034,PANITUMUMAB,True,True,True,RxNorm,20240401
+78,IPILIMUMAB,Primary Name,rxcui:1094833,IPILIMUMAB,True,True,True,ClearityFoundationClinicalTrial,15-Jun-13
+79,entrectinib,Primary Drug Name,rxcui:2197862,ENTRECTINIB,True,False,True,RxNorm,20240401
+80,Alniditan,Primary Drug Name,ncit:C77255,ALNIDITAN,False,False,False,NCIt,24.02d
+81,bevacizumab-awwb,Primary Drug Name,rxcui:2046138,BEVACIZUMAB-AWWB,True,True,True,RxNorm,20240401
+82,Tovetumab,Primary Drug Name,ncit:C82684,TOVETUMAB,False,True,True,NCIt,24.02d
+83,ramucirumab,Primary Drug Name,rxcui:1535922,RAMUCIRUMAB,True,True,True,RxNorm,20240401
+84,efalizumab,Primary Drug Name,rxcui:356988,EFALIZUMAB,True,True,False,RxNorm,20240401
+85,IUPHAR.LIGAND:4030,GuideToPharmacology Ligand ID,iuphar.ligand:4030,DECYL DIHYDROGEN PHOSPHATE,False,False,False,GuideToPharmacology,2024.1
+86,etanercept-szzs,Primary Drug Name,rxcui:2103480,ETANERCEPT-SZZS,True,True,False,RxNorm,20240401
+87,cetuximab,Primary Drug Name,rxcui:318341,CETUXIMAB,True,True,True,RxNorm,20240401
+88,fingolimod,Primary Drug Name,rxcui:1012892,FINGOLIMOD,True,True,False,RxNorm,20240401
+89,Omigapil,Primary Drug Name,ncit:C97362,OMIGAPIL,False,False,False,NCIt,24.02d
+90,AY-9944,Primary Name,chembl:CHEMBL1513392,CHEMBL:CHEMBL1513392,False,False,False,DTC,9/2/20
+91,tremelimumab,Primary Drug Name,rxcui:2619313,TREMELIMUMAB,True,True,True,RxNorm,20240401
+92,anhydrous tacrolimus,Primary Drug Name,rxcui:235991,ANHYDROUS TACROLIMUS,True,True,False,RxNorm,20240401
+93,IUPHAR.LIGAND:9498,GuideToPharmacology Ligand ID,iuphar.ligand:9498,BMS-986020,False,False,False,GuideToPharmacology,2024.1
+94,tocilizumab,Primary Drug Name,rxcui:612865,TOCILIZUMAB,True,True,True,RxNorm,20240401
+95,CEFDITORIN PIVOXIL,Primary Name,chembl:CHEMBL1514735,CEFDITORIN PIVOXIL,False,False,False,DTC,9/2/20
+96,Atevirdine Mesylate,Primary Drug Name,ncit:C73148,ATEVIRDINE MESYLATE,False,False,False,NCIt,24.02d
+97,daclizumab,Primary Drug Name,rxcui:190353,DACLIZUMAB,True,True,False,RxNorm,20240401
+98,NSC-69187,Primary Name,chembl:CHEMBL19954,CHEMBL:CHEMBL19954,False,False,False,DTC,9/2/20
+99,Cixutumumab,Primary Drug Name,ncit:C79828,CIXUTUMUMAB,False,True,True,NCIt,24.02d

@@ -1,0 +1,28 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"ETV4"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "ETV4": [
+    {
+      "drug": {
+        "name": "TRAMETINIB DIMETHYL SULFOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.5553595591370801,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "COMPOUND 25 [PMID: 17935989]",
+        "approved": false
+      },
+      "interactionScore": 2.900211031049196,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+TRAMETINIB DIMETHYL SULFOXIDE,COMPOUND 25 [PMID: 17935989]

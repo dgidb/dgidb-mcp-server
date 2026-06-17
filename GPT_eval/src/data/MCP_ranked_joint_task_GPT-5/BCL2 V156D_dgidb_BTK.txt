@@ -1,0 +1,242 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"BTK"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "BTK": [
+    {
+      "drug": {
+        "name": "TIRABRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ACALABRUTINIB MALEATE",
+        "approved": true
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ZANUBRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.5019596015277455,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PIRTOBRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.5019596015277455,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "IBRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.3838514599918053,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "RITLECITINIB TOSYLATE",
+        "approved": true
+      },
+      "interactionScore": 0.1673198671759151,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "RITLECITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1673198671759151,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ACALABRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1181081415359401,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "DASATINIB ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.02641892639619713,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ENTRECTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.01761261759746475,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VANDETANIB",
+        "approved": true
+      },
+      "interactionScore": 0.01730895177681881,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BMS-986142",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "RILZABRUTINIB",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "MSC-2364447",
+        "approved": false
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "BTK INHIBITOR TL-895",
+        "approved": false
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BTK INHIBITOR DTRMWXHS-12",
+        "approved": false
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EDRALBRUTINIB",
+        "approved": false
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "EVOBRUTINIB",
+        "approved": false
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SPEBRUTINIB BESYLATE",
+        "approved": false
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "VECABRUTINIB",
+        "approved": false
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+TIRABRUTINIB,ACALABRUTINIB MALEATE,ZANUBRUTINIB,PIRTOBRUTINIB,IBRUTINIB,RITLECITINIB TOSYLATE,RITLECITINIB,ACALABRUTINIB,DASATINIB ANHYDROUS,ENTRECTINIB,VANDETANIB,BMS-986142,RILZABRUTINIB,MSC-2364447,BTK INHIBITOR TL-895,BTK INHIBITOR DTRMWXHS-12,EDRALBRUTINIB,EVOBRUTINIB,SPEBRUTINIB BESYLATE,VECABRUTINIB

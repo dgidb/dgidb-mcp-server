@@ -1,0 +1,1773 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Acute Myeloid Leukemia","therapyName":"Chemotherapy","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Positive",
+            "feature": {
+              "name": "Chromothripsis"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Chemotherapy"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Chromothripsis defined a group of patients with poor prognosis. Samples from 395 patients with de novo or secondary AMP were processed by SNP arrays and chromothripsis was assessed using CTLP-Scanner. Patients were classified as either positive or negative for chromothripsis. 26 patients (6.6%) had chromothripsis involving different chromosomes. In patients receiving induction chemotherapy, there was a difference in overall survival (OS) between patients with and without chromothripsis (median OS of 120 and 295 days, respectively, p=0.040). This trend in overall survival continued to hold when patients with haematopoietic stem cell transplantation were censored (median OS of 120 vs 242 days, p=0.055).",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:12041"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+Invoking MCP tool get_variant_assertions with input {"diseaseName":"Acute Myeloid Leukemia","therapyName":"Chemotherapy","significance":"RESISTANCE"}
+MCP tool get_variant_assertions returned meta=None content=[TextContent(type='text', text='{
+  "errors": [
+    {
+      "message": "Variable $molecularProfileName of type String! was provided invalid value",
+      "locations": [
+        {
+          "line": 2,
+          "column": 22
+        }
+      ],
+      "extensions": {
+        "value": null,
+        "problems": [
+          {
+            "path": [],
+            "explanation": "Expected value to not be null"
+          }
+        ]
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+Invoking MCP tool get_variant_evidence with input {"diseaseName": "Acute Myeloid Leukemia (AML)", "therapyName": "Chemotherapy", "significance": "RESISTANCE"}
+Invoking MCP tool get_variant_evidence with input {"diseaseName": "AML", "therapyName": "Chemotherapy", "significance": "RESISTANCE"}
+Invoking MCP tool get_variant_evidence with input {"diseaseName": "acute myeloid leukemia", "therapyName": "Chemotherapy", "significance": "RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Positive",
+            "feature": {
+              "name": "Chromothripsis"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Chemotherapy"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Chromothripsis defined a group of patients with poor prognosis. Samples from 395 patients with de novo or secondary AMP were processed by SNP arrays and chromothripsis was assessed using CTLP-Scanner. Patients were classified as either positive or negative for chromothripsis. 26 patients (6.6%) had chromothripsis involving different chromosomes. In patients receiving induction chemotherapy, there was a difference in overall survival (OS) between patients with and without chromothripsis (median OS of 120 and 295 days, respectively, p=0.040). This trend in overall survival continued to hold when patients with haematopoietic stem cell transplantation were censored (median OS of 120 vs 242 days, p=0.055).",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:12041"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Acute Myeloid Leukemia","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "R882",
+            "feature": {
+              "name": "DNMT3A"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Daunorubicin"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Daunorubicin treatment resulted in similar overall survival and disease free survival in de novo AML patients with DNMT3A R882 mutation compared to those who do not harbor this mutation.",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:11"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "TKD MUTATION",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Sorafenib is effective in patients with FLT3 internal tandem repeat mutations, but not in patients with wild type or D835 mutation.",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:248"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Mutation",
+            "feature": {
+              "name": "RUNX1"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Cytarabine"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In non-APL patients with AML (age 18-60), those who had mutations in RUNX1 had significantly shorter relapse-free survival following conventional post-remission treatment (repetitive cycles of high-dose cytarabine) than those treated with an allogeneic hematopoietic stem-cell transplantation (N=32) at first remission (4-year RFS; 0% vs 52%; P<0.0001).",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:411"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D835",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        },
+        {
+          "name": "Quizartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In an in-vitro study using an in vitro saturation mutagenesis assay, 4 residues with AC220 (quizartinib) resistance-conferring mutations in the kinase domain of FLT3-ITD were identified. Mutations at three of these amino acid positions conferred high degrees of in vitro AC220 resistance (based on proliferation and cell-based biochemical assays). Among these residues, two within the activation loop were found (D835, Y842). \
+Pre-treatment and relapse samples of 8 patients (treated with AC220) with FLT3-ITD+ acute myeloid leukemia were analyzed. The activation loop mutation D835Y was detected in three cases, D835V in two, and D835F was identified in a single patient. Cross-resistance to sorafenib was identified in-vitro.",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:1038"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D835",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "13 patients with relapsed or chemo-refractory FLT3-ITD+ AML were treated with sorafenib (200-400 mg twice daily). 12 patients responded, but sorafenib response was lost in most patients after 72 (range 54-287) days. Leukemia initiating cells bearing the D835 mutation expanded during sorafenib treatment and dominated during the subsequent clinical resistance. Results were recapitulated in-vivo.",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:1039"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Tretinoin"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "ATRA treatment did not effect overall survival in patients <60 years old with FLT3-ITD mutation.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:127"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Exon 7 Mutation",
+            "feature": {
+              "name": "WT1"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Daunorubicin"
+        },
+        {
+          "name": "Cytarabine"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "WT1 mutations were associated with an inferior response to induction chemotherapy with a higher rate of resistant disease in young (15-60+, median 45) patients with cytogenetically normal AML.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:139"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Quizartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Using AC220 (Quizartinib) treatment in Ba/F3 cell lines in a in vitro saturation mutagenesis assay, variants in four residues in FLT3 kinase domain were found, including E608, F691, D835 and Y842. Except for E608K, cell lines bearing these variants were verified to be AC220 resistant in separate cell viability assays. Molecular modeling revealed that substitutions at the gate residue F691 with non-aromatic residues such as leucine may affect interaction with AC220. This study also reported data from 8 FLT3-IDT positive AML patients treated with AC220 monotherapy, all of them were found to bear FLT3 kinase domain variants at relapse either at F691 or D835 on the FLT3-IDT alleles. F691L were seen in 3 patients.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:9718"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Positive",
+            "feature": {
+              "name": "Chromothripsis"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Chemotherapy"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Chromothripsis defined a group of patients with poor prognosis. Samples from 395 patients with de novo or secondary AMP were processed by SNP arrays and chromothripsis was assessed using CTLP-Scanner. Patients were classified as either positive or negative for chromothripsis. 26 patients (6.6%) had chromothripsis involving different chromosomes. In patients receiving induction chemotherapy, there was a difference in overall survival (OS) between patients with and without chromothripsis (median OS of 120 and 295 days, respectively, p=0.040). This trend in overall survival continued to hold when patients with haematopoietic stem cell transplantation were censored (median OS of 120 vs 242 days, p=0.055).",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:12041"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Selumetinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Forty-seven patients with relapsed/refractory AML or 60+ years old with untreated AML were enrolled on a phase II study. In FLT3 wild-type patients, six out of 36 (17%) had a response (1 PR, 3 MR, 2 uMR) that lasted a median of 58 days (range, 33–273 days). No patient with FLT3-ITD (n = 10) responded. One patient with unknown FLT3 status also had no response. Of note, this study did not meet its primary endpoint of 6 responses (CR, CRi, PR or MR) in the first 35 patients enrolled.",
+      "evidenceLevel": "B",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:1137"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Overall response rate was 21% in this clinical trial with Pexidartinib on relapsed or refractory AML patients with FLT3-ITD. Forty two out of the total 90 patients were tested for FLT3 KD mutations before treatment. Four patients were F691L positive, and three of them had no response to Pexidartinib, one of them achieved a incomplete hematologic recovery, the F691L was detected in 2.58% of non-ITD containing FLT3 alleles. This patient acquired new D835Y mutation and the F691L was not detectable at the time of Pexidartinib relapse. Of note, all 4 patients were treated below the recommended phase 2 dosage of 3000 mg per day. The response rate and any other FLT3 KD mutations were not particularly described for those 38 F691L negative patients.",
+      "evidenceLevel": "B",
+      "evidenceRating": 1,
+      "url": "https://identifiers.org/civic.eid:9717"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD",
+            "feature": {
+              "name": "FLT3"
+            }
+          },
+          {
+            "name": "D835Y",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Thirteen relapsed FLT3 internal tandem duplication positive AML patients were treated with sorafenib. Emergence of D835Y mutation occurred in 3 patients following exposure to sorafenib, suggesting that D835Y leads to resistance.",
+      "evidenceLevel": "C",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:247"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D835H",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Three children with relapsed or refractory FLT3-ITD-positive AML were treated with sorafenib. FLT3 mutations were assessed before treatment and at the time of resistance. During the initiation of the treatment, all three patients had undetectable levels of FLT3 (D835H) mutations, however, after resistance developed, the mutation frequency rose to 33.1%, 35.7%, and 11.0% in the three patients. Ba/F3 cells expressing FLT3 mutants were resistant to sorafenib-dependent inhibition of cell viability",
+      "evidenceLevel": "C",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1556"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD N676K",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Midostaurin"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a study looking for mechanisms of resistance within a phase 2 study using PKC412 (midostaurin), a 60 year old male with normal karyotype AML was identified with FLT3-ITD-N676K mutation. This mutation was shown to be within the FLT3-ITD. He was initially enrolled after failing induction and reinduction therapy and shown to harbor a FLT3-ITD. By day 204 on trial he had complete elimination of blasts; however, by day 280 he had a bone marrow biopsy with >90% blasts. Dose escalation provided no clinical benefit. Serum at Day 288 showed adequate levels of active metabolite. Subsequent in vitro assays demonstrated 10-fold higher resistance to PKC412 in 32D cells expressing FLT3-ITD-N676K versus FLT3-ITD.",
+      "evidenceLevel": "C",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:7524"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Crenolanib"
+        }
+      ],
+      "variantOrigin": "UNKNOWN",
+      "description": "FLT3 F691L was observed in 2 patient samples collected after at least 28 days of treatment with crenolanib. Prior to treatment with crenolanib, both patients were treated with quizartinib. Ba/F3 cells transduced with retroviral vector expressing F691L did not show cell transformation in an interleukin-3 withdrawal assay. Ba/F3 cells expressing double-mutant FLT3 F691L/D835Y resulted in cell transformation and crenolanib resistance.",
+      "evidenceLevel": "D",
+      "evidenceRating": 5,
+      "url": "https://identifiers.org/civic.eid:12387"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "EXPRESSION",
+            "feature": {
+              "name": "FGF2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Quizartinib"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "AML MOLM14 cells were cocultured with FLT3 inhibitor AC220 (10 nM) and selected proteins expressed in the bone marrow microenvironment. FL and FGF2 were the only proteins that increased viability >2 standard deviations. FGFR inhibitor PD173074 (and FGFR1 siRNA) was able to attenuate the protective effect of FGF2.  Removing FL or FGF2 from ligand-dependent resistant cultures transiently restored sensitivity to AC220, but accelerated acquisition of secondary resistance mutations. 10 FLT3-ITD AML patients treated with AC220 developed increased FGF2 expression (IHC) in marrow stromal cells, which peaked prior to overt clinical relapse and detection of resistance mutations",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:1711"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Y842C",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "The authors used saturation mutagenesis of FLT3/ITD followed by selection of transfected cells in FLT3 TKI. The FLT3/ITD Y842C mutation produced high-level resistance to KW2449, sorafenib, sunitinib and AGS324 in vitro but remained sensitive to lestaurtinib and midostaurin. Balb/c mice transplanted with the FLT3/ITD Y842C mutation confirmed resistance to sorafenib in vivo but not to lestaurtinib.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:8337"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & D835(V/Y/F/H)",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Ponatinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Proliferation of Ba/F3 cells with FLT3 double mutations was studied for the activity of ponatinib. Compared to control cells with native FLT3-ITD mutant (IC50: 3.0nM), cells with double mutants, FLT3-ITD and a secondary point mutation at the activation loop residue D835 (D835V/Y/F/H), were resistance to ponatinib ((IC50: 211-349nM). Immunoblots also demonstrated this resistance to ponatinib by evaluating phosphorylation of FLT3 and its downstream targets.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:8894"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & Y842C",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Ponatinib"
+        },
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Proliferation of Ba/F3 cells with FLT3 double mutations was studied for the activity of ponatinib and sorafenib. Compared to control cells with native FLT3-ITD mutant (IC50: 3.0nM), cells with double mutants as FLT3-ITD plus Y842C, a secondary point mutation at the activation loop, were resistance to ponatinib (IC50: 229nM), as well as to sorafenib (IC50: 469nM). Immunoblots also confirmed this resistance to ponatinib by evaluating phosphorylation of FLT3 and its downstream targets.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:8895"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & D839G",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        },
+        {
+          "name": "Ponatinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Proliferation of Ba/F3 cells with FLT3 double mutations was studied. Compared to control cells with native FLT3-ITD mutant (IC50: 0.13-3.0nM), cells with double mutants (FLT3-ITD/D839G) were sensitive to AC220/quizartinib (IC50: 1.9nM), resistance to sorafenib (IC50: 112nM), and mild resistance to ponatinib (IC50: 54nM). Immunoblots confirmed the mild resistance to ponatinib by evaluating phosphorylation of FLT3 and its downstream target (STAT5).",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:8897"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & Y842C",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Murine pro-B lymphocyte lines Ba/F3 cells with FLT3-ITD were exposed to sorafenib with increasing low doses (i.e., 1-5 nmol/L) of sorafenib for up to 3 months, and further exposed for an additional 3 weeks to serial dilutions (5-50 nmol/L) of sorafenib. Sorafenib-resistant clones were collected for mutational analysis, of which a Y842C mutation was identified in the tyrosine kinase domain 2 (TKD2). Ba/F3-ITD cells were engineered with Y842C (Ba/F3-ITD+842) and evaluated for in vitro activity of sorefanib. Compared to control cells with only FLT3-ITD (EC50: 0.006 umol/L), cells with double mutation FLT3-ITD and Y842C demonstrated greater resistance to sorafenib-induced apoptosis (EC50: 2.6 umol/L). Although mutation in either TKD was sufficient to provide resistance to sorafenib-induced apoptosis, mutation in TKD2 (Y842C) was more important to the acquired resistance compared to alteration in TKD1 (D651G, N676D, I687F). Furthermore, FLT3-ITD cells containing compound mutations in both TKDs (D676D and Y842C in Ba/F3-ITD+676/842 cells) displayed greatest resistance to sorafenib-induced apoptosis (EC50: 6.6 umol/L). Cells harboring TKD2 mutations (Ba/F3-ITD+842 and Ba/F3+676/842) were least sensitive to the inhibitory effects of sorafenib, and maintained persistent phosphorylation of FLT3 and its downstream effectors ERK, AKT, Stat5, and S6K after exposure to sorafenib. Increased level of phosphorylated ERK was observed in ITD and Y842C cells (Ba/F3-ITD+842), and persistent phosphorylated-AKT, -Stat5, and -S6K in ITD and compound N676D/Y842C cells (Ba/F3-ITD+676/842). These results suggested FLT3 gene point mutations in TKD2 may result in conformational change that interfere with binding ability (i.e., accessibilty) of sorafenib more than mutations occurring in TKD1, and eluded to a bypass/feedback regulation could be an effective approach in the modulation of FLT3 downstream signaling.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:8913"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & Y842C",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Selinexor"
+        },
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "To study pro-apoptotic effects against AML cells harboring FLT3-ITD and/or TKD mutations by selinexor, apoptosis induction was assessed as the percentage of annexin V–positive cells by flow cytometry. Comparing to FLT3 wildtype cell line, murine AML cell lines that harbor FLT3/ITD Y842C dual mutations of FLT3 showed induction of apoptosis and inhibition of cell growth with Selinexor alone or in combinatorial treatment with sorafenib, similar to Baf3/ITD+F691 cell line (Figure 1C, 2A, respectively). Immunoblot analysis showed that the combinatorial treatment of Selinexor and sorafenib markedly abrogated the upregulation of phospho-FLT3, -ERK and -AKT (Figure 2B) and completely abrogated anti-apoptotic Mcl-1 expression and decreased c-Myc levels (Figure 2C), suggesting greater AML cell sensitivity to apoptosis.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:9081"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Daunorubicin"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Ba/F3 cells with both FLT3-ITD and TKD mutations on the same allele have more resistance to daunorubicin than cells with FLT3-ITD alone.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:130"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "SU5614"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Ba/F3 cells with both FLT3-ITD and TKD mutations on the same allele have more resistance to the protein tyrosine kinase (PTK) inhibitor SU5614 than cells with FLT3-ITD alone or FLT3 ITD and TKD mutations on opposing alleles.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:131"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Fusion",
+            "feature": {
+              "name": "BCR::ABL1"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Imatinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "BCR-ABL fusions have been found to contribute to imatinib resistance in AML cell lines.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:232"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D835",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Ponatinib"
+        },
+        {
+          "name": "Quizartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "An in-vitro saturation mutagenesis screen of 50 independently derived FLT3-ITD clones was performed to identify mutations that confer resistance to ponatinib. Mutations at 3 AL residues (D835 [n = 31], D839 [n = 3], and Y842 [n = 16]), with varying degrees of resistance to ponatinib were identified. FLT3 D835 mutations were shown to confer resistance to the tyrosine kinase inhibitor AC220 and ponatinib. \
+This was especially found for D835Y and D835V mutations, whereas D835H mutations were found to confer moderate resistance to ponatinib but relatively minimal resistance to AC220.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1036"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D835",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "SU5614"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "An in-vitro cell-based screening approach generated FLT3-ITD-expressing cell lines resistant to the FLT3 inhibitors SU5614, PKC412, and sorafenib. SU5614 resistance mutations were limited to exchanges in the second part of the kinase domain (TK2), with exchanges of D835 predominating (D835E were most common). In clones that emerged at 1,500 nmol/L SU5614 after ENU (mutagen) treatment, 127 of 179 clones (71%) displayed mutations, generating 9 different exchanges affecting 6 positions in the activation loop of FLT3.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1037"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D835V",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Tandutinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Murine Ba/F3 cells with FLT3-D835V mutations were evaluated as non-responsive to MLN518 (Tandutinib). Cells with single FLT3 (D835V) mutants were resistant to MLN518(IC50 > 10uM) whereas cells with FLT3 (ITD) mutants were not resistant to MLN518 (IC50 0.55uM).",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:3007"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D816H",
+            "feature": {
+              "name": "KIT"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Imatinib Mesylate"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "whereas cells from a patient with t(8;21) and D816H type mC-KIT were resistant to Gleevec but sensitive to Ara-C (Fig. 4E).",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:6957"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "G697R",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "SU5614"
+        },
+        {
+          "name": "K 252a"
+        },
+        {
+          "name": "Midostaurin"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Constructs of Ba/F3 cell line containing the FLT3 open reading frame with an internal tandem duplication of (FLT3-ITD) were used to induce point mutations in the ATP binding pocket of FLT3. Constructs containing the G697R mutant conferred high level resistance to several FLT3 inhibitors (including PKC412, SU5614, or K-252a). The G697R mutation may be a clinically problematic resistance mutation that warrants further testing.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:7604"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Y693",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Gilteritinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "With vitro proliferation assay in Ba/F3 cells, it was found that the cells bearing FLT3-ITD Y693C/N exhibited >10-fold resistance to Gilteritinib. Similar resistance was found in cells bearing FLT3-ITD F691L or FLT3-ITD D698N as well. It was also revealed by molecular modeling that the lack of aromatic rings in FLT3 Y693C/N may contribute to the reduced affinity of Gilteritinib to Y693 mutations. BTW, the main content of this research article supports that Gilteritinib is active against many clinically relevant activating FLT3 mutations.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8285"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Y842C",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "FLT3/ABL/Aurora Kinase Inhibitor KW-2449"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "The authors used saturation mutagenesis of FLT3/ITD followed by selection of transfected cells in FLT3 TKI. The FLT3/ITD Y842C mutation produced high-level resistance to KW2449, sorafenib, sunitinib and AGS324 in vitro but remained sensitive to lestaurtinib and midostaurin. Balb/c mice transplanted with the FLT3/ITD Y842C mutation confirmed resistance to sorafenib in vivo but not to lestaurtinib.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8336"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Y842C",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sunitinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "The authors used saturation mutagenesis of FLT3/ITD followed by selection of transfected cells in FLT3 TKI. The FLT3/ITD Y842C mutation produced high-level resistance to KW2449, sorafenib, sunitinib and AGS324 in vitro but remained sensitive to lestaurtinib and midostaurin. Balb/c mice transplanted with the FLT3/ITD Y842C mutation confirmed resistance to sorafenib in vivo but not to lestaurtinib.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8338"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Lestaurtinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A screen using saturation mutagenesis of FLT3/ITD followed by selection of transfected TF1 cells in FLT3 TKIs identified F691L. Cytotoxicity assessed by MTT demonstrated Ba/F3 cells expressing FLT3/ITD F691L conferred moderate resistance to lestaurtinib (IC50: 8nM) compared to FLT3/ITD control cells (IC50: 2nM). Immunoblotting showed lestaurtinib was able to partially inhibit FLT3 autophosphorylation and the activation of downstream pathways in Ba/F3 FLT3/ITD F691L cells. Structural modeling revealed F691 to be located in the ATP binding cleft. The authors hypothesize this amino acid change weakens inhibitor affinity as this residue likely makes direct contact with FLT3 TKIs.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8341"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Midostaurin"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A screen using saturation mutagenesis of FLT3/ITD followed by selection of transfected TF1 cells in the FLT3 TKI midostaurin identified F691L in 1 of 400 clones. Cytotoxicity assessed by MTT demonstrated Ba/F3 cells expressing FLT3/ITD F691L conferred moderate resistance to midostaurin (IC50: 18nM) compared to FLT3/ITD control cells (IC50: 4nM). Immunoblotting showed midostaurin was able to partially inhibit FLT3 autophosphorylation and the activation of downstream pathways in Ba/F3 FLT3/ITD F691L cells. Structural modeling revealed F691 to be located in the ATP binding cleft. The authors hypothesize this amino acid change weakens inhibitor affinity as this residue likely makes direct contact with FLT3 TKIs.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8342"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Gilteritinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "With Ba/F3 cells bearing FLT3-ITD F691L mutations and by in vitro proliferation assay, it was found that the cells exhibited >10-fold resistance to Gilteritinib. Similar resistance was found in cells bearing FLT3-ITD Y693C/N or FLT3-ITD D698N as well. It was also revealed by molecular modeling that the smaller side chain or the lack of aromatic rings in the mutants may contribute to the reduced affinity of Gilteritinib to the mutated forms of FLT3. In addition the F691L mutation was identified in a minority of patients (4/31, 12.9%) at the time of Gilteritinib resistance.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8562"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Y842C",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Quizartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A screen using saturation mutagenesis of FLT3/ITD followed by selection of transfected TF1 cells in FLT3 TKIs identified Y842C. Cytotoxicity assessed by MTT demonstrated Ba/F3 cells expressing FLT3/ITD Y842C conferred high-level resistance to Quizartinib (AC220) (IC50: 20nM) compared to FLT3/ITD control cells (IC50: 1nM). Unlike in FLT3/ITD control cells, immunoblotting showed Quizartinib was unable to inhibit FLT3 autophosphorylation and the activation of downstream pathways in Ba/F3 FLT3/ITD Y842C cells. Structural modeling revealed Y842 to be located in the activation loop. The authors hypothesize altered conformation interferes with drug interaction.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8654"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "M664I",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mutations were identified by in vitro saturation mutagenesis on the background of FLT3-ITD or FLT3-ITD/F691L. Proliferation and biochemical studies showed that the FLT3-ITD M664I (IC50 =0.61μM) and FLT3-ITD F691L/M664I (IC50 =2.8μM) confer relative resistance to PLX3397 in Ba/F3 cells when compared with FLT3-ITD alone.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8667"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & D839G",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mutations were identified by in vitro saturation mutagenesis on the background of FLT3-ITD or FLT3-ITD/F691L. Proliferation and biochemical studies showed that the FLT3-ITD D839G (IC50 =4.1μM) and FLT3-ITD F691L/D839G (IC50 =8.6μM) confer relative resistance to PLX3397 in Ba/F3 cells when compared with FLT3-ITD alone (IC50 =0.15μM).",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8669"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D839A",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mutations were identified by in vitro saturation mutagenesis on the background of FLT3-ITD or FLT3-ITD/F691L. Proliferation and biochemical studies showed that the FLT3-ITD D839A (IC50 = 4.0μM) and FLT3-ITD F691L/D839A (IC50 >10μM) confer relative resistance to PLX3397 in Ba/F3 cells when compared with FLT3-ITD alone (IC50 = 0.15μM).",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8671"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D839N",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mutations were identified by in vitro saturation mutagenesis on the background of FLT3-ITD or FLT3-ITD/F691L. Proliferation and biochemical studies showed that the FLT3-ITD D839N (IC50 = 0.85μM) and FLT3-ITD F691L/D839N (IC50 = 1.6μM) confer relative resistance to PLX3397 in Ba/F3 cells when compared with FLT3-ITD alone (IC50 = 0.15μM).",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8672"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Quizartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A screen using saturation mutagenesis of FLT3/ITD followed by selection of transfected TF1 cells in FLT3 TKIs identified F691L. Cytotoxicity assessed by MTT demonstrated Ba/F3 cells expressing FLT3/ITD F691L conferred moderate resistance to quizartinib (IC50: Not reached >50nM) compared to FLT3/ITD control cells (IC50: 1nM). Unlike FLT3/ITD control cells, immunoblotting showed quizartinib was unable to inhibit FLT3 autophosphorylation and the activation of downstream pathways in Ba/F3 FLT3/ITD F691L cells. Structural modeling revealed F691 to be located in the ATP binding cleft. The authors hypothesize this amino acid change weakens inhibitor affinity as this residue likely makes direct contact with FLT3 TKIs.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8843"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sunitinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A screen using saturation mutagenesis of FLT3/ITD followed by selection of transfected TF1 cells in FLT3 TKIs identified F691L. Cytotoxicity assessed by MTT demonstrated Ba/F3 cells expressing FLT3/ITD F691L conferred moderate resistance to Sunitinib (IC50: Not reached >50nM) compared to FLT3/ITD control cells (IC50: 5nM). Unlike FLT3/ITD control cells, immunoblotting showed Sunitinib was unable to inhibit FLT3 autophosphorylation and the activation of downstream pathways in Ba/F3 FLT3/ITD F691L cells. Structural modeling revealed F691 to be located in the ATP binding cleft. The authors hypothesize this amino acid change weakens inhibitor affinity as this residue likely makes direct contact with FLT3 TKIs.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8844"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A screen using saturation mutagenesis of FLT3/ITD followed by selection of transfected TF1 cells in FLT3 TKIs identified F691L. Cytotoxicity assessed by MTT demonstrated Ba/F3 cells expressing FLT3/ITD F691L conferred resistance to Sorafenib (IC50: Not reached >50nM) compared to FLT3/ITD control cells (IC50: 8nM). Unlike FLT3/ITD control cells, immunoblotting showed Sorafenib was unable to inhibit FLT3 autophosphorylation and the activation of downstream pathways in Ba/F3 FLT3/ITD F691L cells. Structural modeling revealed F691 to be located in the ATP binding cleft. The authors hypothesize this amino acid change weakens inhibitor affinity as this residue likely makes direct contact with FLT3 TKIs.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8845"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "FLT3/ABL/Aurora Kinase Inhibitor KW-2449"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A screen using saturation mutagenesis of FLT3/ITD followed by selection of transfected TF1 cells in FLT3 TKIs identified F691L. Cytotoxicity assessed by MTT demonstrated Ba/F3 cells expressing FLT3/ITD F691L conferred resistance to KW2449 (IC50: 170nM) compared to FLT3/ITD control cells (IC50: 25nM). Unlike FLT3/ITD control cells, immunoblotting showed KW2449 was unable to inhibit FLT3 autophosphorylation and the activation of downstream pathways in Ba/F3 FLT3/ITD F691L cells. Structural modeling revealed F691 to be located in the ATP binding cleft. The authors hypothesize this amino acid change weakens inhibitor affinity as this residue likely makes direct contact with FLT3 TKIs.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8846"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "G697S",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Gilteritinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Using in vitro proliferation assay in Ba/F3 cells, it was found that the cells with FLT3-ITD G697S exhibited potent resistance to Gilteritinib. Similar resistance was found in cells bearing FLT3-ITD F691L or FLT3-ITD D698N as well. Molecular modeling reveals that G697S variant caused loss of interaction and a steric clash with the phenyl ring of Gilteritinib, which may explain the reduced of inhibitory activity. The authors also noted G697S has never been identified clinically.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8898"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD D651G",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Murine pro-B lymphocyte lines Ba/F3 cells with FLT3-ITD were exposed to sorafenib with increasing low doses (i.e., 1-5 nmol/L) of sorafenib for up to 3 months, and further exposed for an additional 3 weeks to serial dilutions (5-50 nmol/L) of sorafanib. Sorafenib-resistant clones were collected for mutational analysis, of which a D651G mutation was identified in the tyrosine kinase domain 1 (TKD1). Similarly, samples from FLT3-ITD-mutated patients with AML who relapsed while on sorafenib also have acquired FLT3 point mutation in D651G. Ba/F3-ITD cells were engineered with D651G (Ba/F3-ITD+651) and evaluated for in vitro activity of sorafanib. Compared to control cells with only FLT3-ITD (EC50: 0.006 umol/L), cells with double mutation FLT3-ITD+D651G, demonstrated greater resistance to sorafanib-induced apoptosis (EC50: 0.69 umol/L). These results suggested that a mutation in TKD was sufficient to provide resistance to sorafenib-induced apoptosis.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8910"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD  N676D",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Murine pro-B lymphocyte lines Ba/F3 cells with FLT3-ITD were exposed to sorafanib with increasing low doses (i.e., 1-5 nmol/L) of sorafenib for up to 3 months, and further exposed for an additional 3 weeks to serial dilutions (5-50 nmol/L) of sorafanib. Sorafenib-resistant clones were collected for mutational analysis, of which a N676D mutation was identified in the tyrosine kinase domain 1 (TKD1). Ba/F3-ITD cells were engineered with N676D (Ba/F3-ITD+676) and evaluated for in vitro activity of sorafanib. Compared to control cells with only FLT3-ITD (EC50: 0.006 umol/L), cells with double mutation FLT3-ITD and N676D demonstrated greater resistance to sorafanib-induced apoptosis (EC50: 0.61 umol/L). These results suggested that a mutation in TKD was sufficient to provide resistance to sorafenib-induced apoptosis.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8911"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD I687F",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Murine pro-B lymphocyte lines Ba/F3 cells with FLT3-ITD were exposed to sorafenib with increasing low doses (i.e., 1-5 nmol/L) of sorafenib for up to 3 months, and further exposed for an additional 3 weeks to serial dilutions (5-50 nmol/L) of sorafenib. Sorafenib-resistant clones were collected for mutational analysis, of which a I687F mutation was identified in the tyrosine kinase domain 1 (TKD1). Similarly, samples from FLT3-ITD-mutated patients with AML who relapsed while on sorafenib also have acquired FLT3 point mutation in I687F. Ba/F3-ITD cells were engineered with I687F (Ba/F3-ITD+687) and evaluated for in vitro activity of sorafenib. Compared to control cells with only FLT3-ITD (EC50: 0.006 umol/L), cells with double mutation FLT3-ITD and I687F demonstrated greater resistance to sorafenib-induced apoptosis (EC50: 0.17 umol/L). These results suggested that a mutation in TKD1 was sufficient to provide resistance to sorafenib-induced apoptosis.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8912"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & TKD MUTATIONS",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Murine pro-B lymphocyte lines Ba/F3 cells with FLT3-ITD were exposed to sorafenib with increasing low doses (i.e., 1-5 nmol/L) of sorafenib for up to 3 months, and further exposed for an additional 3 weeks to serial dilutions (5-50 nmol/L) of sorafenib. Long term exposure Sorafenib-resistant cell line (Ba/F3-ITD-Res) was evaluated for in vitro activity of sorafenib. The Ba/F3-ITD-Res cells contain both N676D and Y842C mutations in tyrosine kinase domain (TKD) 1 and TKD2, respectively. Compared to control cells with only FLT3-ITD (EC50: 0.006 umol/L), sorafenib-resistant cells demonstrated resistance to sorafenib-induced apoptosis (EC50: 4.2 umol/L). These results suggested that a mutation in TKD was sufficient to provide resistance to sorafenib-induced apoptosis.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8914"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD&F691(I/L)",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Quizartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "The F691L/I mutation in FLT3 kinase domain conferred resistence to AC220 (Quizartinib). These mutations were identified by in vitro screening assays and from AML patients who developed resistance to Quizartinib. Ba/F3 cells with FLT3-ITD or FLT3-ITD with F691L or F691I mutation were treated with increasing concentrations of Quizartinib. Cell proliferation studies for 24 h and FLT3 autophosphorylation as a measurement of its activity after 90 min of inhibitor treatment showed the most resistance in these assays compared to other FLT3 kinase domain mutations (N676D and D835Y). These mutations demonstrated a clear shift in the IC50 values by in vitro screening compared to FLT3-ITD alone.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:9779"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & N841K",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Using a saturation mutagenesis screen, resistant clones harboring N841K were identified in a Ba/F3 proliferation assay when exposed to PLX3397 on a FLT3-ITD + F691L background (Figure 3B). The N841K mutation was subsequently tested on a FLT3-ITD only background and FLT3-ITD+F691L background. The presence of N841K in either background when exposed to PLX3397 showed a higher IC50 in a Ba/F3 proliferation assay (6.4uM on FLT3-ITD background and >10uM on FLT3-ITD+F691L background) compared to FLT3-ITD alone (0.15uM) or FLT3-ITD+F691L (0.38um) [values in Supplemental Table4 visualized in Figure 3C]. N841K on the FLT3-ITD background also showed resistance to PLX3397 based on biochemical assays [western blots of pFLT3, FLT3, pSTAT5, STAT5 - showed no appreciable decrease in levels with increase dose as compared to FLT3-ITD alone - data not quantitate Figure 3D].",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:9936"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D839H",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mutations were identified by in vitro saturation mutagenesis on the background of FLT3-ITD. Proliferation studies showed that the FLT3-ITD D839H (IC50 = 8.6μM) confers relative resistance to PLX3397 in Ba/F3 cells when compared with FLT3-ITD alone (IC50 = 0.15μM).",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8673"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "mutation",
+            "feature": {
+              "name": "BAX"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Venetoclax"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "BAX mutation was found in AML samples that were refractory to venetoclax. In in vitro experiments, BH-3 mimetics enriches for BAX mutation. Deficiency of BAX impairs efficacy of BH-3 mimetics targeting BCL-2 and MCL1.",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:12423"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D835H/Y",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mouse Ba/F3 cells with FLT3 mutations were evaluated for sorafenib resistance.  Cells with single FLT3 (D835H/Y) mutants were resistant to sorafenib (IC50 81 nm/210 nM) whereas cells with FLT3 (ITD) mutants were not resistant to sorafenib (IC50 1.1 nM).  Cells with double mutants (ITD-D835H/Y or ITD F691L) were highly resistant to sorafenib (IC50 460-3300 nM).",
+      "evidenceLevel": "D",
+      "evidenceRating": 1,
+      "url": "https://identifiers.org/civic.eid:1557"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+RUNX1,WT1,FLT3

@@ -1,0 +1,357 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"ANTI-ERBB3 MONOCLONAL ANTIBODY AV-203"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY TO COLORECTAL CANCER",
+  "conceptId": "ncit:C29721",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE PHN-010",
+  "conceptId": "ncit:C211590",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE SC-007",
+  "conceptId": "ncit:C147029",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE SC-005",
+  "conceptId": "ncit:C154558",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL MICROBIAL EDP1503",
+  "conceptId": "ncit:C155907",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY R24",
+  "conceptId": "ncit:C2349",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTI-ERBB3 MONOCLONAL ANTIBODY AV-203",
+  "conceptId": "ncit:C102535",
+  "approved": false,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "Therapeutic Antibodies"
+    }
+  ],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "AV-203",
+  "conceptId": "chembl:CHEMBL2109401",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 1",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY RAV12",
+  "conceptId": "ncit:C48409",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY HUAFP31",
+  "conceptId": "ncit:C48407",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 3H1 ANTI-IDIOTYPE VACCINE",
+  "conceptId": "ncit:C2424",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 3F8",
+  "conceptId": "ncit:C2370",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY ICR62",
+  "conceptId": "ncit:C2720",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 11D10",
+  "conceptId": "ncit:C2446",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 2A11",
+  "conceptId": "ncit:C29211",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY ABGN-7",
+  "conceptId": "ncit:C99162",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 81C6",
+  "conceptId": "ncit:C1958",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY SGN-14",
+  "conceptId": "ncit:C2005",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTI-ERBB3 MONOCLONAL ANTIBODY CDX-3379",
+  "conceptId": "ncit:C113333",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY GD2 ANTI-IDIOTYPE VACCINE",
+  "conceptId": "ncit:C26450",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY A1G4 ANTI-IDIOTYPE VACCINE",
+  "conceptId": "ncit:C2436",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 11D10 ANTI-IDIOTYPE VACCINE",
+  "conceptId": "ncit:C2606",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "monoclonal antibody"
+    },
+    {
+      "name": "Indication",
+      "value": "antineoplastic agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Not Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY NEO-201",
+  "conceptId": "ncit:C156398",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 14G2A",
+  "conceptId": "ncit:C2368",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 1F5",
+  "conceptId": "ncit:C29198",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY N901-BR",
+  "conceptId": "ncit:C29226",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 4B5 ANTI-IDIOTYPE VACCINE",
+  "conceptId": "ncit:C2227",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY CEP-37250/KHK2804",
+  "conceptId": "ncit:C98296",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY HUMV833",
+  "conceptId": "ncit:C2719",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY RECEPTOR-TRAP FUSION PROTEIN IMM2520",
+  "conceptId": "ncit:C200454",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTI-ERBB3 MONOCLONAL ANTIBODY REGN1400",
+  "conceptId": "ncit:C103859",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY",
+  "conceptId": "ncit:C20401",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE TORL-2-307-ADC",
+  "conceptId": "ncit:C185565",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY STING DRUG CONJUGATE TAK-500",
+  "conceptId": "ncit:C185129",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE PF-06647263",
+  "conceptId": "ncit:C118572",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY GIM-122",
+  "conceptId": "ncit:C201829",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY HD37-SMPT-DGA IMMUNOTOXIN",
+  "conceptId": "ncit:C29222",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY HUPAM4",
+  "conceptId": "ncit:C48408",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE ANTI-TIM-1-VCMMAE CDX-014",
+  "conceptId": "ncit:C129401",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY CC49-DELTA CH2",
+  "conceptId": "ncit:C2698",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,YES,YES

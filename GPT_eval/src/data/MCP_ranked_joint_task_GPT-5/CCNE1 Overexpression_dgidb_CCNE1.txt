@@ -1,0 +1,87 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"CCNE1"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "CCNE1": [
+    {
+      "drug": {
+        "name": "FULVESTRANT",
+        "approved": true
+      },
+      "interactionScore": 0.2088151942355421,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PALBOCICLIB",
+        "approved": true
+      },
+      "interactionScore": 0.102360389331148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CDK INHIBITOR SNS-032",
+        "approved": false
+      },
+      "interactionScore": 5.220379855888553,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FADRACICLIB",
+        "approved": false
+      },
+      "interactionScore": 1.305094963972138,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DINACICLIB",
+        "approved": false
+      },
+      "interactionScore": 0.8700633093147588,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "AMG-900",
+        "approved": false
+      },
+      "interactionScore": 0.6525474819860692,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "AKT INHIBITOR MK2206",
+        "approved": false
+      },
+      "interactionScore": 0.372884275420611,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TASELISIB",
+        "approved": false
+      },
+      "interactionScore": 0.3480253237259035,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RONICICLIB",
+        "approved": false
+      },
+      "interactionScore": 0.1864421377103055,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ALISERTIB",
+        "approved": false
+      },
+      "interactionScore": 0.1087579136643448,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+FULVESTRANT,PALBOCICLIB,CDK INHIBITOR SNS-032,FADRACICLIB,DINACICLIB,AMG-900,AKT INHIBITOR MK2206,TASELISIB,RONICICLIB,ALISERTIB

@@ -1,0 +1,711 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"LEUCOVORIN CALCIUM"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "CALCIUM HOPANTENATE ANHYDROUS",
+  "conceptId": "ncit:C83576",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM GLUCARATE",
+  "conceptId": "rxcui:1907",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM RELEASE-ACTIVATED CHANNELS INHIBITOR RP4010",
+  "conceptId": "ncit:C136828",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM LACTOBIONATE",
+  "conceptId": "rxcui:235784",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM LACTATE SUPPLEMENT",
+  "conceptId": "ncit:C202044",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM PHOSPHATE",
+  "conceptId": "rxcui:1919",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM CYCLAMATE",
+  "conceptId": "rxcui:155015",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM CITRATE",
+  "conceptId": "rxcui:47613",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM GLUCONATE",
+  "conceptId": "rxcui:1908",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM DOBESILATE",
+  "conceptId": "rxcui:1904",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM ACETATE",
+  "conceptId": "rxcui:214342",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Prescription",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Discontinued",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM PHOSPHATE, DIHYDRATE",
+  "conceptId": "rxcui:1310463",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM GLUBIONATE",
+  "conceptId": "rxcui:25806",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM HYDROXIDE",
+  "conceptId": "rxcui:1910",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM GLUCEPTATE",
+  "conceptId": "rxcui:47618",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM LEVULINATE",
+  "conceptId": "rxcui:47624",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM CARBIMIDE",
+  "conceptId": "rxcui:1902",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM-41 CHLORIDE AQUEOUS SOLUTION",
+  "conceptId": "ncit:C85473",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "LEUCOVORIN SODIUM",
+  "conceptId": "ncit:C97555",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM OXYBATE",
+  "conceptId": "rxcui:2387307",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM SALICYLATE",
+  "conceptId": "ncit:C77337",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM BENZAMIDOSALICYLATE",
+  "conceptId": "ncit:C166832",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM BROMIDE",
+  "conceptId": "rxcui:195983",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM PANTOTHENATE",
+  "conceptId": "rxcui:1918",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM",
+  "conceptId": "rxcui:1895",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM UNDECYLENATE",
+  "conceptId": "rxcui:89746",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "LEUCOVORIN CALCIUM",
+  "conceptId": "rxcui:225852",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "1952"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Small Molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "adjuvant to chemotherapy"
+    },
+    {
+      "name": "Year of Approval",
+      "value": "Approved before 1982"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Vitamins/minerals"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Antineoplastic Adjuncts"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "HemOnc",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Prescription",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM CHANNEL BLOCKER",
+  "conceptId": "ncit:C333",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM SACCHARATE ANHYDROUS",
+  "conceptId": "rxcui:2636533",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM ASCORBATE ANHYDROUS",
+  "conceptId": "rxcui:1307765",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM LACTATE/PROTEASE/AMYLASE/LIPASE-CONTAINING SUPPLEMENT",
+  "conceptId": "ncit:C202045",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM-46 CHLORIDE AQUEOUS SOLUTION",
+  "conceptId": "ncit:C85474",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM CYCLAMATE ANHYDROUS",
+  "conceptId": "ncit:C81626",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM CHLORIDE CA-45",
+  "conceptId": "ncit:C87197",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM SULFATE",
+  "conceptId": "rxcui:1925",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM LACTATE",
+  "conceptId": "rxcui:47622",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM ALUMINOSILICATE ANTI-DIARRHEAL",
+  "conceptId": "ncit:C78858",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM SILICATE",
+  "conceptId": "rxcui:1311526",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM POLYCARBOPHIL",
+  "conceptId": "rxcui:20063",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase  1",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 2",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM LACTOPHOSPHATE",
+  "conceptId": "ncit:C76832",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM HOPANTENATE",
+  "conceptId": "ncit:C87460",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM CARBONATE",
+  "conceptId": "rxcui:1897",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM MANDELATE",
+  "conceptId": "ncit:C77069",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM SUPPLEMENT",
+  "conceptId": "ncit:C137864",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM CHLORIDE ANHYDROUS",
+  "conceptId": "rxcui:1667640",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Prescription",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM ASPARTATE",
+  "conceptId": "rxcui:287637",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM CLOFIBRATE",
+  "conceptId": "ncit:C75993",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "CALCIUM HYPOPHOSPHITE",
+  "conceptId": "rxcui:1424671",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,NO,YES

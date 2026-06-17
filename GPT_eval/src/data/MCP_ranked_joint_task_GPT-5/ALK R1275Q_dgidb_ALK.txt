@@ -1,0 +1,202 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"ALK"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "ALK": [
+    {
+      "drug": {
+        "name": "ALECTINIB",
+        "approved": true
+      },
+      "interactionScore": 5.361471203345,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "LORLATINIB",
+        "approved": true
+      },
+      "interactionScore": 3.111245097757558,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "BRIGATINIB",
+        "approved": true
+      },
+      "interactionScore": 2.779071995354266,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CRIZOTINIB",
+        "approved": true
+      },
+      "interactionScore": 2.520832074555193,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CERITINIB",
+        "approved": true
+      },
+      "interactionScore": 2.351522457607456,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "REPOTRECTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.2351522457607456,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ALECTINIB HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.156768163840497,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "DURVALUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.1410913474564473,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TEPOTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1175761228803728,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BRENTUXIMAB VEDOTIN",
+        "approved": true
+      },
+      "interactionScore": 0.104512109226998,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ATEZOLIZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.104512109226998,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FILGOTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.104512109226998,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ENTRECTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.09901147189926132,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TOPOTECAN HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.09798010240031067,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GILTERITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.07838408192024854,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "AFATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.07838408192024854,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RIBOCICLIB",
+        "approved": true
+      },
+      "interactionScore": 0.07838408192024854,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RAMUCIRUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.07838408192024854,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NIVOLUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.07235453715715251,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CEMIPLIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.06718635593164161,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+ALECTINIB,LORLATINIB,BRIGATINIB,CRIZOTINIB,CERITINIB,REPOTRECTINIB,ALECTINIB HYDROCHLORIDE,DURVALUMAB,TEPOTINIB,BRENTUXIMAB VEDOTIN,ATEZOLIZUMAB,FILGOTINIB,ENTRECTINIB,TOPOTECAN HYDROCHLORIDE,GILTERITINIB,AFATINIB,RIBOCICLIB,RAMUCIRUMAB,NIVOLUMAB,CEMIPLIMAB

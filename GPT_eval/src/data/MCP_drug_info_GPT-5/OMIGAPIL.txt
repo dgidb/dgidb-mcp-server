@@ -1,0 +1,34 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"OMIGAPIL"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "OMIGAPIL",
+  "conceptId": "ncit:C97362",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "small molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "for treatment of amyotrophic lateral sclerosis (ALS)"
+    },
+    {
+      "name": "Indication",
+      "value": "antiparkinson agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Not Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,YES

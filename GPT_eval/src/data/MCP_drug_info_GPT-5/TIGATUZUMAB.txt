@@ -1,0 +1,13 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"TIGATUZUMAB"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "TIGATUZUMAB",
+  "conceptId": "iuphar.ligand:9334",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

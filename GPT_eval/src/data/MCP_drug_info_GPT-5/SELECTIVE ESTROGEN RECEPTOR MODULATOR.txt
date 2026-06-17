@@ -1,0 +1,296 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"SELECTIVE ESTROGEN RECEPTOR MODULATOR"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "SELECTIVE ESTROGEN RECEPTOR MODULATOR TAS-108",
+  "conceptId": "ncit:C61494",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE ESTROGEN RECEPTOR DEGRADER SRN-927",
+  "conceptId": "ncit:C120037",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE ESTROGEN RECEPTOR COVALENT ANTAGONIST TQB3915",
+  "conceptId": "ncit:C188362",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE ESTROGEN RECEPTOR MODULATOR CC-8490",
+  "conceptId": "ncit:C38711",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE ESTROGEN RECEPTOR MODULATOR",
+  "conceptId": "ncit:C1821",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ESTROGENS, ESTERIFIED (USP)",
+  "conceptId": "rxcui:214549",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Discontinued",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE ESTROGEN RECEPTOR COVALENT ANTAGONIST",
+  "conceptId": "ncit:C203976",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ESTROGENS",
+  "conceptId": "rxcui:4100",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECEPTOR TYROSINE KINASE INHIBITOR R1530",
+  "conceptId": "ncit:C71710",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE ESTROGEN RECEPTOR DEGRADER LX-039",
+  "conceptId": "ncit:C168606",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ESTROGEN RECEPTOR AGONIST GTX-758",
+  "conceptId": "ncit:C96432",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE HUMAN ESTROGEN-RECEPTOR ALPHA PARTIAL AGONIST TTC-352",
+  "conceptId": "ncit:C150363",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE ESTROGEN RECEPTOR DEGRADER AND019",
+  "conceptId": "ncit:C186373",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE ESTROGEN RECEPTOR COVALENT ANTAGONIST H3B-6545",
+  "conceptId": "ncit:C142980",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE CYTOKINE INHIBITORY DRUG CC-1088",
+  "conceptId": "ncit:C2210",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ESTROGENS, CONJUGATED SYNTHETIC A",
+  "conceptId": "chembl:CHEMBL1201466",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE ANDROGEN RECEPTOR MODULATOR LY2452473",
+  "conceptId": "ncit:C123792",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ESTROGENS, CONJUGATED (USP)",
+  "conceptId": "rxcui:4099",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "small molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "Hormone Replacement Agents"
+    },
+    {
+      "name": "Year of Approval",
+      "value": "not approved by the FDA"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Hormone Replacement Agents"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Prescription",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Not Approved By The Fda",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ESTROGEN RECEPTOR DEGRADER AC699",
+  "conceptId": "ncit:C199299",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE ESTROGEN RECEPTOR DEGRADER LSZ102",
+  "conceptId": "ncit:C128280",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "SELECTIVE ESTROGEN RECEPTOR DEGRADER AZD9496",
+  "conceptId": "ncit:C122834",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ESTROGEN",
+  "conceptId": "chembl:CHEMBL592868",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [
+    {
+      "name": "Indication",
+      "value": "for treatment of female sexual dysfunction"
+    },
+    {
+      "name": "Indication",
+      "value": "contraceptive"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Small molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "for symptomatic treatment of menopausal symptoms"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

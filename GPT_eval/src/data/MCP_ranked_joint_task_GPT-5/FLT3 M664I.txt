@@ -1,0 +1,218 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Acute Myeloid Leukemia","therapyName":"Pexidartinib","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Overall response rate was 21% in this clinical trial with Pexidartinib on relapsed or refractory AML patients with FLT3-ITD. Forty two out of the total 90 patients were tested for FLT3 KD mutations before treatment. Four patients were F691L positive, and three of them had no response to Pexidartinib, one of them achieved a incomplete hematologic recovery, the F691L was detected in 2.58% of non-ITD containing FLT3 alleles. This patient acquired new D835Y mutation and the F691L was not detectable at the time of Pexidartinib relapse. Of note, all 4 patients were treated below the recommended phase 2 dosage of 3000 mg per day. The response rate and any other FLT3 KD mutations were not particularly described for those 38 F691L negative patients.",
+      "evidenceLevel": "B",
+      "evidenceRating": 1,
+      "url": "https://identifiers.org/civic.eid:9717"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "M664I",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mutations were identified by in vitro saturation mutagenesis on the background of FLT3-ITD or FLT3-ITD/F691L. Proliferation and biochemical studies showed that the FLT3-ITD M664I (IC50 =0.61μM) and FLT3-ITD F691L/M664I (IC50 =2.8μM) confer relative resistance to PLX3397 in Ba/F3 cells when compared with FLT3-ITD alone.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8667"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & D839G",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mutations were identified by in vitro saturation mutagenesis on the background of FLT3-ITD or FLT3-ITD/F691L. Proliferation and biochemical studies showed that the FLT3-ITD D839G (IC50 =4.1μM) and FLT3-ITD F691L/D839G (IC50 =8.6μM) confer relative resistance to PLX3397 in Ba/F3 cells when compared with FLT3-ITD alone (IC50 =0.15μM).",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8669"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D839A",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mutations were identified by in vitro saturation mutagenesis on the background of FLT3-ITD or FLT3-ITD/F691L. Proliferation and biochemical studies showed that the FLT3-ITD D839A (IC50 = 4.0μM) and FLT3-ITD F691L/D839A (IC50 >10μM) confer relative resistance to PLX3397 in Ba/F3 cells when compared with FLT3-ITD alone (IC50 = 0.15μM).",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8671"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D839N",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mutations were identified by in vitro saturation mutagenesis on the background of FLT3-ITD or FLT3-ITD/F691L. Proliferation and biochemical studies showed that the FLT3-ITD D839N (IC50 = 0.85μM) and FLT3-ITD F691L/D839N (IC50 = 1.6μM) confer relative resistance to PLX3397 in Ba/F3 cells when compared with FLT3-ITD alone (IC50 = 0.15μM).",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8672"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & N841K",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Using a saturation mutagenesis screen, resistant clones harboring N841K were identified in a Ba/F3 proliferation assay when exposed to PLX3397 on a FLT3-ITD + F691L background (Figure 3B). The N841K mutation was subsequently tested on a FLT3-ITD only background and FLT3-ITD+F691L background. The presence of N841K in either background when exposed to PLX3397 showed a higher IC50 in a Ba/F3 proliferation assay (6.4uM on FLT3-ITD background and >10uM on FLT3-ITD+F691L background) compared to FLT3-ITD alone (0.15uM) or FLT3-ITD+F691L (0.38um) [values in Supplemental Table4 visualized in Figure 3C]. N841K on the FLT3-ITD background also showed resistance to PLX3397 based on biochemical assays [western blots of pFLT3, FLT3, pSTAT5, STAT5 - showed no appreciable decrease in levels with increase dose as compared to FLT3-ITD alone - data not quantitate Figure 3D].",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:9936"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D839H",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Pexidartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mutations were identified by in vitro saturation mutagenesis on the background of FLT3-ITD. Proliferation studies showed that the FLT3-ITD D839H (IC50 = 8.6μM) confers relative resistance to PLX3397 in Ba/F3 cells when compared with FLT3-ITD alone (IC50 = 0.15μM).",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8673"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+FLT3

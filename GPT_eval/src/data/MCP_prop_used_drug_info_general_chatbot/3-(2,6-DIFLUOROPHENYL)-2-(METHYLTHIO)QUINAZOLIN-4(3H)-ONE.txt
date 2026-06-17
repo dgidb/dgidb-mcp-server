@@ -1,0 +1,69 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"3-(2,6-DIFLUOROPHENYL)-2-(METHYLTHIO)QUINAZOLIN-4(3H)-ONE"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "3-(2,6-DIFLUOROPHENYL)-2-(METHYLTHIO)QUINAZOLIN-4(3H)-ONE",
+  "conceptId": "drugbank:DB08602",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-AMINOQUINAZOLIN-6-YL)-4-METHYL-1-[3-(TRIFLUOROMETHYL)PHENYL]PYRIDIN-2(1H)-ONE",
+  "conceptId": "drugbank:DB07528",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-AMINO-6-BENZOYLQUINAZOLIN-3(4H)-YL)-N-CYCLOHEXYL-N-METHYLPROPANAMIDE",
+  "conceptId": "drugbank:DB08749",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-AMINOQUINAZOLIN-6-YL)-1-(3,3-DIMETHYLINDOLIN-6-YL)-4-METHYLPYRIDIN-2(1H)-ONE",
+  "conceptId": "drugbank:DB07514",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-AMINOETHYL)-4-(AMINOMETHYL)HEPTANEDIOIC ACID",
+  "conceptId": "drugbank:DB02878",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-AMINOQUINAZOLIN-6-YL)-4-METHYL-N-[3-(TRIFLUOROMETHYL)PHENYL]BENZAMIDE",
+  "conceptId": "drugbank:DB06925",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-CHLOROPHENYL)-1-(2-{[(1S)-2-HYDROXY-1,2-DIMETHYLPROPYL]AMINO}PYRIMIDIN-4-YL)-1-(4-METHOXYPHENYL)UREA",
+  "conceptId": "drugbank:DB08095",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-BENZOTHIAZOLYLTHIO)-1-PROPANESULFONIC ACID",
+  "conceptId": "drugbank:DB03132",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

@@ -1,0 +1,207 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"CXCR4"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "CXCR4": [
+    {
+      "drug": {
+        "name": "MAVORIXAFOR",
+        "approved": true
+      },
+      "interactionScore": 5.220379855888554,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PLERIXAFOR",
+        "approved": true
+      },
+      "interactionScore": 3.828278560984939,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "MOTIXAFORTIDE",
+        "approved": true
+      },
+      "interactionScore": 3.132227913533132,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "BEVACIZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.104407597117771,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CISPLATIN",
+        "approved": true
+      },
+      "interactionScore": 0.01420511525411851,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MSX-122",
+        "approved": false
+      },
+      "interactionScore": 6.264455827066264,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ULOCUPLUMAB",
+        "approved": false
+      },
+      "interactionScore": 6.264455827066264,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "BURIXAFOR",
+        "approved": false
+      },
+      "interactionScore": 6.264455827066264,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL2062277",
+        "approved": false
+      },
+      "interactionScore": 4.176303884710843,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL2347633",
+        "approved": false
+      },
+      "interactionScore": 4.176303884710843,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL2347632",
+        "approved": false
+      },
+      "interactionScore": 4.176303884710843,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CTCE-9908",
+        "approved": false
+      },
+      "interactionScore": 4.176303884710843,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL2347631",
+        "approved": false
+      },
+      "interactionScore": 4.176303884710843,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL1242210",
+        "approved": false
+      },
+      "interactionScore": 4.176303884710843,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL2347630",
+        "approved": false
+      },
+      "interactionScore": 4.176303884710843,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CXCR4 ANTAGONIST USL311",
+        "approved": false
+      },
+      "interactionScore": 2.088151942355421,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BALIXAFORTIDE",
+        "approved": false
+      },
+      "interactionScore": 2.088151942355421,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "LY-2624587",
+        "approved": false
+      },
+      "interactionScore": 2.088151942355421,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CTCE-0214",
+        "approved": false
+      },
+      "interactionScore": 2.088151942355421,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PF-06747143",
+        "approved": false
+      },
+      "interactionScore": 2.088151942355421,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+MAVORIXAFOR,PLERIXAFOR,MOTIXAFORTIDE,BEVACIZUMAB,CISPLATIN,MSX-122,ULOCUPLUMAB,BURIXAFOR,CHEMBL:CHEMBL2062277,CHEMBL:CHEMBL2347633,CHEMBL:CHEMBL2347632,CTCE-9908,CHEMBL:CHEMBL2347631,CHEMBL:CHEMBL1242210,CHEMBL:CHEMBL2347630,CXCR4 ANTAGONIST USL311,BALIXAFORTIDE,LY-2624587,CTCE-0214,PF-06747143

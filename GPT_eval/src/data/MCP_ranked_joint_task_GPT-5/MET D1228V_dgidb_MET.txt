@@ -1,0 +1,202 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"MET"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "MET": [
+    {
+      "drug": {
+        "name": "CAPMATINIB",
+        "approved": true
+      },
+      "interactionScore": 1.505878804583236,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TEPOTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.8784293026735546,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CAPMATINIB HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.5019596015277455,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TEPOTINIB HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.5019596015277455,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CRIZOTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.4015676812221964,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CABOZANTINIB S-MALATE",
+        "approved": true
+      },
+      "interactionScore": 0.2737961462878612,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AMIVANTAMAB",
+        "approved": true
+      },
+      "interactionScore": 0.2509798007638728,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "OSIMERTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.07170851450396365,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRASTUZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.05577328905863839,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ERLOTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.03585425725198182,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GEFITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.02996773740464152,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VEMURAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.02713295143393219,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PANITUMUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.02509798007638727,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LAPATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.01619224521057243,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PEMBROLIZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.01521089701599228,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SELUMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.01521089701599228,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CETUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.01356647571696609,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRAMETINIB DIMETHYL SULFOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.01067999152186692,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PALBOCICLIB",
+        "approved": true
+      },
+      "interactionScore": 0.00984234512799501,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PAZOPANIB",
+        "approved": true
+      },
+      "interactionScore": 0.008806308798732378,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+CAPMATINIB,TEPOTINIB,CAPMATINIB HYDROCHLORIDE,TEPOTINIB HYDROCHLORIDE,CRIZOTINIB,CABOZANTINIB S-MALATE,AMIVANTAMAB,OSIMERTINIB,TRASTUZUMAB,ERLOTINIB,GEFITINIB,VEMURAFENIB,PANITUMUMAB,LAPATINIB,PEMBROLIZUMAB,SELUMETINIB,CETUXIMAB,TRAMETINIB DIMETHYL SULFOXIDE,PALBOCICLIB,PAZOPANIB

@@ -1,0 +1,167 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"BRCA1"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "BRCA1": [
+    {
+      "drug": {
+        "name": "RIBOFLAVIN",
+        "approved": true
+      },
+      "interactionScore": 0.27767977956854,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RUCAPARIB",
+        "approved": true
+      },
+      "interactionScore": 0.1156999081535583,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NIRAPARIB",
+        "approved": true
+      },
+      "interactionScore": 0.09800462808301413,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "THIABENDAZOLE",
+        "approved": true
+      },
+      "interactionScore": 0.09255992652284668,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "OLAPARIB",
+        "approved": true
+      },
+      "interactionScore": 0.08451123725999045,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TALAZOPARIB",
+        "approved": true
+      },
+      "interactionScore": 0.07933707987672574,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BLEOMYCIN",
+        "approved": true
+      },
+      "interactionScore": 0.06941994489213502,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SACITUZUMAB GOVITECAN",
+        "approved": true
+      },
+      "interactionScore": 0.06170661768189779,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TAMOXIFEN",
+        "approved": true
+      },
+      "interactionScore": 0.05980795252245478,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PIPERINE",
+        "approved": true
+      },
+      "interactionScore": 0.05048723264882546,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MITOMYCIN",
+        "approved": true
+      },
+      "interactionScore": 0.04627996326142334,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VINORELBINE",
+        "approved": true
+      },
+      "interactionScore": 0.0427199660874677,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "OXALIPLATIN",
+        "approved": true
+      },
+      "interactionScore": 0.02922945048089895,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MITOXANTRONE",
+        "approved": true
+      },
+      "interactionScore": 0.02524361632441273,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "APIGENIN",
+        "approved": true
+      },
+      "interactionScore": 0.02135998304373385,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CISPLATIN",
+        "approved": true
+      },
+      "interactionScore": 0.01888978092302993,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GEMCITABINE",
+        "approved": true
+      },
+      "interactionScore": 0.01810955084142652,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DAUNORUBICIN HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.01682907754960849,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CARBOPLATIN",
+        "approved": true
+      },
+      "interactionScore": 0.01291533858458325,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RESVERATROL",
+        "approved": true
+      },
+      "interactionScore": 0.01133386855381796,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+RIBOFLAVIN,RUCAPARIB,NIRAPARIB,THIABENDAZOLE,OLAPARIB,TALAZOPARIB,BLEOMYCIN,SACITUZUMAB GOVITECAN,TAMOXIFEN,PIPERINE,MITOMYCIN,VINORELBINE,OXALIPLATIN,MITOXANTRONE,APIGENIN,CISPLATIN,GEMCITABINE,DAUNORUBICIN HYDROCHLORIDE,CARBOPLATIN,RESVERATROL

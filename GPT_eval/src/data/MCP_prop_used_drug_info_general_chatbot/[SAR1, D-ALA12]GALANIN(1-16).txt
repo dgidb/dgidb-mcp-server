@@ -1,0 +1,45 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"[SAR1, D-ALA12]GALANIN(1-16)"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "[SAR1,ILE4,ILE8]ANG-II",
+  "conceptId": "iuphar.ligand:6914",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "[SAR1,ALA8]ANG-II",
+  "conceptId": "iuphar.ligand:6915",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "[SAR1,GLY4,GLY8]ANG-II",
+  "conceptId": "iuphar.ligand:6916",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "[SAR1, D-ALA12]GALANIN(1-16)",
+  "conceptId": "iuphar.ligand:6082",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "[SAR1,ILE8]ANG-II",
+  "conceptId": "iuphar.ligand:6905",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

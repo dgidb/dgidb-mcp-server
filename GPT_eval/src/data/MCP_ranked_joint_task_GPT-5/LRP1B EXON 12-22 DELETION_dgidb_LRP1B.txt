@@ -1,0 +1,31 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"LRP1B"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "LRP1B": [
+    {
+      "drug": {
+        "name": "RISPERIDONE",
+        "approved": true
+      },
+      "interactionScore": 0.519440781680453,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DOXORUBICIN HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1175761228803728,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CAELYX",
+        "approved": false
+      },
+      "interactionScore": 4.350316546573794,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+RISPERIDONE,DOXORUBICIN HYDROCHLORIDE,CAELYX

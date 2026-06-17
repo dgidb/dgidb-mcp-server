@@ -1,0 +1,28 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"BIRC7"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "BIRC7": [
+    {
+      "drug": {
+        "name": "CISPLATIN",
+        "approved": true
+      },
+      "interactionScore": 0.1775639406764814,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "XEVINAPANT",
+        "approved": false
+      },
+      "interactionScore": 6.525474819860691,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+CISPLATIN,XEVINAPANT

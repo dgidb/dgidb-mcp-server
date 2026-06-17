@@ -1,0 +1,44 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Head And Neck Squamous Cell Carcinoma","therapyName":"Radiation Therapy","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Expression",
+            "feature": {
+              "name": "CD274"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Head And Neck Squamous Cell Carcinoma"
+      },
+      "therapies": [
+        {
+          "name": "Radiation Therapy"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "Radiation-resistant cell lines exhibited upregulation and increased activation of Axl, PI3 kinase signalling as well as increased expression of PD-L1. In 3 cohorts of HPV-negative head and neck squamous cell carcinoma patient samples evaluated with different methods [reverse phase protein array (N=68), mRNA expression array (N=97) or immunohistochemistry (N=114), respectively], increased expression of PD-L1 was also correlated with local failure following radiotherapy as compared to the PD-L1–low expression group (P = 0.01, 1.9 × 10−3, and 9 × 10−4, respectively).",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:3000"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+CD274

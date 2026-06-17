@@ -1,0 +1,222 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"ERBB4"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "ERBB4": [
+    {
+      "drug": {
+        "name": "DACOMITINIB ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.7500545769954817,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AFATINIB DIMALEATE",
+        "approved": true
+      },
+      "interactionScore": 0.3000218307981927,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NERATINIB MALEATE",
+        "approved": true
+      },
+      "interactionScore": 0.3000218307981927,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "LAPATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1742062243344344,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PALIPERIDONE",
+        "approved": true
+      },
+      "interactionScore": 0.1500109153990963,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TUCATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1125081865493222,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AFATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1000072769327309,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NERATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.06000436615963854,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ACALABRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.05294502896438694,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "GEFITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.04030143995796619,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ERLOTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.03214519615694922,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CURCUMIN",
+        "approved": true
+      },
+      "interactionScore": 0.02727471189074479,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "IBRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.02647251448219347,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "VANDETANIB",
+        "approved": true
+      },
+      "interactionScore": 0.0155183705585272,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "DASATINIB ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.01184296700519181,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NEUREGULIN-3",
+        "approved": false
+      },
+      "interactionScore": 0.9000654923945781,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NEUREGULIN-4",
+        "approved": false
+      },
+      "interactionScore": 0.9000654923945781,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BMS-599626",
+        "approved": false
+      },
+      "interactionScore": 0.6000436615963854,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "BIX02188",
+        "approved": false
+      },
+      "interactionScore": 0.450032746197289,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "HB-EGF",
+        "approved": false
+      },
+      "interactionScore": 0.450032746197289,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+DACOMITINIB ANHYDROUS,AFATINIB DIMALEATE,NERATINIB MALEATE,LAPATINIB,PALIPERIDONE,TUCATINIB,AFATINIB,NERATINIB,ACALABRUTINIB,GEFITINIB,ERLOTINIB,CURCUMIN,IBRUTINIB,VANDETANIB,DASATINIB ANHYDROUS,NEUREGULIN-3,NEUREGULIN-4,BMS-599626,BIX02188,HB-EGF

@@ -1,0 +1,73 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Melanoma","therapyName":"Dasatinib","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Exon 11 Mutation",
+            "feature": {
+              "name": "KIT"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Melanoma"
+      },
+      "therapies": [
+        {
+          "name": "Dasatinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a phase 2 clinical trial of 39 stage 3/4 chemotherapy-naive unresectable melanoma patients, a patient harboring a KIT exon 11 Deletion mutation was reported to have no response to dasatinib monotherapy.",
+      "evidenceLevel": "C",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:4686"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "V600E",
+            "feature": {
+              "name": "BRAF"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Melanoma"
+      },
+      "therapies": [
+        {
+          "name": "Dasatinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In an in vitro study, a melanoma cell line, A375, expressing the BRAF V600E mutation was associated with resistance to dasatinib treatment, comparable to melanoma MEWO cells expressing wild-type BRAF. Resistance was determined by assessing cell viability.",
+      "evidenceLevel": "D",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:3759"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+KIT,BRAF

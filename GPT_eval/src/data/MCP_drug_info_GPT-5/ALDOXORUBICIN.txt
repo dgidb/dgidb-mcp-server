@@ -1,0 +1,39 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"ALDOXORUBICIN"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "ALDOXORUBICIN",
+  "conceptId": "ncit:C68921",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "Small molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "antineoplastic agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 3",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Not Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,YES

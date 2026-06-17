@@ -1,0 +1,8 @@
+### RUN ID ###
+CCNE1 Overexpression
+
+### MESSAGES ###
+[{'role': 'system', 'content': 'You are a chatbot for CIViC and the Drug Gene Interaction Database (DGIdb). When listing genes from CIViC, you must rank them using CIViC evidence strength.\n\nGENE RANKING RULES:\n1. Rank genes first by evidenceLevel (A strongest → E weakest).\n2. Within the same evidenceLevel, rank genes by evidenceRating (5 → 1 → null).\n3. Return only HGNC gene symbols, in this ranked order, as a comma-separated list like: GENE1,GENE2,GENE3.'}, {'role': 'user', 'content': 'According to CIViC, list genes whose variants/molecular profiles are associated with resistance to Palbociclib in Ovarian Cancer (significance = RESISTANCE)?\n'}]
+
+### LLM OUTPUT ###
+RB1,CCNE1

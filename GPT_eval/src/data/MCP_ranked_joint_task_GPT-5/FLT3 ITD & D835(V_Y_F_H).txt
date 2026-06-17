@@ -1,0 +1,141 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Acute Myeloid Leukemia","therapyName":"Ponatinib","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & D835(V/Y/F/H)",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Ponatinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Proliferation of Ba/F3 cells with FLT3 double mutations was studied for the activity of ponatinib. Compared to control cells with native FLT3-ITD mutant (IC50: 3.0nM), cells with double mutants, FLT3-ITD and a secondary point mutation at the activation loop residue D835 (D835V/Y/F/H), were resistance to ponatinib ((IC50: 211-349nM). Immunoblots also demonstrated this resistance to ponatinib by evaluating phosphorylation of FLT3 and its downstream targets.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:8894"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & Y842C",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Ponatinib"
+        },
+        {
+          "name": "Sorafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Proliferation of Ba/F3 cells with FLT3 double mutations was studied for the activity of ponatinib and sorafenib. Compared to control cells with native FLT3-ITD mutant (IC50: 3.0nM), cells with double mutants as FLT3-ITD plus Y842C, a secondary point mutation at the activation loop, were resistance to ponatinib (IC50: 229nM), as well as to sorafenib (IC50: 469nM). Immunoblots also confirmed this resistance to ponatinib by evaluating phosphorylation of FLT3 and its downstream targets.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:8895"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD & D839G",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Sorafenib"
+        },
+        {
+          "name": "Ponatinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Proliferation of Ba/F3 cells with FLT3 double mutations was studied. Compared to control cells with native FLT3-ITD mutant (IC50: 0.13-3.0nM), cells with double mutants (FLT3-ITD/D839G) were sensitive to AC220/quizartinib (IC50: 1.9nM), resistance to sorafenib (IC50: 112nM), and mild resistance to ponatinib (IC50: 54nM). Immunoblots confirmed the mild resistance to ponatinib by evaluating phosphorylation of FLT3 and its downstream target (STAT5).",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:8897"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D835",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Ponatinib"
+        },
+        {
+          "name": "Quizartinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "An in-vitro saturation mutagenesis screen of 50 independently derived FLT3-ITD clones was performed to identify mutations that confer resistance to ponatinib. Mutations at 3 AL residues (D835 [n = 31], D839 [n = 3], and Y842 [n = 16]), with varying degrees of resistance to ponatinib were identified. FLT3 D835 mutations were shown to confer resistance to the tyrosine kinase inhibitor AC220 and ponatinib. \
+This was especially found for D835Y and D835V mutations, whereas D835H mutations were found to confer moderate resistance to ponatinib but relatively minimal resistance to AC220.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1036"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+FLT3

@@ -1,0 +1,247 @@
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Chronic Lymphocytic Leukemia/small Lymphocytic Lymphoma", "therapyName": "Venetoclax", "significance": "RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "G101A",
+            "feature": {
+              "name": "BCL2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Chronic Lymphocytic Leukemia/small Lymphocytic Lymphoma"
+      },
+      "therapies": [
+        {
+          "name": "Venetoclax"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Associated with venetoclax resistance in high-risk CLL post ibrutinib in \\"progressive CLL\\"",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:8184"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F104S",
+            "feature": {
+              "name": "BCL2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Chronic Lymphocytic Leukemia/small Lymphocytic Lymphoma"
+      },
+      "therapies": [
+        {
+          "name": "Venetoclax"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Associated with venetoclax resistance in high-risk CLL post ibrutinib in \\"progressive CLL\\"",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8186"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F104L",
+            "feature": {
+              "name": "BCL2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Chronic Lymphocytic Leukemia/small Lymphocytic Lymphoma"
+      },
+      "therapies": [
+        {
+          "name": "Venetoclax"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Associated with venetoclax resistance in 2 high-risk CLL patients post ibrutinib in \\"progressive CLL\\"",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8187"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "R107_R110dup",
+            "feature": {
+              "name": "BCL2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Chronic Lymphocytic Leukemia/small Lymphocytic Lymphoma"
+      },
+      "therapies": [
+        {
+          "name": "Venetoclax"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Associated with venetoclax resistance in high-risk CLL patients post ibrutinib in 2 cases of \\"progressive CLL\\" and 1 case of Richter transformation",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8188"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "A113G",
+            "feature": {
+              "name": "BCL2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Chronic Lymphocytic Leukemia/small Lymphocytic Lymphoma"
+      },
+      "therapies": [
+        {
+          "name": "Venetoclax"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Associated with venetoclax resistance in high-risk CLL post ibrutinib in \\"progressive CLL\\"",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8189"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "L119V",
+            "feature": {
+              "name": "BCL2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Chronic Lymphocytic Leukemia/small Lymphocytic Lymphoma"
+      },
+      "therapies": [
+        {
+          "name": "Venetoclax"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Associated with venetoclax resistance in high-risk CLL post ibrutinib in \\"progressive CLL\\"",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8190"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Mutation",
+            "feature": {
+              "name": "TP53"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Chronic Lymphocytic Leukemia/small Lymphocytic Lymphoma"
+      },
+      "therapies": [
+        {
+          "name": "Venetoclax"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In patients with relapsed/refractory chronic lymphocytic leukemia or small lymphocytic lymphoma, patients with deletion 17p and/or mutations in TP53 (N=24) were not more likely to have progressive disease when treated with venetoclax than wildtype patients (N=16)[Hazard ratio =1.23, 95% CI=0.34-4.41,p=0.752].",
+      "evidenceLevel": "B",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:6074"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "G101V",
+            "feature": {
+              "name": "BCL2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Chronic Lymphocytic Leukemia/small Lymphocytic Lymphoma"
+      },
+      "therapies": [
+        {
+          "name": "Venetoclax"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "The effective cohort in this study was 11 CLL patients who were first treated with ibrutinib and then on progression treated with venetoclax until progression. Patient samples were sequenced before and after progression on venetoclax. The previously described BCL2 G101V mutation was observed in 1 patient at progression",
+      "evidenceLevel": "C",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8185"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+BCL2

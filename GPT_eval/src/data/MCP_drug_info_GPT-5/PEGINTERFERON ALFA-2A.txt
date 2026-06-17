@@ -1,0 +1,191 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"PEGINTERFERON ALFA-2A"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "PEGINTERFERON LAMBDA-1A",
+  "conceptId": "ncit:C166435",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 3",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "PEGINTERFERON ALFACON-1",
+  "conceptId": "drugbank:DB05860",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "protein"
+    },
+    {
+      "name": "Indication",
+      "value": "for treatment of hepatitis C"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Not Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "PEGINTERFERON ALFA-2B",
+  "conceptId": "rxcui:253453",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "2001"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "HemOnc",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "PEGINTERFERON ALFACON-2",
+  "conceptId": "ncit:C166720",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "PEGINTERFERON ALFA-2A",
+  "conceptId": "rxcui:120608",
+  "approved": true,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "1986"
+    },
+    {
+      "name": "Year of Approval",
+      "value": "2002"
+    },
+    {
+      "name": "Drug Class",
+      "value": "recombinant protein"
+    },
+    {
+      "name": "Indication",
+      "value": "Antineoplastic Agents; Immunomodulatory Agents"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Immunomodulatory Agents"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Antineoplastic Agents"
+    },
+    {
+      "name": "Drug Class",
+      "value": "protein"
+    },
+    {
+      "name": "Indication",
+      "value": "for treatment of hepatitis B and C"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "HemOnc",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "PEGINTERFERON BETA-1A",
+  "conceptId": "rxcui:1546168",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,YES,YES

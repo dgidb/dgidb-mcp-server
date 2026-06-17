@@ -1,0 +1,235 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"ERBB2"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "ERBB2": [
+    {
+      "drug": {
+        "name": "NERATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.5686688296174894,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PERTUZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.4691517844344287,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "antibody",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TRASTUZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.4675721487966024,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "antibody",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "DACOMITINIB ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.4549350636939915,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "MARGETUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.4094415573245923,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "LAPATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.3632142847234287,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "FAM-TRASTUZUMAB DERUXTECAN-NXKI",
+        "approved": true
+      },
+      "interactionScore": 0.3412012977704936,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TBO-FILGRASTIM",
+        "approved": true
+      },
+      "interactionScore": 0.3412012977704936,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TIPIRACIL",
+        "approved": true
+      },
+      "interactionScore": 0.3412012977704936,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TUCATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.2559009733278702,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AFATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.246423159500912,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NERATINIB MALEATE",
+        "approved": true
+      },
+      "interactionScore": 0.2274675318469957,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ELACESTRANT",
+        "approved": true
+      },
+      "interactionScore": 0.1706006488852468,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ADO-TRASTUZUMAB EMTANSINE",
+        "approved": true
+      },
+      "interactionScore": 0.1605653165978793,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AFATINIB DIMALEATE",
+        "approved": true
+      },
+      "interactionScore": 0.1137337659234978,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TRIFLURIDINE",
+        "approved": true
+      },
+      "interactionScore": 0.1137337659234978,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GANCICLOVIR",
+        "approved": true
+      },
+      "interactionScore": 0.08530032444262341,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHLORAMBUCIL",
+        "approved": true
+      },
+      "interactionScore": 0.06824025955409872,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MECHLORETHAMINE",
+        "approved": true
+      },
+      "interactionScore": 0.06203659959463521,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ABEMACICLIB",
+        "approved": true
+      },
+      "interactionScore": 0.05387388912165689,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+NERATINIB,PERTUZUMAB,TRASTUZUMAB,DACOMITINIB ANHYDROUS,MARGETUXIMAB,LAPATINIB,FAM-TRASTUZUMAB DERUXTECAN-NXKI,TBO-FILGRASTIM,TIPIRACIL,TUCATINIB,AFATINIB,NERATINIB MALEATE,ELACESTRANT,ADO-TRASTUZUMAB EMTANSINE,AFATINIB DIMALEATE,TRIFLURIDINE,GANCICLOVIR,CHLORAMBUCIL,MECHLORETHAMINE,ABEMACICLIB

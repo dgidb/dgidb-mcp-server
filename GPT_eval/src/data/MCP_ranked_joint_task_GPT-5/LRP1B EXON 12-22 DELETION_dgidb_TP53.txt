@@ -1,0 +1,167 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"TP53"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "TP53": [
+    {
+      "drug": {
+        "name": "ZANUBRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1154951295550564,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BENDAMUSTINE",
+        "approved": true
+      },
+      "interactionScore": 0.07699675303670432,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRIFLURIDINE",
+        "approved": true
+      },
+      "interactionScore": 0.07699675303670432,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "OBINUTUZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.07699675303670432,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BENZALKONIUM CHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.05774756477752824,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PIRTOBRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.05774756477752824,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GLUTARAL",
+        "approved": true
+      },
+      "interactionScore": 0.05774756477752824,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ALECTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.04619805182202258,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SELINEXOR",
+        "approved": true
+      },
+      "interactionScore": 0.04619805182202258,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ZINC CHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.04619805182202258,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRABECTEDIN",
+        "approved": true
+      },
+      "interactionScore": 0.04619805182202258,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SULCONAZOLE NITRATE",
+        "approved": true
+      },
+      "interactionScore": 0.03849837651835216,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ALEMTUZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.03849837651835216,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DOXORUBICIN LIPOSOME",
+        "approved": true
+      },
+      "interactionScore": 0.03849837651835216,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FURAZOLIDONE",
+        "approved": true
+      },
+      "interactionScore": 0.03849837651835216,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LEVONORGESTREL",
+        "approved": true
+      },
+      "interactionScore": 0.03299860844430185,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RITUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.03208198043196013,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LORLATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.02665272220501303,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "IDELALISIB",
+        "approved": true
+      },
+      "interactionScore": 0.0256655843455681,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CAPIVASERTIB",
+        "approved": true
+      },
+      "interactionScore": 0.02309902591101129,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+ZANUBRUTINIB,BENDAMUSTINE,TRIFLURIDINE,OBINUTUZUMAB,BENZALKONIUM CHLORIDE,PIRTOBRUTINIB,GLUTARAL,ALECTINIB,SELINEXOR,ZINC CHLORIDE,TRABECTEDIN,SULCONAZOLE NITRATE,ALEMTUZUMAB,DOXORUBICIN LIPOSOME,FURAZOLIDONE,LEVONORGESTREL,RITUXIMAB,LORLATINIB,IDELALISIB,CAPIVASERTIB

@@ -1,0 +1,167 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"RB1"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "RB1": [
+    {
+      "drug": {
+        "name": "FOSTAMATINIB",
+        "approved": true
+      },
+      "interactionScore": 1.450105515524598,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RIBOCICLIB",
+        "approved": true
+      },
+      "interactionScore": 0.483368505174866,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRILACICLIB",
+        "approved": true
+      },
+      "interactionScore": 0.4143158615784566,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PALBOCICLIB",
+        "approved": true
+      },
+      "interactionScore": 0.3980681807322426,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TAZEMETOSTAT",
+        "approved": true
+      },
+      "interactionScore": 0.3625263788811495,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LORLATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.2230931562345535,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LETROZOLE",
+        "approved": true
+      },
+      "interactionScore": 0.1611228350582886,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TOPOTECAN HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1208421262937165,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DECITABINE",
+        "approved": true
+      },
+      "interactionScore": 0.1208421262937165,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FULVESTRANT",
+        "approved": true
+      },
+      "interactionScore": 0.1160084412419678,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SIROLIMUS",
+        "approved": true
+      },
+      "interactionScore": 0.1000072769327309,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NIRAPARIB",
+        "approved": true
+      },
+      "interactionScore": 0.08530032444262342,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VEMURAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.07838408192024855,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VORINOSTAT",
+        "approved": true
+      },
+      "interactionScore": 0.07768422404596062,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRAMETINIB DIMETHYL SULFOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.06170661768189779,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TALAZOPARIB",
+        "approved": true
+      },
+      "interactionScore": 0.05178948269730708,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ALPELISIB",
+        "approved": true
+      },
+      "interactionScore": 0.04028070876457217,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRETINOIN",
+        "approved": true
+      },
+      "interactionScore": 0.0318704508906505,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "OLAPARIB",
+        "approved": true
+      },
+      "interactionScore": 0.03152403294618692,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PACLITAXEL",
+        "approved": true
+      },
+      "interactionScore": 0.02636555482771997,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+FOSTAMATINIB,RIBOCICLIB,TRILACICLIB,PALBOCICLIB,TAZEMETOSTAT,LORLATINIB,LETROZOLE,TOPOTECAN HYDROCHLORIDE,DECITABINE,FULVESTRANT,SIROLIMUS,NIRAPARIB,VEMURAFENIB,VORINOSTAT,TRAMETINIB DIMETHYL SULFOXIDE,TALAZOPARIB,ALPELISIB,TRETINOIN,OLAPARIB,PACLITAXEL

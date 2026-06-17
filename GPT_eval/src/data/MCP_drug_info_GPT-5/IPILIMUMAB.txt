@@ -1,0 +1,77 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"IPILIMUMAB"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "IPILIMUMAB",
+  "conceptId": "rxcui:1094833",
+  "approved": true,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "2011"
+    },
+    {
+      "name": "Developer",
+      "value": "Bristol-Myers Squibb"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Monoclonal Antibody"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01611558"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Immunotherapies"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Therapeutic Antibodies"
+    },
+    {
+      "name": "Indication",
+      "value": "antineoplastic agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "HemOnc",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,YES,YES

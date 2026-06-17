@@ -1,0 +1,207 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"AR"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "AR": [
+    {
+      "drug": {
+        "name": "APALUTAMIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1451718536120287,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "OXANDROLONE",
+        "approved": true
+      },
+      "interactionScore": 0.1161374828896229,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "DROMOSTANOLONE",
+        "approved": true
+      },
+      "interactionScore": 0.1161374828896229,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "METHANDROSTENOLONE",
+        "approved": true
+      },
+      "interactionScore": 0.1161374828896229,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NANDROLONE DECANOATE",
+        "approved": true
+      },
+      "interactionScore": 0.09678123574135249,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CLASCOTERONE",
+        "approved": true
+      },
+      "interactionScore": 0.08710311216721724,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "FLUOXYMESTERONE",
+        "approved": true
+      },
+      "interactionScore": 0.07258592680601438,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "BICALUTAMIDE",
+        "approved": true
+      },
+      "interactionScore": 0.06387561558929264,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TROPOLONE",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "AMDINOCILLIN",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TIOCONAZOLE",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "IOPAMIDOL",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CALCIUM PANTOTHENATE",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PIPERONAL",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FLUDROCORTISONE",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BENORILATE",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "HEPTANE",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ALLANTOIN",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PHENYLETHYL ALCOHOL",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CYCLANDELATE",
+        "approved": true
+      },
+      "interactionScore": 0.05806874144481148,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+APALUTAMIDE,OXANDROLONE,DROMOSTANOLONE,METHANDROSTENOLONE,NANDROLONE DECANOATE,CLASCOTERONE,FLUOXYMESTERONE,BICALUTAMIDE,TROPOLONE,AMDINOCILLIN,TIOCONAZOLE,IOPAMIDOL,CALCIUM PANTOTHENATE,PIPERONAL,FLUDROCORTISONE,BENORILATE,HEPTANE,ALLANTOIN,PHENYLETHYL ALCOHOL,CYCLANDELATE

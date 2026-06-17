@@ -1,0 +1,31 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"CIC"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "CIC": [
+    {
+      "drug": {
+        "name": "SELUMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.5273110965543993,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VEMURAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.4703044915214913,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRAMETINIB DIMETHYL SULFOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.3702397060913868,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+SELUMETINIB,VEMURAFENIB,TRAMETINIB DIMETHYL SULFOXIDE

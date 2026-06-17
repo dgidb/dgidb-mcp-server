@@ -1,0 +1,31 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"MYD88"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "MYD88": [
+    {
+      "drug": {
+        "name": "ZANUBRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 4.350316546573794,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "IBRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 1.535405839967221,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FENTANYL CITRATE",
+        "approved": true
+      },
+      "interactionScore": 1.160084412419678,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+ZANUBRUTINIB,IBRUTINIB,FENTANYL CITRATE

@@ -1,0 +1,44 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Pancreatic Cancer","therapyName":"Niacinamide","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Overexpression",
+            "feature": {
+              "name": "SIRT1"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Pancreatic Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Niacinamide"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "In-vitro study with MiaPaCa-2 and PANC-1 pancreatic cancer cell lines. Inhibition of Sirt1 by increasing concentrations of nicotinamide led to a decrease in viability. Gefitinib treatment with concentrations of 50 μM showed similar effects as observed for the application of 25 mM nicotinamide. Combinatory treatment with gefitinib and nicotinamide showed a synergistic effect on cell viability. In cell lines overexpressing Sirt1, higher concentrations of nicotinamide were required to abrogate increased cell viability mediated by Sirt1 overexpression compared to controls.",
+      "evidenceLevel": "D",
+      "evidenceRating": 1,
+      "url": "https://identifiers.org/civic.eid:1294"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+SIRT1

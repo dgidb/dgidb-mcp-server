@@ -1,0 +1,81 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Ovarian Cancer","therapyName":"Doxorubicin","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "R248Q",
+            "feature": {
+              "name": "TP53"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Ovarian Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Doxorubicin"
+        },
+        {
+          "name": "Paclitaxel"
+        },
+        {
+          "name": "Etoposide"
+        }
+      ],
+      "variantOrigin": "UNKNOWN",
+      "description": "Most common oncomorphic TP53 mutations are at positions R273, R248, R175, and Y220. Mutant R248Q confers chemoresistance to doxorubicin and paclitaxel.\
+\
+In vitro studies, cells with oncomorphic p53 demonstrate increased invasion, migration, angiogenesis, survival, and proliferation as well as resistance to chemotherapy. A knock in mouse model of the TP53 R248Q mutant was created, and these mice display accelerated tumor onset as well as a shortened survival",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:7175"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Exon 12-22 Deletion",
+            "feature": {
+              "name": "LRP1B"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Ovarian Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Doxorubicin"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A minimum common region of deletion of 0.19Mb, encompassing exons 12–22 of LRP1B4 was observed in 4 patients exhibiting acquired treatment resistance. Transfection of mLRP1B4, a fully functional minigene of LRP1B, in IGROV1 and OVCAR4 ovarian cell lines with low expression of LRP1B4 increased sensitivity to liposomal doxorubicin but not doxorubicin. siRNA knockdown of LRP1B4 in JHOS3 and Kuramochi ovarian cancer cell lines decreased sensitivity to liposomal doxorubicin but not doxorubicin.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:679"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+TP53,LRP1B

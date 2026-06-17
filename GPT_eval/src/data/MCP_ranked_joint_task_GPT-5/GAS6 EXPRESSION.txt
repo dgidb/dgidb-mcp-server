@@ -1,0 +1,187 @@
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Prostate Cancer", "therapyName": "Docetaxel", "significance": "RESISTANCE"}
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Prostate Adenocarcinoma", "therapyName": "Docetaxel", "significance": "RESISTANCE"}
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Prostate Carcinoma", "therapyName": "Docetaxel", "significance": "RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "EXPRESSION",
+            "feature": {
+              "name": "GAS6"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Docetaxel"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "Prostate Cancer (PCa) cell lines were either cultured alone, co-cultured with osteoblasts expressing GAS6, or cultured in the presence of media with GAS6 to examine their response to therapy with docetaxel. Docetaxel efficiently induced apoptosis in the cells cultured without any GAS6, but it was not able to do so in the cells that were in media with GAS6 present or that were co-cultured with osteoblasts expressing GAS6. PCa cells in the presence of GAS6 were found to be in G1 phase for a greater duration which may help explain the increased resistance to docetaxel.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1656"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Castration-Resistant Prostate Cancer", "therapyName": "Docetaxel", "significance": "RESISTANCE"}
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Metastatic Prostate Cancer", "therapyName": "Docetaxel", "significance": "RESISTANCE"}
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Metastatic Castration-Resistant Prostate Cancer", "therapyName": "Docetaxel", "significance": "RESISTANCE"}
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Prostatic Neoplasms", "therapyName": "Docetaxel", "significance": "RESISTANCE"}
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Adenocarcinoma of the Prostate", "therapyName": "Docetaxel", "significance": "RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+Invoking MCP tool get_variant_evidence with input {"diseaseName": "Prostate Cancer", "therapyName": "Docetaxel + Prednisone", "significance": "RESISTANCE"}
+Invoking MCP tool get_variant_evidence with input {"diseaseName": "Prostate Cancer", "therapyName": "Docetaxel/Prednisone", "significance": "RESISTANCE"}
+Invoking MCP tool get_variant_evidence with input {"diseaseName": "Prostate Cancer", "therapyName": "Taxotere", "significance": "RESISTANCE"}
+Invoking MCP tool get_variant_assertions with input {"diseaseName": "Prostate Cancer", "therapyName": "Docetaxel", "significance": "RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_variant_assertions returned meta=None content=[TextContent(type='text', text='{
+  "errors": [
+    {
+      "message": "Variable $molecularProfileName of type String! was provided invalid value",
+      "locations": [
+        {
+          "line": 2,
+          "column": 22
+        }
+      ],
+      "extensions": {
+        "value": null,
+        "problems": [
+          {
+            "path": [],
+            "explanation": "Expected value to not be null"
+          }
+        ]
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+GAS6

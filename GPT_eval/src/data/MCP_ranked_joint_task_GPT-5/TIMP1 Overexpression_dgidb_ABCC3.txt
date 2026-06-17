@@ -1,0 +1,167 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"ABCC3"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "ABCC3": [
+    {
+      "drug": {
+        "name": "CEFAMANDOLE",
+        "approved": true
+      },
+      "interactionScore": 1.242947584735369,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CEPHRADINE",
+        "approved": true
+      },
+      "interactionScore": 0.9322106885515273,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EMTRICITABINE",
+        "approved": true
+      },
+      "interactionScore": 0.9322106885515273,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CEFUROXIME AXETIL",
+        "approved": true
+      },
+      "interactionScore": 0.9322106885515273,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ETRAVIRINE",
+        "approved": true
+      },
+      "interactionScore": 0.7457685508412218,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CEPHALEXIN ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.7457685508412218,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CEFOXITIN SODIUM",
+        "approved": true
+      },
+      "interactionScore": 0.4661053442757636,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RIMONABANT",
+        "approved": true
+      },
+      "interactionScore": 0.4143158615784565,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ABACAVIR",
+        "approved": true
+      },
+      "interactionScore": 0.3389857049278281,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CEFTRIAXONE",
+        "approved": true
+      },
+      "interactionScore": 0.3389857049278281,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EFAVIRENZ",
+        "approved": true
+      },
+      "interactionScore": 0.2796632065654582,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TENOFOVIR",
+        "approved": true
+      },
+      "interactionScore": 0.2663459110147221,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CEFACLOR ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.2663459110147221,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LAMIVUDINE",
+        "approved": true
+      },
+      "interactionScore": 0.2330526721378818,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BUSULFAN",
+        "approved": true
+      },
+      "interactionScore": 0.1962548818003215,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NEVIRAPINE",
+        "approved": true
+      },
+      "interactionScore": 0.169492852463914,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PAREGORIC",
+        "approved": true
+      },
+      "interactionScore": 0.1621235980089612,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ETOPOSIDE",
+        "approved": true
+      },
+      "interactionScore": 0.06429039231389842,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CYTARABINE",
+        "approved": true
+      },
+      "interactionScore": 0.04661053442757636,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VINCRISTINE",
+        "approved": true
+      },
+      "interactionScore": 0.04603509573093962,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+CEFAMANDOLE,CEPHRADINE,EMTRICITABINE,CEFUROXIME AXETIL,ETRAVIRINE,CEPHALEXIN ANHYDROUS,CEFOXITIN SODIUM,RIMONABANT,ABACAVIR,CEFTRIAXONE,EFAVIRENZ,TENOFOVIR,CEFACLOR ANHYDROUS,LAMIVUDINE,BUSULFAN,NEVIRAPINE,PAREGORIC,ETOPOSIDE,CYTARABINE,VINCRISTINE

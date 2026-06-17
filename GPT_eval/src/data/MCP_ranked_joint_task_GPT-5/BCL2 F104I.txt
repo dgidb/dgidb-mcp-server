@@ -1,0 +1,73 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Follicular Lymphoma","therapyName":"Venetoclax","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F104I",
+            "feature": {
+              "name": "BCL2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Follicular Lymphoma"
+      },
+      "therapies": [
+        {
+          "name": "Venetoclax"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "This study identified BCL2 F104I mutation in one Follicular Lymphoma patient who developed resistance to venetoclax. Codon 104 is located at the venetoclax binding site of BCL2.",
+      "evidenceLevel": "C",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8375"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F104I",
+            "feature": {
+              "name": "BCL2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Follicular Lymphoma"
+      },
+      "therapies": [
+        {
+          "name": "Venetoclax"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Rs4;11 cells overexpressing BCL2 F104I exhibited >40-fold greater resistance to venetoclax after 24-hour treatment (IC50 not reached) than Rs4;11 overexpressing BCL2 WT cells as determined by cell titer glo measured cytotoxicity assays. Plasmon resonance protein binding assays demonstrated marked impairment (300 fold) of venetoclax binding to F104I (Ki=5.9 nM) veresus WT (Ki=.018nM). The authors pointed out reduction in binding was a similar magnitude as that observed previously with the BCL2 G101V and F104L.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8376"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+BCL2

@@ -1,0 +1,61 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"DECYL DIHYDROGEN PHOSPHATE"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "DECYL DIHYDROGEN PHOSPHATE",
+  "conceptId": "iuphar.ligand:4030",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "DIHYDROGENPHOSPHATE",
+  "conceptId": "drugbank:DB02831",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "DECYLOXY-METHANOL",
+  "conceptId": "drugbank:DB04082",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "DECYLSULFONIC ACID",
+  "conceptId": "drugbank:DB06893",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "DECYL(DIMETHYL)PHOSPHINE OXIDE",
+  "conceptId": "drugbank:DB07641",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "DECYLUBIQUINONE",
+  "conceptId": "chembl:CHEMBL217894",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "DECYL FORMATE",
+  "conceptId": "drugbank:DB07650",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

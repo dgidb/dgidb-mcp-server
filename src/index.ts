@@ -774,18 +774,53 @@ export default {
     ctx: ExecutionContext
   ): Promise<Response> {
     const url = new URL(request.url);
-
+ 
     console.log(Object.keys(env));
-
+ 
+    if (url.pathname === "/") {
+      const accept = request.headers.get("Accept") ?? "";
+      if (accept.includes("text/html")) {
+        return new Response(`<!doctype html>
+    <html>
+      <head>
+        <meta charset="utf-8" />
+        <title>DGIdb MCP</title>
+      </head>
+      <body>DGIdb MCP</body>
+    </html>`, { headers: { "Content-Type": "text/html; charset=utf-8" } });
+      }
+ 
+      return new Response(
+        `${API_CONFIG.name} – MCP Server ${API_CONFIG.version}. Use /mcp (Streamable HTTP) or /sse (legacy).`,
+        { status: 200, headers: { "Content-Type": "text/plain" } }
+      );
+    }
+ 
+    if (url.pathname === "/privacy") {
+      const html = `<!doctype html>
+      <html><head><meta charset="utf-8"><title>Privacy Policy</title></head>
+      <body style="font-family:system-ui;max-width:760px;margin:40px auto;padding:0 16px;line-height:1.5">
+        <h1>Privacy Policy</h1>
+        <p><strong>What this service does:</strong> This MCP server receives query terms you provide (e.g., gene names, drug names) and forwards them to the DGIdb GraphQL API to retrieve drug-gene interaction results.</p>
+        <p><strong>Data we process:</strong> The text inputs you submit to the tools and standard request metadata.</p>
+        <p><strong>How we use data:</strong> Only to fulfill your request and return DGIdb results.</p>
+        <p><strong>Data sharing:</strong> Requests are sent to (1) Cloudflare (hosting/infrastructure) and (2) the DGIdb API at dgidb.org.</p>
+        <p><strong>Data retention:</strong> We do not intentionally store your tool inputs in an application database. Cloudflare Workers Observability is enabled and may retain operational logs/telemetry for debugging and service reliability.</p>
+        <p><strong>Security:</strong> Data is transmitted over HTTPS/TLS.</p>
+        <p><em>Last updated: 2026-04-14</em></p>
+      </body></html>`;
+      return new Response(html, { headers: { "Content-Type": "text/html; charset=utf-8" } });
+    }
+ 
     /* ────────────────────────────────────────────────
        NEW: Streamable HTTP transport (/mcp)
     ─────────────────────────────────────────────────*/
     if (url.pathname === "/mcp" || url.pathname.startsWith("/mcp/")) {
       const protocolVersion = request.headers.get("MCP-Protocol-Version");
-
+ 
       // @ts-ignore – serve helper is mixed-in by DgidbMCP (Streamable HTTP)
       const response = await DgidbMCP.serve("/mcp").fetch(request, env, ctx);
-
+ 
       if (protocolVersion && response instanceof Response) {
         const headers = new Headers(response.headers);
         headers.set("MCP-Protocol-Version", protocolVersion);
@@ -797,16 +832,16 @@ export default {
       }
       return response;
     }
-
+ 
     /* ────────────────────────────────────────────────
        Legacy SSE transport (kept for now)
     ─────────────────────────────────────────────────*/
     if (url.pathname === "/sse" || url.pathname.startsWith("/sse/")) {
       const protocolVersion = request.headers.get("MCP-Protocol-Version");
-
+ 
       // @ts-ignore – serveSSE helper is mixed-in by DgidbMCP (SSE)
       const response = await DgidbMCP.serveSSE("/sse").fetch(request, env, ctx);
-
+ 
       if (protocolVersion && response instanceof Response) {
         const headers = new Headers(response.headers);
         headers.set("MCP-Protocol-Version", protocolVersion);
@@ -818,14 +853,13 @@ export default {
       }
       return response;
     }
-
+ 
     return new Response(
       `${API_CONFIG.name} – MCP Server ${API_CONFIG.version}. Use /mcp (Streamable HTTP) or /sse (legacy).`,
       { status: 200, headers: { "Content-Type": "text/plain" } }
     );
   }
 };
-
 
 // Export the class for tests if you like
 export { DgidbMCP };

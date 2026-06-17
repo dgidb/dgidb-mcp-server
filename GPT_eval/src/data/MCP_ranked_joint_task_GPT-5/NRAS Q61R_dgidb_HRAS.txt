@@ -1,0 +1,167 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"HRAS"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "HRAS": [
+    {
+      "drug": {
+        "name": "SOTORASIB",
+        "approved": true
+      },
+      "interactionScore": 0.4193076189468717,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PRALSETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.179703265262945,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRAMETINIB DIMETHYL SULFOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1472037385664549,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LORLATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.145144945020071,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VITAMIN E",
+        "approved": true
+      },
+      "interactionScore": 0.1179302678288076,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SELUMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1143566233491468,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CABOZANTINIB S-MALATE",
+        "approved": true
+      },
+      "interactionScore": 0.1143566233491468,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NITROGLYCERIN",
+        "approved": true
+      },
+      "interactionScore": 0.09676329668004732,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BINIMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.09434421426304614,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ALPELISIB",
+        "approved": true
+      },
+      "interactionScore": 0.08735575394726494,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TUCATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.07862017855253844,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DIMETHYL SULFOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.07862017855253844,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ENCORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.06988460315781195,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PANITUMUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.06289614284203075,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "HYDROXYUREA",
+        "approved": true
+      },
+      "interactionScore": 0.05990108842098167,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EVEROLIMUS",
+        "approved": true
+      },
+      "interactionScore": 0.05549659662532125,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CRIZOTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.0503169142736246,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PEMETREXED DISODIUM",
+        "approved": true
+      },
+      "interactionScore": 0.04838164834002366,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DIETHYLSTILBESTROL",
+        "approved": true
+      },
+      "interactionScore": 0.03811887444971561,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EPOETIN ALFA",
+        "approved": true
+      },
+      "interactionScore": 0.0369977310835475,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+SOTORASIB,PRALSETINIB,TRAMETINIB DIMETHYL SULFOXIDE,LORLATINIB,VITAMIN E,SELUMETINIB,CABOZANTINIB S-MALATE,NITROGLYCERIN,BINIMETINIB,ALPELISIB,TUCATINIB,DIMETHYL SULFOXIDE,ENCORAFENIB,PANITUMUMAB,HYDROXYUREA,EVEROLIMUS,CRIZOTINIB,PEMETREXED DISODIUM,DIETHYLSTILBESTROL,EPOETIN ALFA

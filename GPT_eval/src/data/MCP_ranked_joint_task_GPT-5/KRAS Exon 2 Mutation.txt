@@ -1,0 +1,73 @@
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Colorectal Cancer", "therapyName": "Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor", "significance": "RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Exon 2 Mutation",
+            "feature": {
+              "name": "KRAS"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Colorectal Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "102 mCRC patients treated with anti-EGFR therapy were analyzed for 34 hotspot mutations in KRAS, NRAS and BRAF with nanofluidic digital PCR and quantitative PCR. dPCR and qPCR results were correlated to PFS and OS. Analysis of only KRAS exon 2 hotspot mutations showed that patients with more than 1% mutant allele fraction (n = 19/83) had a hazard ratio of 3.43 for PFS (95% CI, 1.67–7.02; P=0.002) and 2.72 for OS (95% CI, 1.52–4.88; P=0.002) compared to wild-type patients or patients with less than 1% mutant allele fraction. Considering all RAS and BRAF mutations, the patients with more than 1% mutant allele fraction (n = 37/65) had a hazard ratio of 4.52 for PFS (95% CI, 2.25–9.07; P<0.001) and 2.5 for OS (95% CI, 1.57–4.02; P<0.001). ROC analysis showed that a cut-off of 1% for any mutated allele offered the best predictive value.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1208"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "G13D",
+            "feature": {
+              "name": "HRAS"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Colorectal Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Case report of a patient with metastatic colorectal carcinoma and a novel HRAS G13D mutation showed resistance to treatment with panitumumab. In vitro models of HRAS G13D confirmed resistance mechanism in the same study.",
+      "evidenceLevel": "C",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:699"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+KRAS,HRAS

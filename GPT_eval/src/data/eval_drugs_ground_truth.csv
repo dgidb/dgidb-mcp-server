@@ -1,0 +1,101 @@
+,index,drug_name,concept_id,approved,immunotherapy,anti_neoplastic,source_db_name,source_db_version
+0,0,ENCORAFENIB,rxcui:2049106,True,False,True,RxNorm,20240401
+1,1,TAMOXIFEN,rxcui:10324,True,False,True,RxNorm,20240401
+2,2,FARUDODSTAT,ncit:C156777,False,False,True,ChEMBL,33
+3,3,[D-TYR8]CYN 154806,iuphar.ligand:2028,False,False,False,GuideToPharmacology,2024.1
+4,4,FAM-TRASTUZUMAB DERUXTECAN-NXKI,rxcui:2267574,True,False,True,RxNorm,20240401
+5,5,RITUXIMAB,rxcui:121191,True,True,True,RxNorm,20240401
+6,6,HOMOGENTISIC ACID,drugbank:DB08327,False,False,False,DrugBank,5.1.12
+7,7,GW785804X,chembl:CHEMBL361237,False,False,False,DTC,9/2/20
+8,8,SRT2104,iuphar.ligand:9515,False,False,False,TTD,2020.06.01
+9,9,NIVOLUMAB,rxcui:1597876,True,True,True,RxNorm,20240401
+10,10,INTERFERON ALFACON-1,rxcui:59744,True,True,True,DrugBank,5.1.12
+11,11,OLAPARIB,rxcui:1597582,True,False,True,RxNorm,20240401
+12,12,EXEMESTANE,rxcui:258494,True,False,True,RxNorm,20240401
+13,13,MOGAMULIZUMAB,rxcui:2054068,True,True,True,RxNorm,20240401
+14,14,CS+,iuphar.ligand:2356,False,False,False,GuideToPharmacology,2024.1
+15,15,ANTI-THYMOCYTE GLOBULIN,ncit:C278,True,True,False,NCIt,24.02d
+16,16,EVEROLIMUS,rxcui:141704,True,True,True,RxNorm,20240401
+17,17,"L-797,591",iuphar.ligand:2015,False,False,False,GuideToPharmacology,2024.1
+18,18,PEMBROLIZUMAB,rxcui:1547545,True,True,True,RxNorm,20240401
+19,19,INTERFERON ALFA-2B,rxcui:5880,True,True,True,RxNorm,20240401
+20,20,DALOTUZUMAB,rxcui:1432293,False,True,True,RxNorm,20240401
+21,21,PEGINTERFERON ALFA-2A,rxcui:120608,True,True,True,RxNorm,20240401
+22,22,THALIDOMIDE,rxcui:10432,True,True,True,RxNorm,20240401
+23,23,[125I]TYR45-KISSPEPTIN-15,iuphar.ligand:1280,False,False,False,GuideToPharmacology,2024.1
+24,24,IBRITUMOMAB TIUXETAN,rxcui:262323,True,True,True,RxNorm,20240401
+25,25,ATN-161,drugbank:DB05491,False,False,False,ChEMBL,33
+26,26,ECULIZUMAB,rxcui:591781,True,True,True,RxNorm,20240401
+27,27,FICLATUZUMAB,ncit:C78844,False,True,True,NCIt,24.02d
+28,28,ALDOXORUBICIN,ncit:C68921,False,False,True,NCIt,24.02d
+29,29,CHEMBL:CHEMBL426404,chembl:CHEMBL426404,False,False,False,DTC,9/2/20
+30,30,CHEMBL:CHEMBL473721,chembl:CHEMBL473721,False,False,False,DTC,9/2/20
+31,31,MUROMONAB-CD3,rxcui:42405,True,True,True,RxNorm,20240401
+32,32,DULANERMIN,ncit:C1685,False,True,True,NCIt,24.02d
+33,33,ROMIDEPSIN,rxcui:877510,True,False,True,RxNorm,20240401
+34,34,ALEFACEPT,rxcui:299635,True,True,True,RxNorm,20240401
+35,35,IXAZOMIB CITRATE,rxcui:1723734,True,False,True,RxNorm,20240401
+36,36,PIDILIZUMAB,ncit:C71014,False,True,True,NCIt,24.02d
+37,37,NECITUMUMAB,rxcui:1723738,True,True,True,RxNorm,20240401
+38,38,CONATUMUMAB,ncit:C71015,False,True,True,NCIt,24.02d
+39,39,"[SAR1, D-ALA12]GALANIN(1-16)",iuphar.ligand:6082,False,False,False,GuideToPharmacology,2024.1
+40,40,GSK-2586881,chembl:CHEMBL4297887,False,False,False,ChEMBL,33
+41,41,ODM-203,drugbank:DB16843,False,False,False,JAX-CKB,10-Apr-24
+42,42,(+)-ADTN,iuphar.ligand:932,False,False,False,GuideToPharmacology,2024.1
+43,43,NIMOTUZUMAB,ncit:C2733,False,True,True,NCIt,24.02d
+44,44,ANTI-IGF-1R RECOMBINANT MONOCLONAL ANTIBODY BIIB022,ncit:C71530,False,True,True,NCIt,24.02d
+45,45,BELIMUMAB,rxcui:1092437,True,True,True,RxNorm,20240401
+46,46,SELECTIVE ESTROGEN RECEPTOR MODULATOR,ncit:C1821,False,False,False,NCIt,24.02d
+47,47,GSK065,iuphar.ligand:10358,False,False,False,GuideToPharmacology,2024.1
+48,48,CYCLOSPORINE,rxcui:3008,True,True,True,RxNorm,20240401
+49,49,"3-(2,6-DIFLUOROPHENYL)-2-(METHYLTHIO)QUINAZOLIN-4(3H)-ONE",drugbank:DB08602,False,False,False,DrugBank,5.1.12
+50,50,PEMIGATINIB,rxcui:2359268,True,False,True,RxNorm,20240401
+51,51,CHLOROQUINE,rxcui:2393,True,False,True,RxNorm,20240401
+52,52,AFLIBERCEPT,rxcui:1232150,True,True,True,RxNorm,20240401
+53,53,TIGATUZUMAB,iuphar.ligand:9334,False,False,False,NCIt,24.02d
+54,54,INTERFERON ALFA-N3,rxcui:612937,True,True,True,RxNorm,20240401
+55,55,RXP470.1,iuphar.ligand:7812,False,False,False,GuideToPharmacology,2024.1
+56,56,ABT-239,iuphar.ligand:1218,False,False,False,TTD,2020.06.01
+57,57,TIMAPIPRANT,iuphar.ligand:9277,False,False,False,TdgClinicalTrial,Jan-14
+58,58,OFATUMUMAB,rxcui:712566,True,True,True,NCIt,24.02d
+59,59,IMIQUIMOD,rxcui:59943,True,True,True,RxNorm,20240401
+60,60,DIFLUOROMETHIONINE,drugbank:DB03816,False,False,False,DrugBank,5.1.12
+61,61,ALEMTUZUMAB,rxcui:117055,True,True,True,RxNorm,20240401
+62,62,IFOSFAMIDE,rxcui:5657,True,False,True,RxNorm,20240401
+63,63,CANAKINUMAB,rxcui:853491,True,True,True,RxNorm,20240401
+64,64,APOMAB,ncit:C71693,False,True,True,NCIt,24.02d
+65,65,DIPLAMINE B,chembl:CHEMBL513108,False,False,False,DTC,9/2/20
+66,66,CARBOPLATIN,rxcui:40048,True,False,True,RxNorm,20240401
+67,67,CHEMBL:CHEMBL373937,chembl:CHEMBL373937,False,False,False,DTC,9/2/20
+68,68,LEUCOVORIN CALCIUM,rxcui:225852,True,False,True,RxNorm,20240401
+69,69,LBY-135,chembl:CHEMBL2109247,False,True,True,ChEMBL,33
+70,70,STING AGONIST 3,iuphar.ligand:10128,False,False,False,GuideToPharmacology,2024.1
+71,71,SIROLIMUS,rxcui:35302,True,True,True,RxNorm,20240401
+72,72,ANTI-ERBB3 MONOCLONAL ANTIBODY AV-203,ncit:C102535,False,True,True,NCIt,24.02d
+73,73,JNJ-5207852,iuphar.ligand:1256,False,False,False,DTC,9/2/20
+74,74,JNK INHIBITOR 9L,iuphar.ligand:9377,False,False,False,GuideToPharmacology,2024.1
+75,75,ISOBAVACHALCONE,chembl:CHEMBL253467,False,False,False,DTC,9/2/20
+76,76,GOLIMUMAB,rxcui:819300,True,True,True,RxNorm,20240401
+77,77,PANITUMUMAB,rxcui:263034,True,True,True,RxNorm,20240401
+78,78,IPILIMUMAB,rxcui:1094833,True,True,True,ClearityFoundationClinicalTrial,15-Jun-13
+79,79,ENTRECTINIB,rxcui:2197862,True,False,True,RxNorm,20240401
+80,80,ALNIDITAN,ncit:C77255,False,False,True,NCIt,24.02d
+81,81,BEVACIZUMAB-AWWB,,False,False,False,RxNorm,20240401
+82,82,TOVETUMAB,ncit:C82684,False,True,True,NCIt,24.02d
+83,83,RAMUCIRUMAB,rxcui:1535922,True,True,True,RxNorm,20240401
+84,84,EFALIZUMAB,rxcui:356988,True,True,True,RxNorm,20240401
+85,85,DECYL DIHYDROGEN PHOSPHATE,iuphar.ligand:4030,False,False,False,GuideToPharmacology,2024.1
+86,86,ETANERCEPT-SZZS,,False,False,False,RxNorm,20240401
+87,87,CETUXIMAB,rxcui:318341,True,True,True,RxNorm,20240401
+88,88,FINGOLIMOD,rxcui:1012892,True,True,True,RxNorm,20240401
+89,89,OMIGAPIL,ncit:C97362,False,False,True,NCIt,24.02d
+90,90,CHEMBL:CHEMBL1513392,chembl:CHEMBL1513392,False,False,False,DTC,9/2/20
+91,91,TREMELIMUMAB,rxcui:2619313,True,True,True,RxNorm,20240401
+92,92,ANHYDROUS TACROLIMUS,rxcui:235991,True,True,True,RxNorm,20240401
+93,93,BMS-986020,iuphar.ligand:9498,False,False,False,GuideToPharmacology,2024.1
+94,94,TOCILIZUMAB,rxcui:612865,True,True,True,RxNorm,20240401
+95,95,CEFDITORIN PIVOXIL,,False,False,False,DTC,9/2/20
+96,96,ATEVIRDINE MESYLATE,ncit:C73148,False,False,True,NCIt,24.02d
+97,97,DACLIZUMAB,rxcui:190353,True,True,True,RxNorm,20240401
+98,98,CHEMBL:CHEMBL19954,chembl:CHEMBL19954,False,False,False,DTC,9/2/20
+99,99,CIXUTUMUMAB,ncit:C79828,False,True,True,NCIt,24.02d

@@ -1,0 +1,13 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"FARUDODSTAT"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "FARUDODSTAT",
+  "conceptId": "ncit:C156777",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,YES

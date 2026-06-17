@@ -1,0 +1,38 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"ANTI-THYMOCYTE GLOBULIN"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "ANTI-THYMOCYTE GLOBULIN",
+  "conceptId": "ncit:C278",
+  "approved": true,
+  "immunotherapy": true,
+  "antiNeoplastic": false,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "protein"
+    },
+    {
+      "name": "Indication",
+      "value": "Immunomodulatory Agents"
+    },
+    {
+      "name": "Year of Approval",
+      "value": "not approved by the FDA"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Immunomodulatory Agents"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,YES,NO

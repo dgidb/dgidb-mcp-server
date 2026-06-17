@@ -1,0 +1,177 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"DNMT1"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "DNMT1": [
+    {
+      "drug": {
+        "name": "SELENIUM",
+        "approved": true
+      },
+      "interactionScore": 0.2047207786622961,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DECITABINE",
+        "approved": true
+      },
+      "interactionScore": 0.1933474020699464,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AZACITIDINE",
+        "approved": true
+      },
+      "interactionScore": 0.1740126618629517,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "IFOSFAMIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1657263446313826,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FLOXURIDINE",
+        "approved": true
+      },
+      "interactionScore": 0.1657263446313826,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "HYDROXYUREA",
+        "approved": true
+      },
+      "interactionScore": 0.110484229754255,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ARSENIC TRIOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.08923726249382143,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DIETHYLSTILBESTROL",
+        "approved": true
+      },
+      "interactionScore": 0.07030814620725323,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CURCUMIN",
+        "approved": true
+      },
+      "interactionScore": 0.05273110965543993,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MITOXANTRONE",
+        "approved": true
+      },
+      "interactionScore": 0.05273110965543993,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CISPLATIN",
+        "approved": true
+      },
+      "interactionScore": 0.007891730696732506,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ZEBULARINE",
+        "approved": false
+      },
+      "interactionScore": 2.320168824839356,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL2063052",
+        "approved": false
+      },
+      "interactionScore": 2.320168824839356,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MAHANINE",
+        "approved": false
+      },
+      "interactionScore": 2.320168824839356,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "HEXAHYDROCURCUMIN",
+        "approved": false
+      },
+      "interactionScore": 2.320168824839356,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TETRAHYDROCURCUMIN",
+        "approved": false
+      },
+      "interactionScore": 2.320168824839356,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ANTROQUINONOL",
+        "approved": false
+      },
+      "interactionScore": 1.160084412419678,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FARNESYL TRANSFERASE INHIBITOR",
+        "approved": false
+      },
+      "interactionScore": 1.160084412419678,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PALIFOSFAMIDE",
+        "approved": false
+      },
+      "interactionScore": 1.160084412419678,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DECITABINE AND CEDAZURIDINE",
+        "approved": false
+      },
+      "interactionScore": 1.160084412419678,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+SELENIUM,DECITABINE,AZACITIDINE,IFOSFAMIDE,FLOXURIDINE,HYDROXYUREA,ARSENIC TRIOXIDE,DIETHYLSTILBESTROL,CURCUMIN,MITOXANTRONE,CISPLATIN,ZEBULARINE,CHEMBL:CHEMBL2063052,MAHANINE,HEXAHYDROCURCUMIN,TETRAHYDROCURCUMIN,ANTROQUINONOL,FARNESYL TRANSFERASE INHIBITOR,PALIFOSFAMIDE,DECITABINE AND CEDAZURIDINE

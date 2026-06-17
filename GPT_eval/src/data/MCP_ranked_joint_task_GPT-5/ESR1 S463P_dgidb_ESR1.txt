@@ -1,0 +1,227 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"ESR1"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "ESR1": [
+    {
+      "drug": {
+        "name": "ELACESTRANT",
+        "approved": true
+      },
+      "interactionScore": 0.6042106314685826,
+      "interactionTypes": [
+        {
+          "type": "cleavage",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ESTRIOL",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": [
+        {
+          "type": "modulator",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ESTROGENS, ESTERIFIED (USP)",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "BORIC ACID",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ETHYLENEDIAMINE",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ESTRADIOL CYPIONATE",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "LASOFOXIFENE",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": [
+        {
+          "type": "modulator",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "MEGESTROL",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ELACESTRANT HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": [
+        {
+          "type": "cleavage",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ACRYLAMIDE",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "IODINE",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ESTROGEN",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ESTETROL",
+        "approved": true
+      },
+      "interactionScore": 0.2416842525874329,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "FULVESTRANT",
+        "approved": true
+      },
+      "interactionScore": 0.1933474020699463,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "QUINESTROL",
+        "approved": true
+      },
+      "interactionScore": 0.1933474020699463,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CHLOROTRIANISENE",
+        "approved": true
+      },
+      "interactionScore": 0.1933474020699463,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CLOMIPHENE",
+        "approved": true
+      },
+      "interactionScore": 0.1812631894405747,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DIENESTROL",
+        "approved": true
+      },
+      "interactionScore": 0.1726316089910235,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ESTROPIPATE",
+        "approved": true
+      },
+      "interactionScore": 0.1611228350582886,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "OSPEMIFENE",
+        "approved": true
+      },
+      "interactionScore": 0.1450105515524598,
+      "interactionTypes": [
+        {
+          "type": "modulator",
+          "directionality": null
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+ELACESTRANT,ESTRIOL,ESTROGENS, ESTERIFIED (USP),BORIC ACID,ETHYLENEDIAMINE,ESTRADIOL CYPIONATE,LASOFOXIFENE,MEGESTROL,ELACESTRANT HYDROCHLORIDE,ACRYLAMIDE,IODINE,ESTROGEN,ESTETROL,FULVESTRANT,QUINESTROL,CHLOROTRIANISENE,CLOMIPHENE,DIENESTROL,ESTROPIPATE,OSPEMIFENE

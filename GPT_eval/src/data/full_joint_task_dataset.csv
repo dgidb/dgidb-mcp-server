@@ -1,0 +1,221 @@
+molecularProfile_name,disease_name,therapies,gene_list,etype,significance
+STAT5B Overexpression,Melanoma,Multi-subtype Natural Human Leukocyte Interferon Alpha,STAT5B,PREDICTIVE,RESISTANCE
+KRAS G12A,Multiple Myeloma,Melphalan,KRAS,PREDICTIVE,RESISTANCE
+PIK3CA E545V,Colorectal Cancer,Panitumumab,"NRAS,FBXW7,EGFR,MAP2K1,ERBB2,PIK3CA,BRAF,PTEN,SMAD4,KRAS",PREDICTIVE,RESISTANCE
+PIK3CA H1047R,Breast Cancer,Trastuzumab,"ERBB3,ERBB2,PIK3CA,PTEN,BIRC5,ERBB4",PREDICTIVE,RESISTANCE
+BRAF V600E,Colorectal Cancer,Bevacizumab,"PIK3CA,BRAF,FOXF1,KRAS,EPHB4",PREDICTIVE,RESISTANCE
+KRAS G12D,Lung Cancer,Gefitinib,"KRAS,EGFR",PREDICTIVE,RESISTANCE
+KRAS G12D,Lung Cancer,Erlotinib,KRAS,PREDICTIVE,RESISTANCE
+EGFR S768N,Lung Non-small Cell Carcinoma,Erlotinib,"NRAS,NRG1,GNAS,EGFR,ERBB2,PIK3CA,BRAF,KRAS",PREDICTIVE,RESISTANCE
+RUNX1 Mutation,Acute Myeloid Leukemia,Cytarabine,"WT1,RUNX1",PREDICTIVE,RESISTANCE
+BTK C481S,Chronic Lymphocytic Leukemia,Ibrutinib,BTK,PREDICTIVE,RESISTANCE
+PTEN Loss,Bladder Carcinoma,Everolimus,PTEN,PREDICTIVE,RESISTANCE
+ERCC2 K751Q,Osteosarcoma,Cisplatin,ERCC2,PREDICTIVE,RESISTANCE
+SMO Mutation,Basal Cell Carcinoma,Vismodegib,SMO,PREDICTIVE,RESISTANCE
+PIK3CA Mutation,Colorectal Cancer,Anti-EGFR Monoclonal Antibody,"PIK3CA,MET",PREDICTIVE,RESISTANCE
+BCL2L11 Deletion Polymorphism,Lung Non-small Cell Carcinoma,Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor,BCL2L11,PREDICTIVE,RESISTANCE
+BIRC5 Overexpression,Her2-receptor Positive Breast Cancer,Trastuzumab,"ERBB3,ERBB2,PIK3CA,PTEN,BIRC5",PREDICTIVE,RESISTANCE
+CDK6 Overexpression,Estrogen-receptor Positive Breast Cancer,Fulvestrant,CDK6,PREDICTIVE,RESISTANCE
+EGFR Wildtype,Lung Non-small Cell Carcinoma,Gefitinib,"NRG1,IGF1R,GNAS,EGFR,SMO,PIK3CA,MET,PBK,CRKL,KRAS",PREDICTIVE,RESISTANCE
+CD274 Expression,Head And Neck Squamous Cell Carcinoma,Radiation Therapy,CD274,PREDICTIVE,RESISTANCE
+SMAD4 Loss-of-function,Colorectal Cancer,Lysine,SMAD4,PREDICTIVE,RESISTANCE
+EGFR Exon 19 Deletion,Lung Non-small Cell Carcinoma,Anti-PD1 Monoclonal Antibody,EGFR,PREDICTIVE,RESISTANCE
+EGFR Exon 19 Deletion,Lung Non-small Cell Carcinoma,Anti-PD-L1 Monoclonal Antibody,EGFR,PREDICTIVE,RESISTANCE
+BCL2 G101A,Chronic Lymphocytic Leukemia/small Lymphocytic Lymphoma,Venetoclax,"TP53,BCL2",PREDICTIVE,RESISTANCE
+BCL2 V156D,Chronic Lymphocytic Leukemia,Venetoclax,"PLCG2,TP53,BTK,BCL2",PREDICTIVE,RESISTANCE
+CD44 CD44v6,Cervical Cancer,Cisplatin,"PIK3CA,CD44",PREDICTIVE,RESISTANCE
+VEGFA Overexpression of VEGF121,Glioblastoma,Bevacizumab,VEGFA,PREDICTIVE,RESISTANCE
+AR Overexpression of AR-V9,Prostate Cancer,Abiraterone,AR,PREDICTIVE,RESISTANCE
+AR AR-V7,Prostate Cancer,Enzalutamide,AR,PREDICTIVE,RESISTANCE
+AR V567es expression,Prostate Cancer,Taxane Compound,AR,PREDICTIVE,RESISTANCE
+FLT3 ITD,Acute Myeloid Leukemia,Tretinoin,FLT3,PREDICTIVE,RESISTANCE
+CDKN1A EXPRESSION,Colorectal Cancer,Fluorouracil,"ALCAM,PIK3CA,CDKN1A,LGR5,ERCC6,SMAD4,TYMS,DKK1",PREDICTIVE,RESISTANCE
+STMN1 EXPRESSION,Endometrial Carcinoma,Paclitaxel,STMN1,PREDICTIVE,RESISTANCE
+CCND1 Overexpression,Estrogen-receptor Positive Breast Cancer,Tamoxifen,"AURKA,CCND1",PREDICTIVE,RESISTANCE
+KRAS RS61764370,Head And Neck Squamous Cell Carcinoma,Cisplatin,KRAS,PREDICTIVE,RESISTANCE
+TYMS Amplification,Lung Adenocarcinoma,Pemetrexed,TYMS,PREDICTIVE,RESISTANCE
+DNMT1 EXPRESSION,Gastric Adenocarcinoma,Cisplatin,DNMT1,PREDICTIVE,RESISTANCE
+EGFR C797S,Lung Non-small Cell Carcinoma,Osimertinib,EGFR,PREDICTIVE,RESISTANCE
+MMP9 SERUM LEVELS,Inflammatory Breast Carcinoma,Bevacizumab,MMP9,PREDICTIVE,RESISTANCE
+KRAS Exon 2 Mutation,Colorectal Cancer,Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor,"HRAS,KRAS",PREDICTIVE,RESISTANCE
+KIT Amplification,Mucosal Melanoma,Imatinib,KIT,PREDICTIVE,RESISTANCE
+AURKA Overexpression,Ovarian Serous Carcinoma,Platinum Compound,AURKA,PREDICTIVE,RESISTANCE
+BRCA1 Mutation,Triple-receptor Negative Breast Cancer,Olaparib,BRCA1,PREDICTIVE,RESISTANCE
+BRAF V600E,Colorectal Cancer,Oxaliplatin,"ERBB2,PIK3CA,BRAF,FOXC2,KRAS,DKK1",PREDICTIVE,RESISTANCE
+TP53 Deleterious Mutation,Leukemia,RG7112,TP53,PREDICTIVE,RESISTANCE
+KIT Amplification,Melanoma,Nilotinib,KIT,PREDICTIVE,RESISTANCE
+KMT2C Loss,Breast Cancer,Aromatase Inhibitor,"KMT2C,ESR1",PREDICTIVE,RESISTANCE
+TERT Promoter Mutation,Thyroid Gland Carcinoma,Iodine I-131,TERT,PREDICTIVE,RESISTANCE
+TP53 Mutation,Glioblastoma,Temozolomide,TP53,PREDICTIVE,RESISTANCE
+FLT3 F691L,Acute Myeloid Leukemia,Quizartinib,"FGF2,FLT3",PREDICTIVE,RESISTANCE
+MS4A1 Mutation,Diffuse Large B-cell Lymphoma,R-CHOP Regimen,MS4A1,PREDICTIVE,RESISTANCE
+Chromothripsis Positive,Acute Myeloid Leukemia,Chemotherapy,Chromothripsis,PREDICTIVE,RESISTANCE
+TYMS Amplification,Colorectal Cancer,5-Fluorouracil/Salicylic Acid Topical Solution,TYMS,PREDICTIVE,RESISTANCE
+FAT1 Loss,Breast Cancer,CDK4/6 Inhibition,FAT1,PREDICTIVE,RESISTANCE
+FNTB RS11623866,Ovarian Cancer,Lonafarnib,FNTB,PREDICTIVE,RESISTANCE
+PROM1 EXPRESSION,Hepatocellular Carcinoma,Sorafenib,"FGF19,PROM1",PREDICTIVE,RESISTANCE
+TIMP1 Overexpression,Breast Cancer,Paclitaxel,"TIMP1,ABCC3,MYD88",PREDICTIVE,RESISTANCE
+TYMS Overexpression,Gastric Adenocarcinoma,Raltitrexed,TYMS,PREDICTIVE,RESISTANCE
+CXCR4 EXPRESSION,Gastric Adenocarcinoma,Docetaxel,CXCR4,PREDICTIVE,RESISTANCE
+FLT3 ITD,Acute Myeloid Leukemia,Selumetinib,FLT3,PREDICTIVE,RESISTANCE
+CDKN2A p16 Expression,Head And Neck Squamous Cell Carcinoma,Afatinib,CDKN2A,PREDICTIVE,RESISTANCE
+MLH1 METHYLATION,Stomach Carcinoma,Oxaliplatin,MLH1,PREDICTIVE,RESISTANCE
+PTEN Loss,Stomach Carcinoma,Chemotherapy,PTEN,PREDICTIVE,RESISTANCE
+NRAS G13V,Head And Neck Squamous Cell Carcinoma,Cetuximab,"NRAS,CDKN2A,EGFR,SMAD4,AREG,EGF",PREDICTIVE,RESISTANCE
+EGFR Exon 20 Insertion,Lung Adenocarcinoma,Erlotinib,"EGFR,ERBB2,PIK3CA,MET,KRAS,FGFR4",PREDICTIVE,RESISTANCE
+KIT D816V,Systemic Mastocytosis,Imatinib Mesylate,KIT,PREDICTIVE,RESISTANCE
+HRAS G12D,Skin Squamous Cell Carcinoma,Vemurafenib,"HRAS,TP53,KRAS",PREDICTIVE,RESISTANCE
+KRAS G12A,Colon Cancer,Cetuximab,KRAS,PREDICTIVE,RESISTANCE
+KRAS G12D,Colorectal Cancer,Regorafenib,"PIK3CA,KRAS,FBXW7",PREDICTIVE,RESISTANCE
+KIT Exon 11 Mutation,Melanoma,Dasatinib,"KIT,BRAF",PREDICTIVE,RESISTANCE
+JAK1 Q503*,Skin Melanoma,Pembrolizumab,"JAK2,JAK1,B2M",PREDICTIVE,RESISTANCE
+MET D1228V,Lung Non-small Cell Carcinoma,Savolitinib,MET,PREDICTIVE,RESISTANCE
+JAK1 P429S,Melanoma,Pembrolizumab,"JAK2,JAK1,B2M",PREDICTIVE,RESISTANCE
+JAK1 W690*,Colon Carcinoma,Pembrolizumab,JAK1,PREDICTIVE,RESISTANCE
+SMO D473H,Medulloblastoma,Vismodegib,SMO,PREDICTIVE,RESISTANCE
+HAVCR2 Overexpression,Lung Non-small Cell Carcinoma,PD1 Inhibitor,HAVCR2,PREDICTIVE,RESISTANCE
+ALK F1245C,Neuroblastoma,Crizotinib,ALK,PREDICTIVE,RESISTANCE
+HLA-C COPY-NEUTRAL LOSS OF HETEROZYGOSITY,Colorectal Cancer,Therapeutic Tumor Infiltrating Lymphocytes,HLA-C,PREDICTIVE,RESISTANCE
+KIT D820Y,Melanoma,Imatinib,"KIT,PDGFRA",PREDICTIVE,RESISTANCE
+FGFR3 V555L,Transitional Cell Carcinoma,Infigratinib,FGFR3,PREDICTIVE,RESISTANCE
+FLT3 ITD N676K,Acute Myeloid Leukemia,Midostaurin,FLT3,PREDICTIVE,RESISTANCE
+ROS1 D2033N,Lung Cancer,Crizotinib,ROS1,PREDICTIVE,RESISTANCE
+MAP2K1 K57N,Melanoma,Selumetinib,"ERBB3,MAP2K1,MET,DDX43,MITF",PREDICTIVE,RESISTANCE
+PTEN Loss,Uterus Leiomyosarcoma,Pembrolizumab,PTEN,PREDICTIVE,RESISTANCE
+KRAS G12D,Lung Non-small Cell Carcinoma,Dabrafenib,KRAS,PREDICTIVE,RESISTANCE
+BRAF V600,Melanoma,Refametinib,BRAF,PREDICTIVE,RESISTANCE
+KRAS Q22*,Colon Mucinous Adenocarcinoma,Panitumumab,KRAS,PREDICTIVE,RESISTANCE
+KRAS G12D,Hairy Cell Leukemia,Vemurafenib,KRAS,PREDICTIVE,RESISTANCE
+EGFR Exon 20 Insertion,Lung Adenocarcinoma,Gefitinib,"EGFR,ERBB2,PIK3CA,MET,KRAS",PREDICTIVE,RESISTANCE
+AR AR-V7,Salivary Gland Cancer,Abiraterone Acetate,AR,PREDICTIVE,RESISTANCE
+MAP2K2 H123Q,Pancreatic Cancer,Trametinib,"ETV5,ETV1,ATXN1L,ETV4,CIC,MAP2K2",PREDICTIVE,RESISTANCE
+MAP2K2 G132D,Pancreatic Adenocarcinoma,Trametinib,"KRAS,MAP2K2",PREDICTIVE,RESISTANCE
+BCL2 F104I,Follicular Lymphoma,Venetoclax,BCL2,PREDICTIVE,RESISTANCE
+NTRK3 F617L,Gastrointestinal Stromal Tumor,Larotrectinib,NTRK3,PREDICTIVE,RESISTANCE
+IRS2 Amplification,Prostate Cancer,Capivasertib,IRS2,PREDICTIVE,RESISTANCE
+EGFR EGFRVIII,Colon Adenocarcinoma,Erlotinib,EGFR,PREDICTIVE,RESISTANCE
+ATM R2459C,Chronic Lymphocytic Leukemia,Doxorubicin,ATM,PREDICTIVE,RESISTANCE
+RET C634W,Medullary Thyroid Carcinoma,Axitinib,RET,PREDICTIVE,RESISTANCE
+HRAS G12D,Head And Neck Cancer,Erlotinib,HRAS,PREDICTIVE,RESISTANCE
+KRAS G12A,Colorectal Cancer,Sunitinib,KRAS,PREDICTIVE,RESISTANCE
+NRAS Q61R,Thyroid Gland Carcinoma,Vemurafenib,"NRAS,HRAS,KRAS",PREDICTIVE,RESISTANCE
+KRAS Q61H,Lung Non-small Cell Carcinoma,Vemurafenib,"BRAF,KRAS",PREDICTIVE,RESISTANCE
+KRAS G12D,Pancreatic Cancer,Vemurafenib,"BRAF,KRAS",PREDICTIVE,RESISTANCE
+KRAS G12S,Lung Squamous Cell Carcinoma,Dasatinib,KRAS,PREDICTIVE,RESISTANCE
+KIT V654A,Gastrointestinal Stromal Tumor,Regorafenib,"KIT,BRAF",PREDICTIVE,RESISTANCE
+KRAS K117N,Clear Cell Sarcoma,Vemurafenib,KRAS,PREDICTIVE,RESISTANCE
+BRAF F595L,Histiocytoma,Vemurafenib,BRAF,PREDICTIVE,RESISTANCE
+KIT T670I,Solid Tumor,Dasatinib,KIT,PREDICTIVE,RESISTANCE
+EGFR Y69FS*11,Esophagus Squamous Cell Carcinoma,Erlotinib,EGFR,PREDICTIVE,RESISTANCE
+ERBB4 G1109C,Head And Neck Squamous Cell Carcinoma,Erlotinib,ERBB4,PREDICTIVE,RESISTANCE
+ERBB2 L755S,Breast Cancer,Lapatinib,"NRG1,ERBB2,PIK3CA,PTEN,CDKN1B,ERBB4",PREDICTIVE,RESISTANCE
+FLT3 F691L,Acute Myeloid Leukemia,Crenolanib,FLT3,PREDICTIVE,RESISTANCE
+AR W742,Prostate Carcinoma,Bicalutamide,AR,PREDICTIVE,RESISTANCE
+BIRC7 Amplification,Colon Cancer,Cisplatin,BIRC7,PREDICTIVE,RESISTANCE
+EGFR Exon 4 Deletion,Epithelial Ovarian Cancer,Cisplatin,EGFR,PREDICTIVE,RESISTANCE
+MAPK1 Amplification,Lung Non-small Cell Carcinoma,WZ4002,MAPK1,PREDICTIVE,RESISTANCE
+AKT3 Overexpression,Breast Cancer,Akt Inhibitor MK2206,AKT3,PREDICTIVE,RESISTANCE
+KRAS G13D,Breast Cancer,Pictilisib,KRAS,PREDICTIVE,RESISTANCE
+EGFR T790M,Lung Non-small Cell Carcinoma,Lapatinib,EGFR,PREDICTIVE,RESISTANCE
+TP53 Deleterious Mutation,Cancer,MDM2 Inhibitor AMGMDS3,TP53,PREDICTIVE,RESISTANCE
+TP53 Deleterious Mutation,Cancer,Rebemadlin,TP53,PREDICTIVE,RESISTANCE
+CDKN2A p16 Expression,Sarcoma,Palbociclib,"CDKN2A,CDK4",PREDICTIVE,RESISTANCE
+KRAS G12S,Lung Non-small Cell Carcinoma,MUC1-targeted Peptide GO-203-2C,KRAS,PREDICTIVE,RESISTANCE
+RAC1 P29S,Skin Melanoma,PLX4720,"GNAQ,RAC1",PREDICTIVE,RESISTANCE
+ZEB1 Expression,Colon Cancer,Oxaliplatin,"ZEB1,POU5F1",PREDICTIVE,RESISTANCE
+PTEN Loss,Her2-receptor Positive Breast Cancer,Lapatinib,"PIK3CA,PTEN",PREDICTIVE,RESISTANCE
+FLT3 ITD & D835(V/Y/F/H),Acute Myeloid Leukemia,Ponatinib,FLT3,PREDICTIVE,RESISTANCE
+ACTL6A Overexpression,Lung Adenocarcinoma,Cisplatin,ACTL6A,PREDICTIVE,RESISTANCE
+CD44 CD44v6,Stomach Cancer,Cisplatin,CD44,PREDICTIVE,RESISTANCE
+TNC TNC-L,Pancreatic Cancer,Gemcitabine,"RRM2,KRAS,RRM1,TNC",PREDICTIVE,RESISTANCE
+TOP2A TOP2A/90,Leukemia,Etoposide,TOP2A,PREDICTIVE,RESISTANCE
+TP53 R158L,Colorectal Adenocarcinoma,MDM2 Inhibitor AMGMDS3,TP53,PREDICTIVE,RESISTANCE
+TP53 R273C,Ewing Sarcoma,MDM2 Inhibitor AMGMDS3,TP53,PREDICTIVE,RESISTANCE
+TP53 R273C,Malignant Astrocytoma,MDM2 Inhibitor AMGMDS3,TP53,PREDICTIVE,RESISTANCE
+TP53 R175H,Pharynx Squamous Cell Carcinoma,MDM2 Inhibitor AMGMDS3,TP53,PREDICTIVE,RESISTANCE
+TP53 R175H,Intrahepatic Cholangiocarcinoma,MDM2 Inhibitor AMGMDS3,TP53,PREDICTIVE,RESISTANCE
+TP53 R175H,Endometrial Adenocarcinoma,MDM2 Inhibitor AMGMDS3,TP53,PREDICTIVE,RESISTANCE
+OVOL2 Overexpression,Glandular Pattern Ovarian Yolk Sac Tumor,Cisplatin,OVOL2,PREDICTIVE,RESISTANCE
+ALK F1174L,Inflammatory Myofibroblastic Tumor,Crizotinib,ALK,PREDICTIVE,RESISTANCE
+ALK R1275Q,Neuroblastoma,ALK Inhibitor TAE684,ALK,PREDICTIVE,RESISTANCE
+RET C634W,Medullary Thyroid Carcinoma,Motesanib,RET,PREDICTIVE,RESISTANCE
+FLT3 ITD,Acute Myeloid Leukemia,Daunorubicin,"DNMT3A,WT1,FLT3",PREDICTIVE,RESISTANCE
+FLT3 ITD,Acute Myeloid Leukemia,SU5614,FLT3,PREDICTIVE,RESISTANCE
+ESR1 L536Q,Breast Cancer,Hormone Therapy,ESR1,PREDICTIVE,RESISTANCE
+AURKA Overexpression,Cervical Adenocarcinoma,Paclitaxel,AURKA,PREDICTIVE,RESISTANCE
+LRP1B EXON 12-22 DELETION,Ovarian Cancer,Doxorubicin,"LRP1B,TP53",PREDICTIVE,RESISTANCE
+SYK OVEREXPRESSION,Ovarian Cancer,Paclitaxel,"SYK,TP53,KRAS",PREDICTIVE,RESISTANCE
+UGT1A EXPRESSION,Colorectal Cancer,Ganetespib,UGT1A,PREDICTIVE,RESISTANCE
+CFLAR EXPRESSION,Prostate Cancer,Bicalutamide,"AR,CFLAR",PREDICTIVE,RESISTANCE
+ABCC10 Overexpression,Lung Non-small Cell Carcinoma,Paclitaxel,"ABCB1,ABCC10",PREDICTIVE,RESISTANCE
+FGFR1 Amplification,Breast Cancer,Afimoxifene,FGFR1,PREDICTIVE,RESISTANCE
+TP53 Loss,Lung Non-small Cell Carcinoma,Docetaxel,"TP53,KRAS,STK11",PREDICTIVE,RESISTANCE
+PTEN Mutation,Head And Neck Squamous Cell Carcinoma,Taselisib,PTEN,PREDICTIVE,RESISTANCE
+RB1 Loss-of-function,Glioblastoma,Palbociclib,RB1,PREDICTIVE,RESISTANCE
+CCNE1 Amplification,Estrogen-receptor Positive Breast Cancer,Palbociclib,"CCNE1,RB1",PREDICTIVE,RESISTANCE
+GAS6 EXPRESSION,Prostate Cancer,Docetaxel,GAS6,PREDICTIVE,RESISTANCE
+VPS37A Underexpression,Ovarian Cancer,Cetuximab,"VPS37A,KRAS",PREDICTIVE,RESISTANCE
+AKT3 Overexpression,Breast Cancer,Pan-AKT Kinase Inhibitor GSK690693,AKT3,PREDICTIVE,RESISTANCE
+FLT3 D835V,Acute Myeloid Leukemia,Tandutinib,FLT3,PREDICTIVE,RESISTANCE
+ERBB2 L755S,Cecum Adenocarcinoma,Cetuximab,ERBB2,PREDICTIVE,RESISTANCE
+TP53 M237I,Glioblastoma,MDM2 Inhibitor AMGMDS3,TP53,PREDICTIVE,RESISTANCE
+TP53 R158H,Vulva Squamous Cell Carcinoma,MDM2 Inhibitor AMGMDS3,TP53,PREDICTIVE,RESISTANCE
+CIC Loss,Lung Cancer,Trametinib,"ETV5,ETV1,ETV4,CIC",PREDICTIVE,RESISTANCE
+CIC Loss,Lung Cancer,Vemurafenib,CIC,PREDICTIVE,RESISTANCE
+CIC Loss,Colon Cancer,Trametinib,CIC,PREDICTIVE,RESISTANCE
+CIC Loss,Colon Cancer,Vemurafenib,CIC,PREDICTIVE,RESISTANCE
+CIC Loss,Pancreatic Cancer,Selumetinib,CIC,PREDICTIVE,RESISTANCE
+CIC Loss,Lung Cancer,Selumetinib,CIC,PREDICTIVE,RESISTANCE
+SUFU Deletion,Medulloblastoma,Sonidegib,"MYCN,SUFU",PREDICTIVE,RESISTANCE
+EGFR V774_C775insHV,Cancer,Erlotinib,"HRAS,KRAS,VEGFA,EGFR",PREDICTIVE,RESISTANCE
+BRAF D594G,Skin Melanoma,U0126,BRAF,PREDICTIVE,RESISTANCE
+RHEB Y35N,Kidney Cancer,Sirolimus,RHEB,PREDICTIVE,RESISTANCE
+KIT D816H,Acute Myeloid Leukemia,Imatinib Mesylate,KIT,PREDICTIVE,RESISTANCE
+KRAS G13D,Colorectal Cancer,Dual IGF-1R/InsR Inhibitor BMS-754807,"BRAF,KRAS",PREDICTIVE,RESISTANCE
+BRAF L525R,Solid Tumor,Cetuximab,BRAF,PREDICTIVE,RESISTANCE
+CCNE1 Overexpression,Ovarian Cancer,Palbociclib,CCNE1,PREDICTIVE,RESISTANCE
+IL6 Overexpression,Esophageal Carcinoma,Cisplatin,IL6,PREDICTIVE,RESISTANCE
+PARP1 OVEREXPRESSION,Breast Cancer,Olaparib,"BRCA1,PARP1",PREDICTIVE,RESISTANCE
+FLT3 Y693,Acute Myeloid Leukemia,Gilteritinib,FLT3,PREDICTIVE,RESISTANCE
+FLT3 Y842C,Acute Myeloid Leukemia,FLT3/ABL/Aurora Kinase Inhibitor KW-2449,FLT3,PREDICTIVE,RESISTANCE
+FLT3 Y842C,Acute Myeloid Leukemia,Sunitinib,FLT3,PREDICTIVE,RESISTANCE
+FLT3 F691L,Acute Myeloid Leukemia,Lestaurtinib,FLT3,PREDICTIVE,RESISTANCE
+CREBBP Mutation,Acute Lymphoblastic Leukemia,Therapeutic Glucocorticoid,CREBBP,PREDICTIVE,RESISTANCE
+FGFR3 S249C,Transitional Cell Carcinoma,Cisplatin,FGFR3,PREDICTIVE,RESISTANCE
+FLT3 M664I,Acute Myeloid Leukemia,Pexidartinib,FLT3,PREDICTIVE,RESISTANCE
+BRAF V600E,Diffuse Large B-cell Lymphoma,Venetoclax,BRAF,PREDICTIVE,RESISTANCE
+ACTL6A Overexpression,Ovarian Cancer,Cisplatin,"ASS1,TP53,EGFR,ACTL6A,STAT1,ATP7B,CD44,PTEN",PREDICTIVE,RESISTANCE
+PIM1 L2V,Diffuse Large B-cell Lymphoma Activated B-cell Type,Ibrutinib,PIM1,PREDICTIVE,RESISTANCE
+TP53 R280T,Bladder Carcinoma,MDM2 Inhibitor AMGMDS3,TP53,PREDICTIVE,RESISTANCE
+FGFR3 N540D,Multiple Myeloma,Midostaurin,FGFR3,PREDICTIVE,RESISTANCE
+ERBB2 V777L,Cancer,Trastuzumab,"ERBB3,ERBB2,PIK3CA,PTEN,BIRC5,ERBB4",PREDICTIVE,RESISTANCE
+EGFR D770_P772dup,Cancer,Gefitinib,"ERBB3,KRAS,EGFR",PREDICTIVE,RESISTANCE
+CBLC EXPRESSION,Cancer,Olaparib,"BRCA1,PARP1,CBLC",PREDICTIVE,RESISTANCE
+TUBB3 EXPRESSION,Cancer,Paclitaxel,"TIMP1,TP53,TUBB3,SYK,ABCC3,KRAS,MYD88",PREDICTIVE,RESISTANCE
+NQO1 EXPRESSION,Lung Cancer,Amrubicin,NQO1,PREDICTIVE,RESISTANCE
+MAGEH1 EXPRESSION,Bile Duct Adenocarcinoma,Gemcitabine,MAGEH1,PREDICTIVE,RESISTANCE
+ASNS Amplification,Ovarian Cancer,Asparaginase,ASNS,PREDICTIVE,RESISTANCE
+ESR1 S463P,Estrogen-receptor Positive Breast Cancer,Aromatase Inhibitor,ESR1,PREDICTIVE,RESISTANCE
+ERBB2 L755S,Cancer,Lapatinib,"NRG1,ERBB2,PIK3CA,PTEN,CDKN1B,ERBB4",PREDICTIVE,RESISTANCE
+PDGFRA D842V,Cancer,Sunitinib,"KIT,PDGFRA,KRAS",PREDICTIVE,RESISTANCE
+PDGFRA D842V,Cancer,Imatinib Mesylate,PDGFRA,PREDICTIVE,RESISTANCE
+KRAS G12,Pancreatic Cancer,Mitogen-Activated Protein Kinase Kinase Inhibitor,KRAS,PREDICTIVE,RESISTANCE
+IL6 Overexpression,Rhabdomyosarcoma,Bazedoxifene,IL6,PREDICTIVE,RESISTANCE
+PTEN Loss,Her2-receptor Positive Breast Cancer,Dactolisib,"PIK3CA,PTEN",PREDICTIVE,RESISTANCE
+KIT Overexpression,Gastrointestinal System Cancer,Imatinib,KIT,PREDICTIVE,RESISTANCE
+PTEN Loss,Stomach Cancer,Docetaxel,PTEN,PREDICTIVE,RESISTANCE
+IFNGR1 Loss,Melanoma,Ipilimumab,IFNGR1,PREDICTIVE,RESISTANCE
+B2M Loss,Melanoma,Immune Checkpoint Inhibitor,B2M,PREDICTIVE,RESISTANCE
+EGFR D770_P772dup,Cancer,Afatinib,"ERBB2,EGFR",PREDICTIVE,RESISTANCE
+PIK3CA Mutation,Colorectal Cancer,PD-1 Ligand Inhibitor,PIK3CA,PREDICTIVE,RESISTANCE
+BAX mutation,Acute Myeloid Leukemia,Venetoclax,BAX,PREDICTIVE,RESISTANCE
+KRAS Mutation,Colorectal Cancer,Ixazomib,KRAS,PREDICTIVE,RESISTANCE
+SIRT1 Overexpression,Pancreatic Cancer,Niacinamide,SIRT1,PREDICTIVE,RESISTANCE
+ROS1 Overexpression,Glioblastoma,Gefitinib,ROS1,PREDICTIVE,RESISTANCE
+PIK3CA E542K,Breast Cancer,PI-103,PIK3CA,PREDICTIVE,RESISTANCE
+PTEN Loss,Breast Cancer,PI3Ka/Di,PTEN,PREDICTIVE,RESISTANCE
+PTEN Loss,Her2-receptor Positive Breast Cancer,PI3Ka/Di,PTEN,PREDICTIVE,RESISTANCE
+HRAS G12V,Head And Neck Squamous Cell Carcinoma,Alpelisib,HRAS,PREDICTIVE,RESISTANCE
+AR V9 EXPRESSION,Prostate Cancer,Abiraterone Acetate,AR,PREDICTIVE,RESISTANCE
+ZEB1 Increased Expression,Cancer,Chemotherapy,"NRAS,ZEB1,PIK3CA,BRAF,KRAS",PREDICTIVE,RESISTANCE
+TP53 P47S,Cancer,Cisplatin,"ASS1,TP53,EGFR,GNAS,BIRC7,ACTL6A,PIK3CA,STAT1,ATP7B,CD44,PTEN",PREDICTIVE,RESISTANCE

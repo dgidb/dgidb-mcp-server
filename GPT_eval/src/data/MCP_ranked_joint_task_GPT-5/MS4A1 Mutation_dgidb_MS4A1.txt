@@ -1,0 +1,259 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"MS4A1"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "MS4A1": [
+    {
+      "drug": {
+        "name": "IBRITUMOMAB TIUXETAN",
+        "approved": true
+      },
+      "interactionScore": 6.023515218332946,
+      "interactionTypes": [
+        {
+          "type": "antibody",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TOSITUMOMAB",
+        "approved": true
+      },
+      "interactionScore": 5.019596015277456,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "OFATUMUMAB",
+        "approved": true
+      },
+      "interactionScore": 5.019596015277456,
+      "interactionTypes": [
+        {
+          "type": "antibody",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "OBINUTUZUMAB",
+        "approved": true
+      },
+      "interactionScore": 4.015676812221964,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "UBLITUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 4.015676812221964,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "OCRELIZUMAB",
+        "approved": true
+      },
+      "interactionScore": 3.011757609166473,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "YTTRIUM Y 90 IBRITUMOMAB TIUXETAN",
+        "approved": true
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TISAGENLECLEUCEL",
+        "approved": true
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MOSUNETUZUMAB",
+        "approved": true
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "RITUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.7808260468209374,
+      "interactionTypes": [
+        {
+          "type": "antibody",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "EPCORITAMAB",
+        "approved": true
+      },
+      "interactionScore": 0.5019596015277455,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "GLOFITAMAB",
+        "approved": true
+      },
+      "interactionScore": 0.5019596015277455,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "VELTUZUMAB",
+        "approved": false
+      },
+      "interactionScore": 4.015676812221964,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "LFB-R603",
+        "approved": false
+      },
+      "interactionScore": 4.015676812221964,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "OCARATUZUMAB",
+        "approved": false
+      },
+      "interactionScore": 4.015676812221964,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "MONOCLONAL ANTIBODY 1F5",
+        "approved": false
+      },
+      "interactionScore": 4.015676812221964,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRU-015",
+        "approved": false
+      },
+      "interactionScore": 4.015676812221964,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PLAMOTAMAB",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DI-LEU16-IL2",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TOSITUMOMAB 131I",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+IBRITUMOMAB TIUXETAN,TOSITUMOMAB,OFATUMUMAB,OBINUTUZUMAB,UBLITUXIMAB,OCRELIZUMAB,YTTRIUM Y 90 IBRITUMOMAB TIUXETAN,TISAGENLECLEUCEL,MOSUNETUZUMAB,RITUXIMAB,EPCORITAMAB,GLOFITAMAB,VELTUZUMAB,LFB-R603,OCARATUZUMAB,MONOCLONAL ANTIBODY 1F5,TRU-015,PLAMOTAMAB,DI-LEU16-IL2,TOSITUMOMAB 131I

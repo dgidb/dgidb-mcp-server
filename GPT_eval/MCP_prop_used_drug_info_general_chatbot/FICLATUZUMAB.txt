@@ -1,3 +1,0 @@
-### LLM OUTPUT ###
-fda_approval,immunotherapy,anti_neoplastic
-NO,NO,YES

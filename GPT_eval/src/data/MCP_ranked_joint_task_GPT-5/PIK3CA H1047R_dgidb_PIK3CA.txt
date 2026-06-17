@@ -1,0 +1,187 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"PIK3CA"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "PIK3CA": [
+    {
+      "drug": {
+        "name": "INAVOLISIB",
+        "approved": true
+      },
+      "interactionScore": 0.4856167307803304,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ALPELISIB",
+        "approved": true
+      },
+      "interactionScore": 0.2900211031049196,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CAPIVASERTIB",
+        "approved": true
+      },
+      "interactionScore": 0.2670892019291817,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TEMSIROLIMUS",
+        "approved": true
+      },
+      "interactionScore": 0.1780594679527878,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "COPANLISIB",
+        "approved": true
+      },
+      "interactionScore": 0.1655511582205672,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "DOXORUBICIN LIPOSOME",
+        "approved": true
+      },
+      "interactionScore": 0.1618722435934435,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EVEROLIMUS",
+        "approved": true
+      },
+      "interactionScore": 0.1214041826950826,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TORIPALIMAB-TPZI",
+        "approved": true
+      },
+      "interactionScore": 0.1214041826950826,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "COPANLISIB HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1214041826950826,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "IDELALISIB",
+        "approved": true
+      },
+      "interactionScore": 0.1079148290622956,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CETUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.08531104729924724,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NERATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.08093612179672174,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MILTEFOSINE",
+        "approved": true
+      },
+      "interactionScore": 0.08093612179672174,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ZINC SULFATE ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.08093612179672174,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "UROKINASE",
+        "approved": true
+      },
+      "interactionScore": 0.06070209134754131,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SULINDAC",
+        "approved": true
+      },
+      "interactionScore": 0.05781151556908696,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SIROLIMUS",
+        "approved": true
+      },
+      "interactionScore": 0.05442256465641634,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRASTUZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.05395741453114783,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LETROZOLE",
+        "approved": true
+      },
+      "interactionScore": 0.05395741453114783,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RIBOCICLIB",
+        "approved": true
+      },
+      "interactionScore": 0.05395741453114783,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+INAVOLISIB,ALPELISIB,CAPIVASERTIB,TEMSIROLIMUS,COPANLISIB,DOXORUBICIN LIPOSOME,EVEROLIMUS,TORIPALIMAB-TPZI,COPANLISIB HYDROCHLORIDE,IDELALISIB,CETUXIMAB,NERATINIB,MILTEFOSINE,ZINC SULFATE ANHYDROUS,UROKINASE,SULINDAC,SIROLIMUS,TRASTUZUMAB,LETROZOLE,RIBOCICLIB

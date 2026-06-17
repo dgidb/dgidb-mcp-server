@@ -1,0 +1,36 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"GAS6"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "GAS6": [
+    {
+      "drug": {
+        "name": "WARFARIN",
+        "approved": true
+      },
+      "interactionScore": 1.054622193108798,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DOCETAXEL ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.2096538094734358,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BATIRAXCEPT",
+        "approved": false
+      },
+      "interactionScore": 8.700633093147589,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+WARFARIN,DOCETAXEL ANHYDROUS,BATIRAXCEPT

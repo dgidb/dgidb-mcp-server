@@ -1,0 +1,23 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"ATN-161"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "ATN-161",
+  "conceptId": "drugbank:DB05491",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 2",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

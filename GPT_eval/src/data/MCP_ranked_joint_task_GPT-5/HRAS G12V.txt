@@ -1,0 +1,44 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Head And Neck Squamous Cell Carcinoma","therapyName":"Alpelisib","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "G12V",
+            "feature": {
+              "name": "HRAS"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Head And Neck Squamous Cell Carcinoma"
+      },
+      "therapies": [
+        {
+          "name": "Alpelisib"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "In this preclinical study, cell lines with constitutively-active G12V mutant found that forced overexpression of HRAS G12V caused a reduced susceptibility to PI3K inhibitor BYL719 in comparison to wild type KRAS cell lines (p < 0.05 for Cal33:HRAS G12V) and increased the rate of cellular proliferation. Inhibiting HRAS through siRNA knockout caused a substantial decrease in transcript levels ( >80%) and increased sensitivity to BYL719 in the HRAS G12V cell line (T24).",
+      "evidenceLevel": "D",
+      "evidenceRating": 1,
+      "url": "https://identifiers.org/civic.eid:9087"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+HRAS

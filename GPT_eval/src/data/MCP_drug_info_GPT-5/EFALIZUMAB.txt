@@ -1,0 +1,64 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"EFALIZUMAB"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "EFALIZUMAB",
+  "conceptId": "rxcui:356988",
+  "approved": true,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "2003"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Immunosuppressive Agents"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Immunomodulatory Agents"
+    },
+    {
+      "name": "Drug Class",
+      "value": "monoclonal antibody"
+    },
+    {
+      "name": "Indication",
+      "value": "DMARD"
+    },
+    {
+      "name": "Indication",
+      "value": "antiinflammatory agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Withdrawn",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,YES,YES

@@ -1,0 +1,44 @@
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Ovarian Cancer", "therapyName": "Palbociclib", "significance": "RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Overexpression",
+            "feature": {
+              "name": "CCNE1"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Ovarian Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Palbociclib"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "The effect of high CCNE1 expression on PD0332991 (palbociclib) sensitivity was observed in cell lines.  One PD0332991 sensitive cell line, HEY, was engineered to constitutively express CCNE1 (HEY-CCNE1).  HEY-CCNE1 was shown to have significantly increased resistance to PD0332991.  CCNE1-amplified OVCAR3 cells were also resistant to PD0332991.  50-70% reduction of CCNE1 via lentiviral shRNAs sensitized OVCAR3 cells to PD0332991.  These combined results suggest high CCNE1 expression is required for resistance to PD0332991.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:7792"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+CCNE1

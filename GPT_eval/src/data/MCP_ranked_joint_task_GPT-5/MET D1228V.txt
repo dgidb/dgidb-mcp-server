@@ -1,0 +1,44 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Lung Non-small Cell Carcinoma","therapyName":"Savolitinib","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D1228V",
+            "feature": {
+              "name": "MET"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Lung Non-small Cell Carcinoma"
+      },
+      "therapies": [
+        {
+          "name": "Savolitinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Case report of a patient with lung adenocarcinoma harboring both a mutation in EGFR and an amplification of MET. After progression on erlotinib the patient was treated with combined type I MET (savolitinib) and EGFR (osimertinib) inhibition and responded. When resistance developed, a new MET kinase domain mutation, D1228V, was detected. Drug binding predictions and in vitro studies demonstrated that the D1228V mutation induces resistance to type I but not type II MET TKIs. The patient was treated with erlotinib (EGFR TKI) combined with cabozantinib, a type II MET inhibitor, and had a response which continued at the time of report (5 months).",
+      "evidenceLevel": "C",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:1865"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+MET

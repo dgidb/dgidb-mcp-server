@@ -1,0 +1,113 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"CETUXIMAB"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "CETUXIMAB",
+  "conceptId": "rxcui:318341",
+  "approved": true,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "2004"
+    },
+    {
+      "name": "Drug Class",
+      "value": "monoclonal antibody"
+    },
+    {
+      "name": "Indication",
+      "value": "antineoplastic agent"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Therapeutic Antibodies"
+    },
+    {
+      "name": "Link to Clearity Drug Class Schematic",
+      "value": "https://www.clearityfoundation.org/healthcare-pros/drugs-bio/clinicla-trial-agents/egfr-inhibitors.aspx"
+    },
+    {
+      "name": "Drug Subclass",
+      "value": "Clinical Trial Agents (Approved in other Cancers)"
+    },
+    {
+      "name": "Drug Class",
+      "value": "EGFR Inhibitors"
+    },
+    {
+      "name": "Drug Class",
+      "value": "EGFR inhibitor 1st gen"
+    },
+    {
+      "name": "Drug Class",
+      "value": "MTOR inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "EGFR inhibitor 2nd gen"
+    },
+    {
+      "name": "Drug Class",
+      "value": "ERBB2 inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "BRAF inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "TOPO1 inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "EGFR mAb inhibitor"
+    },
+    {
+      "name": "Developer",
+      "value": "Bristol-Myers Squibb"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Antineoplastic Agents"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "HemOnc",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,YES,YES

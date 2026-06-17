@@ -1,0 +1,8 @@
+### RUN ID ###
+TP53 Loss_dgidb_BRCA1
+
+### MESSAGES ###
+[{'role': 'system', 'content': 'You are a chatbot for the CIViC and Drug Gene Interaction Database (DGIdb). You receive a gene and DGIdb interaction for that gene. Your task is to return a ranked list of up to 20 drugs.\n\nRANKING RULES:\n1. List FDA-approved drugs first.\n2. Within the approved drugs, sort by the DGIdb interactionScore in descending order (higher interactionScore = higher priority).\n3. After all approved drugs, list non-approved drugs, also sorted by interactionScore in descending order.\n4. Return only drug names (no scores), as a comma-separated list like: DRUG1,DRUG2.'}, {'role': 'user', 'content': 'What drugs target or modulate this gene product in DGIdb? Gene: BRCA1 \nReturn a comma-separated list of up to 20 drug names following the ranking rules.'}]
+
+### LLM OUTPUT ###
+Olaparib,Rucaparib,Niraparib,Talazoparib

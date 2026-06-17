@@ -1,0 +1,108 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Lung Non-small Cell Carcinoma","therapyName":"Docetaxel","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Mutation",
+            "feature": {
+              "name": "KRAS"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Lung Non-small Cell Carcinoma"
+      },
+      "therapies": [
+        {
+          "name": "Docetaxel"
+        },
+        {
+          "name": "Selumetinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A phase 3 study of selumetinib and docetaxel in KRAS mutant, previously treated NSCLC. 866 were enrolled and 510 randomized. Median progression-free survival was 3.9 months with selumetinib\u2009+\u2009docetaxel and 2.8 months with placebo\u2009+\u2009docetaxel. Median overall survival was 8.7 months with selumetinib\u2009+\u2009docetaxel and 7.9 months with placebo\u2009+\u2009docetaxel. Objective response rate was 20.1% with selumetinib\u2009+\u2009docetaxel and 13.7% with placebo\u2009+\u2009docetaxel.",
+      "evidenceLevel": "A",
+      "evidenceRating": 5,
+      "url": "https://identifiers.org/civic.eid:2998"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "STK11"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Lung Non-small Cell Carcinoma"
+      },
+      "therapies": [
+        {
+          "name": "Docetaxel"
+        },
+        {
+          "name": "Selumetinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A clinical trial comparing selumetinib and docetaxel vs. docetaxel and placebo in KRAS mutant NSCLC was recapitulated in mice. Tumors were induced in lung epithelium by nasal instillation of CRE-bearing adenovirus in conditionally targeted mice. Kras(G12D) and Lkb1 (STK11) knockout mutant mice showed only mild response to combined treatment and very low response rates to docetaxel monotherapy compared to mice with Kras(G12D) alone or Kras(G12D) and Trp53 knockout. In a small number of human NSCLC patients with these genotypes FDG-PET signal intensity changes and pERK IHC staining correlated with mouse data.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1144"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "TP53"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Lung Non-small Cell Carcinoma"
+      },
+      "therapies": [
+        {
+          "name": "Docetaxel"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A clinical trial comparing selumetinib and docetaxel vs. docetaxel and placebo in KRAS mutant NSCLC was recapitulated in mice. Tumors were induced in lung epithelium by nasal instillation of CRE-bearing adenovirus in conditionally targeted mice. Kras(G12D) and Trp53 knockout mutant mice were resistant to docetaxel monotherapy but sensitive to combined treatment. In a small number of human NSCLC patients with these genotypes FDG-PET signal intensity changes and pERK IHC staining correlated with mouse data.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1146"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+KRAS,STK11,TP53

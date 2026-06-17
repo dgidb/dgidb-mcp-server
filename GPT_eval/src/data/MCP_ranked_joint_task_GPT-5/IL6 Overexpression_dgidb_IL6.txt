@@ -1,0 +1,172 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"IL6"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "IL6": [
+    {
+      "drug": {
+        "name": "SILTUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 2.130767288117777,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "VITAMIN A PALMITATE",
+        "approved": true
+      },
+      "interactionScore": 0.7102557627059256,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "METRONIDAZOLE",
+        "approved": true
+      },
+      "interactionScore": 0.5326918220294442,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ECHINACEA PREPARATION",
+        "approved": true
+      },
+      "interactionScore": 0.5326918220294442,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LEVOFLOXACIN ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.3551278813529628,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NELFINAVIR",
+        "approved": true
+      },
+      "interactionScore": 0.3551278813529628,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GALLIUM NITRATE",
+        "approved": true
+      },
+      "interactionScore": 0.3043953268739681,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SAQUINAVIR",
+        "approved": true
+      },
+      "interactionScore": 0.2367519209019752,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LINEZOLID",
+        "approved": true
+      },
+      "interactionScore": 0.2367519209019752,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VITAMIN K",
+        "approved": true
+      },
+      "interactionScore": 0.2367519209019752,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GEMFIBROZIL",
+        "approved": true
+      },
+      "interactionScore": 0.1639051760090597,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "INTERFERON ALFA-2B",
+        "approved": true
+      },
+      "interactionScore": 0.152197663436984,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "IFOSFAMIDE",
+        "approved": true
+      },
+      "interactionScore": 0.152197663436984,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SELENIUM",
+        "approved": true
+      },
+      "interactionScore": 0.1253392522422221,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PEGINTERFERON ALFA-2A",
+        "approved": true
+      },
+      "interactionScore": 0.1102121011095401,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PEGINTERFERON ALFA-2B",
+        "approved": true
+      },
+      "interactionScore": 0.0998797166305208,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RIBAVIRIN",
+        "approved": true
+      },
+      "interactionScore": 0.08410923505728067,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DULOXETINE HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.08195258800452988,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ETANERCEPT",
+        "approved": true
+      },
+      "interactionScore": 0.08195258800452988,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FENOFIBRATE MICRONIZED",
+        "approved": true
+      },
+      "interactionScore": 0.08195258800452988,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+SILTUXIMAB,VITAMIN A PALMITATE,METRONIDAZOLE,ECHINACEA PREPARATION,LEVOFLOXACIN ANHYDROUS,NELFINAVIR,GALLIUM NITRATE,SAQUINAVIR,LINEZOLID,VITAMIN K,GEMFIBROZIL,INTERFERON ALFA-2B,IFOSFAMIDE,SELENIUM,PEGINTERFERON ALFA-2A,PEGINTERFERON ALFA-2B,RIBAVIRIN,DULOXETINE HYDROCHLORIDE,ETANERCEPT,FENOFIBRATE MICRONIZED

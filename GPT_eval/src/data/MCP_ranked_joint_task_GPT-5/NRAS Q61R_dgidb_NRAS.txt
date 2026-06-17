@@ -1,0 +1,167 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"NRAS"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "NRAS": [
+    {
+      "drug": {
+        "name": "SOTORASIB",
+        "approved": true
+      },
+      "interactionScore": 0.3954833224157995,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BINIMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.3757091562950095,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRAMETINIB DIMETHYL SULFOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.3702397060913868,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ENCORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.2636555482771996,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PANITUMUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.2372899934494796,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VEMURAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.2030860304297349,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TORIPALIMAB-TPZI",
+        "approved": true
+      },
+      "interactionScore": 0.1977416612078997,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CETUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.1817085535423943,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DABRAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.1464753045984442,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GILTERITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1318277741385998,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TOVORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.1318277741385998,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SELUMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1198434310350907,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RIBOCICLIB",
+        "approved": true
+      },
+      "interactionScore": 0.1098564784488331,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "COBIMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1040745585304735,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TIVOZANIB",
+        "approved": true
+      },
+      "interactionScore": 0.08788518275906655,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CABOZANTINIB S-MALATE",
+        "approved": true
+      },
+      "interactionScore": 0.07190605862105445,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FUTIBATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.07190605862105445,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VENETOCLAX",
+        "approved": true
+      },
+      "interactionScore": 0.07190605862105445,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ABEMACICLIB",
+        "approved": true
+      },
+      "interactionScore": 0.06244473511828413,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "QUIZARTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.06244473511828413,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+SOTORASIB,BINIMETINIB,TRAMETINIB DIMETHYL SULFOXIDE,ENCORAFENIB,PANITUMUMAB,VEMURAFENIB,TORIPALIMAB-TPZI,CETUXIMAB,DABRAFENIB,GILTERITINIB,TOVORAFENIB,SELUMETINIB,RIBOCICLIB,COBIMETINIB,TIVOZANIB,CABOZANTINIB S-MALATE,FUTIBATINIB,VENETOCLAX,ABEMACICLIB,QUIZARTINIB

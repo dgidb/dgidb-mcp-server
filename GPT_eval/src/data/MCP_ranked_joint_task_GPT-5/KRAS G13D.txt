@@ -1,0 +1,67 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Breast Cancer","therapyName":"Pictilisib","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "G13D",
+            "feature": {
+              "name": "KRAS"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Pictilisib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "This preclinical study tested the efficacy on several breast cancer cell lines of GDC-0941 (pictilisib), a selective inhibitor of all four isoforms of class I PI3-kinases over a range of IC50 values. Sensitivity and resistance was categorized as less than and more than an IC50 of 1umol/L, respectively, with a maximum tested concentration of 20 umol/L. MDA-MB-231 is a basal-type breast cancer cell line which harbors KRAS G13D, and it had an ICD50 of 20uM. To evaluate in vivo efficacy, cells were injected in the mammary fat pad of SCID mice and allowed to grow. Mice injected with MDA-MB-231 and treated with pictilisib saw no reduction in tumor volume compared to untreated control. There was no effect on G1 arrest in pictilisib treated cells; however, phosphorylated AKT (S473) was substantially reduced following pictilisib. Authors note that basal breast cancer cell lines were generally more resistant to pictilisib than luminal lines (p=0.02), and concluded that this cell line was resistant to pictilisib.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:2041"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+Invoking MCP tool get_variant_assertions with input {"diseaseName":"Breast Cancer","therapyName":"Pictilisib","significance":"RESISTANCE"}
+MCP tool get_variant_assertions returned meta=None content=[TextContent(type='text', text='{
+  "errors": [
+    {
+      "message": "Variable $molecularProfileName of type String! was provided invalid value",
+      "locations": [
+        {
+          "line": 2,
+          "column": 22
+        }
+      ],
+      "extensions": {
+        "value": null,
+        "problems": [
+          {
+            "path": [],
+            "explanation": "Expected value to not be null"
+          }
+        ]
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+KRAS

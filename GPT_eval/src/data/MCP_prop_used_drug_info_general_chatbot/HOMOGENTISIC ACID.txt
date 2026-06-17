@@ -1,0 +1,29 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"HOMOGENTISIC ACID"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "HOMOGENTISIC ACID",
+  "conceptId": "drugbank:DB08327",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ACID YELLOW 54 FREE ACID",
+  "conceptId": "drugbank:DB03442",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ACID BLUE 129",
+  "conceptId": "chembl:CHEMBL133576",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

@@ -1,0 +1,222 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"KRAS"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "KRAS": [
+    {
+      "drug": {
+        "name": "PANITUMUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.9788212229791036,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ADAGRASIB",
+        "approved": true
+      },
+      "interactionScore": 0.8156843524825864,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "GLECAPREVIR",
+        "approved": true
+      },
+      "interactionScore": 0.5437895683217243,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SOTORASIB",
+        "approved": true
+      },
+      "interactionScore": 0.5437895683217243,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SIMEPREVIR SODIUM",
+        "approved": true
+      },
+      "interactionScore": 0.5437895683217243,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CETUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.5290925529616777,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GRAZOPREVIR",
+        "approved": true
+      },
+      "interactionScore": 0.2718947841608621,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PARITAPREVIR",
+        "approved": true
+      },
+      "interactionScore": 0.2718947841608621,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TEPROTUMUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.1812631894405747,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ASUNAPREVIR",
+        "approved": true
+      },
+      "interactionScore": 0.1812631894405747,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "VOXILAPREVIR",
+        "approved": true
+      },
+      "interactionScore": 0.1812631894405747,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ENCORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.1208421262937165,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TELAPREVIR",
+        "approved": true
+      },
+      "interactionScore": 0.1087579136643448,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "RAMUCIRUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.09063159472028738,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BINIMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.08156843524825863,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FRUQUINTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.07768422404596062,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BOCEPREVIR",
+        "approved": true
+      },
+      "interactionScore": 0.07768422404596062,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TUCATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.06797369604021554,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SELUMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.06591388706929992,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TRAMETINIB DIMETHYL SULFOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.05784995407677917,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+PANITUMUMAB,ADAGRASIB,GLECAPREVIR,SOTORASIB,SIMEPREVIR SODIUM,CETUXIMAB,GRAZOPREVIR,PARITAPREVIR,TEPROTUMUMAB,ASUNAPREVIR,VOXILAPREVIR,ENCORAFENIB,TELAPREVIR,RAMUCIRUMAB,BINIMETINIB,FRUQUINTINIB,BOCEPREVIR,TUCATINIB,SELUMETINIB,TRAMETINIB DIMETHYL SULFOXIDE

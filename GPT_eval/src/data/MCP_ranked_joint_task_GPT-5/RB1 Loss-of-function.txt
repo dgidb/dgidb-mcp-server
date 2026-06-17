@@ -1,0 +1,44 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Glioblastoma","therapyName":"Palbociclib","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss-of-function",
+            "feature": {
+              "name": "RB1"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Glioblastoma"
+      },
+      "therapies": [
+        {
+          "name": "Palbociclib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A panel of 21 glioblastoma cell lines harboring various mutations was treated with palbociclib. 16 of the cell lines with intact Rb showed decreased proliferation (bromodeoxyuridine incorporation, BrdU flow cytometry) and growth arrest characteristic of senescence, while the 5 cell lines that did not show a palbociclib response had homozygous deletion of Rb. Rb positive and palbociclib responsive GBM cell line U87MG was treated with shRNA against Rb. shRb treated cells showed restoration of cell proliferation (BrdU incorporation) under palbociclib treatment, indicating resistance.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1595"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+RB1

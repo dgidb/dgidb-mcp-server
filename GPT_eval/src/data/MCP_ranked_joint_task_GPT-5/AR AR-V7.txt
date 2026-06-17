@@ -1,0 +1,364 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Prostate Cancer","therapyName":"Enzalutamide","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "AR-V7",
+            "feature": {
+              "name": "AR"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Abiraterone"
+        },
+        {
+          "name": "Enzalutamide"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "This multicenter clinical trial study (PROPHECY) enrolled 118 patients with metastatic castration-resistant prostate cancers (CRPC) on Abiraterone or Enzalutamide treatment. The Johns Hopkins University modified-AdnaTest CTC AR-V7 mRNA assay and the Epic Sciences CTC nuclear-specific AR-V7 protein assay were used to detect AR-V7 variants. The authors demonstrated that detection of this variant is independently associated with poor PFS and OS in patients treated with Abiraterone or Enzalutamide suggesting that alternative treatment options should be offered when AR-V7 is detected.",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:9547"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "AR-V7",
+            "feature": {
+              "name": "AR"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Abiraterone"
+        },
+        {
+          "name": "Enzalutamide"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a prospective clinical trial including 149 patients starting abiraterone or enzalutamide treatment AR-V7 expression is associated with worse PSA PFS, PFS and OS ( p < 0.001) in the overall cohort (149 patients), in the first-line novel hormonal therapy cohort (88 patients) and in the second-line novel hormonal therapy cohort (61 patients). AR-V7 expression remained an independent predictor of PSA PFS, PFS and OS in multivariable analysis.",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:9553"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "AR-V7",
+            "feature": {
+              "name": "AR"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Enzalutamide"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a prospective clinical trial including 28 patients treated with enzalutamide, AR-V7 expression is significantly correlated with primary resistance (p = 0.018).",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:9554"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "AR-V7",
+            "feature": {
+              "name": "AR"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Enzalutamide"
+        },
+        {
+          "name": "Abiraterone"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a prospective clinical trial including 37 patients treated with enzalutamide or abiraterone, AR-V7 expression is significantly associated with non PSA response to any subsequent treatment ( p < 0.001).",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:9555"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "AR-V7",
+            "feature": {
+              "name": "AR"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Enzalutamide"
+        },
+        {
+          "name": "Abiraterone"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a clinical study including 37 patients treated with taxanes or enzalutamide and abiraterone: - AR-V7 is associated with resistance to enzalutamide and abiraterone, but its relevance in the context of taxmen chemotherapy is unknown. - AR-V7 is not associated with primary resistance to taxmen chemotherapy: patients expressing AR-V7 may retain sensitivity to taxanes. - In males patients expressing AR-V7, taxanes may be more efficacious than AR-directed agents. - In males patients not expressing AR-V7, taxanes appear to have comparable efficacy to AR-directed agents.",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:9576"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "AR alternative transcripts",
+            "feature": {
+              "name": "AR"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Abiraterone"
+        },
+        {
+          "name": "Enzalutamide"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a clinical study including 168 patients treated with abiraterone or enzalutamide, a multivariate analysis including tumor burden and TP53 status show no significant correlation between AR-V1, AR-V2, AR-V3, AR-V4, AR-V5, AR-V7 or AR-V9 and PFS but a significant correlation with TP53 .",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:9578"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "AR-V7",
+            "feature": {
+              "name": "AR"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Abiraterone"
+        },
+        {
+          "name": "Enzalutamide"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A cross-sectional cohort study was performed in 161 men with metastatic prostate cancer undergoing a change in treatment to determine if pre-therapy AR-V7 nuclear protein expression in circulating tumor cells (CTCs) is a treatment-specific marker for outcomes between androgen receptor signaling (ARS) inhibitors and taxanes. A multivariable model adjusting for baseline factor associated with survival showed superior overall survival with taxanes relative to ARS inhibitors when AR-V7-positive CTCs were detected pre-therapy (hazard ratio , 0.24; 95% CI 0.10-0.57; P=0.035).",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:12463"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "AR-V7",
+            "feature": {
+              "name": "AR"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Abiraterone"
+        },
+        {
+          "name": "Enzalutamide"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A blinded, multi-institutional cohort study was performed in 142 men with metastatic, castration-resistant prostate cancer to determine if pre-therapy nuclear-localized expression of AR-V7 protein in circulating tumor cells (CTCs) is a treatment-selective marker for outcome following treatment with either androgen receptor signaling (ARS) inhibitors or taxanes. Patients with AR-V7-positive CTCs had superior overall survival with taxanes vs ARS inhibitors (hazard ratio 0.62; 95% CI 0.28-1.39; P=.25). Patients with AR-V7-negative CTCs had superior overall survival with ARS inhibitors vs taxanes (hazard ratio 1.67; 95 CI 1.00-2.81); P=.05).",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:12464"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "AR-V7",
+            "feature": {
+              "name": "AR"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Enzalutamide"
+        },
+        {
+          "name": "Abiraterone"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "This prospective study enrolled 31 Enzalutamide-treated (group 1) and 31 Abiraterone-treated (group 2) patients with metastatic castration-resistant prostate cancers (CRPC). AR-V7 variant was detected by RT-PCR in circulating tumor cells in 39% (group 1) and 19% (group 2). AR-V7+ patients in both groups had lower prostate-specific antigen (PSA) response rate (0% vs. 68%; p=0.004) and shorter PFS (median, 1.3 months vs not reached, p<0.001)  and OS (median, 10.6 months vs. not reached, p=0.006) compared to AR-V7- patients. The authors conclude that detection of AR-V7 in circulating tumor DNA from CRPC patients is associated with poor outcome and treatment resistance.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:863"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "AR-V7",
+            "feature": {
+              "name": "AR"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Abiraterone"
+        },
+        {
+          "name": "Enzalutamide"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A clinical study including 37 patients with mCRPC commencing abiraterone or enzalutamide treatment shows no significant changes in PSA PFS response when AR-V7 is expressed (p = 0.4). The same result is found when AR-V9 expression is added (p = 0.9).",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:9548"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F877L",
+            "feature": {
+              "name": "AR"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Prostate Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Enzalutamide"
+        },
+        {
+          "name": "Apalutamide"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Mutations F876L in the ligand binding domain of the androgen receptor confered resistance to enzalutamide and ARN-509, causing these compounds to function as partial agonists in two prostate cancer cell lines.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:447"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+AR

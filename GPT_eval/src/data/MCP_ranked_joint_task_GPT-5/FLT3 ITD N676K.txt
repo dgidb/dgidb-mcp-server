@@ -1,0 +1,108 @@
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Acute Myeloid Leukemia", "therapyName": "Midostaurin", "significance": "RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "ITD N676K",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Midostaurin"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a study looking for mechanisms of resistance within a phase 2 study using PKC412 (midostaurin), a 60 year old male with normal karyotype AML was identified with FLT3-ITD-N676K mutation. This mutation was shown to be within the FLT3-ITD. He was initially enrolled after failing induction and reinduction therapy and shown to harbor a FLT3-ITD. By day 204 on trial he had complete elimination of blasts; however, by day 280 he had a bone marrow biopsy with >90% blasts. Dose escalation provided no clinical benefit. Serum at Day 288 showed adequate levels of active metabolite. Subsequent in vitro assays demonstrated 10-fold higher resistance to PKC412 in 32D cells expressing FLT3-ITD-N676K versus FLT3-ITD.",
+      "evidenceLevel": "C",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:7524"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "G697R",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "SU5614"
+        },
+        {
+          "name": "K 252a"
+        },
+        {
+          "name": "Midostaurin"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Constructs of Ba/F3 cell line containing the FLT3 open reading frame with an internal tandem duplication of (FLT3-ITD) were used to induce point mutations in the ATP binding pocket of FLT3. Constructs containing the G697R mutant conferred high level resistance to several FLT3 inhibitors (including PKC412, SU5614, or K-252a). The G697R mutation may be a clinically problematic resistance mutation that warrants further testing.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:7604"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Midostaurin"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A screen using saturation mutagenesis of FLT3/ITD followed by selection of transfected TF1 cells in the FLT3 TKI midostaurin identified F691L in 1 of 400 clones. Cytotoxicity assessed by MTT demonstrated Ba/F3 cells expressing FLT3/ITD F691L conferred moderate resistance to midostaurin (IC50: 18nM) compared to FLT3/ITD control cells (IC50: 4nM). Immunoblotting showed midostaurin was able to partially inhibit FLT3 autophosphorylation and the activation of downstream pathways in Ba/F3 FLT3/ITD F691L cells. Structural modeling revealed F691 to be located in the ATP binding cleft. The authors hypothesize this amino acid change weakens inhibitor affinity as this residue likely makes direct contact with FLT3 TKIs.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8342"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+FLT3

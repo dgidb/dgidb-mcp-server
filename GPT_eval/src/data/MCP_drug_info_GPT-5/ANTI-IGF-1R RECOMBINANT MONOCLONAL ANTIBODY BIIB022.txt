@@ -1,0 +1,1973 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"ANTI-IGF-1R RECOMBINANT MONOCLONAL ANTIBODY BIIB022"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-7",
+  "conceptId": "ncit:C592",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ADENOVIRUS-L523S VACCINE",
+  "conceptId": "ncit:C49289",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-GP100:209-217",
+  "conceptId": "ncit:C29566",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY TO COLORECTAL CANCER",
+  "conceptId": "ncit:C29721",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT TRANSFORMING GROWTH FACTOR-BETA",
+  "conceptId": "ncit:C898",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ADENOVIRUS-CRE RECOMBINASE",
+  "conceptId": "ncit:C29785",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN 6CKINE",
+  "conceptId": "ncit:C1792",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT MACROPHAGE COLONY-STIMULATING FACTOR",
+  "conceptId": "ncit:C1290",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-5",
+  "conceptId": "ncit:C590",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INHIBIN",
+  "conceptId": "ncit:C578",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-MULTIEPITOPE MELANOMA PEPTIDES-B7.1-B7.2 VACCINE",
+  "conceptId": "ncit:C48638",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FOWLPOX-B7.1 VACCINE",
+  "conceptId": "ncit:C2666",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FIBROBLAST GROWTH FACTOR 7",
+  "conceptId": "ncit:C2326",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE PHN-010",
+  "conceptId": "ncit:C211590",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE SC-007",
+  "conceptId": "ncit:C147029",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT MODIFIED VACCINIA ANKARA-5T4 VACCINE",
+  "conceptId": "ncit:C49087",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HEPARIN-BINDING NEUROTROPHIC FACTOR",
+  "conceptId": "ncit:C2261",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT METHIONYL HUMAN BRAIN-DERIVED FACTOR",
+  "conceptId": "ncit:C1791",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE SC-005",
+  "conceptId": "ncit:C154558",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERFERON ALPHA 2B-LIKE PROTEIN",
+  "conceptId": "ncit:C97503",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL MICROBIAL EDP1503",
+  "conceptId": "ncit:C155907",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN PAPILLOMAVIRUS 11-VALENT VACCINE",
+  "conceptId": "ncit:C168605",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT BETA CHEMOKINE",
+  "conceptId": "ncit:C1591",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT EPIDERMAL GROWTH FACTOR",
+  "conceptId": "ncit:C1504",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ADENOVIRUS ENCODING P53",
+  "conceptId": "ncit:C85485",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-1 RECEPTOR ANTAGONIST",
+  "conceptId": "ncit:C2486",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT 70-KD HEAT-SHOCK PROTEIN",
+  "conceptId": "ncit:C28696",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-14",
+  "conceptId": "ncit:C1630",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FAS LIGAND",
+  "conceptId": "ncit:C1538",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT THYMOPOIETIN",
+  "conceptId": "ncit:C2266",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INHIBIN A",
+  "conceptId": "ncit:C1631",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HSA/FILGRASTIM FUSION PROTEIN",
+  "conceptId": "ncit:C154275",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FOWLPOX GM-CSF VACCINE ADJUVANT",
+  "conceptId": "ncit:C2686",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-1-ALPHA",
+  "conceptId": "ncit:C1754",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-CEA",
+  "conceptId": "ncit:C2809",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT BETACELLULIN",
+  "conceptId": "ncit:C1483",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY R24",
+  "conceptId": "ncit:C2349",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT BACTERIAL MINICELLS VAX014",
+  "conceptId": "ncit:C170742",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN KALLIKREIN-1",
+  "conceptId": "chembl:CHEMBL4297936",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HSA/G-CSF FUSION PROTEIN MW05",
+  "conceptId": "ncit:C178333",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT GROWTH FACTOR",
+  "conceptId": "ncit:C530",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT NEWCASTLE DISEASE VIRUS-ENCODING INTERLEUKIN-12 MEDI9253",
+  "conceptId": "ncit:C176843",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FIBROBLAST GROWTH FACTOR 2",
+  "conceptId": "ncit:C1674",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-3",
+  "conceptId": "ncit:C588",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT LYMPHOTACTIN",
+  "conceptId": "ncit:C1148",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-16",
+  "conceptId": "ncit:C1147",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN ALBUMIN-HUMAN GRANULOCYTE COLONY-STIMULATING FACTOR",
+  "conceptId": "ncit:C81936",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT CYTOKINE",
+  "conceptId": "ncit:C1283",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HEMATOPOIETIC GROWTH FACTOR",
+  "conceptId": "ncit:C2395",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT BETA THROMBOGLOBULIN",
+  "conceptId": "ncit:C2325",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT NEUROPOIETIC CYTOKINES",
+  "conceptId": "ncit:C2260",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT EPHB4-HSA FUSION PROTEIN",
+  "conceptId": "ncit:C102569",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT I309",
+  "conceptId": "ncit:C1302",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ADENOVIRUS-HIFN-BETA",
+  "conceptId": "ncit:C28550",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN PLASMINOGEN KRINGLE 5 DOMAIN ABT 828",
+  "conceptId": "ncit:C162524",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT B. PERTUSSIS ADENYLATE CYCLASE TOXIN-TYROSINASE A2 EPITOPE VACCINE",
+  "conceptId": "ncit:C96735",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT CD40-LIGAND",
+  "conceptId": "ncit:C1437",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT TUMOR NECROSIS FACTOR-BETA",
+  "conceptId": "ncit:C622",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ADENOVIRUS-LACZ",
+  "conceptId": "ncit:C29786",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT SACCHAROMYCES CEREVISIA-CEA(610D)-EXPRESSING VACCINE GI-6207",
+  "conceptId": "ncit:C82371",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ENA-78",
+  "conceptId": "ncit:C1368",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FOWLPOX-PROSTATE SPECIFIC ANTIGEN VACCINE",
+  "conceptId": "ncit:C2675",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN CD4 IMMUNOGLOBULIN",
+  "conceptId": "ncit:C51979",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY RAV12",
+  "conceptId": "ncit:C48409",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERFERON GAMMA",
+  "conceptId": "ncit:C583",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT NEUROTROPHIN-3",
+  "conceptId": "ncit:C91408",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY HUAFP31",
+  "conceptId": "ncit:C48407",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 3H1 ANTI-IDIOTYPE VACCINE",
+  "conceptId": "ncit:C2424",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT MACROPHAGE INFLAMMATORY PROTEIN-1 ALPHA",
+  "conceptId": "ncit:C1391",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-MUC-1 VACCINE",
+  "conceptId": "ncit:C2732",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FACTOR VIIA",
+  "conceptId": "wikidata:Q5940878",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "recombinant protein"
+    },
+    {
+      "name": "Indication",
+      "value": "coagulant"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 3F8",
+  "conceptId": "ncit:C2370",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT DELTA CHEMOKINE",
+  "conceptId": "ncit:C2256",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT TRANSFORMING GROWTH FACTOR-BETA 1",
+  "conceptId": "ncit:C1293",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-CEA(6D)-TRICOM VACCINE",
+  "conceptId": "ncit:C2619",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN",
+  "conceptId": "ncit:C593",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT GAMMA CHEMOKINE",
+  "conceptId": "ncit:C1712",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN BONE MORPHOGENETIC PROTEIN 4",
+  "conceptId": "ncit:C131018",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN THROMBOPOIETIN",
+  "conceptId": "ncit:C878",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA PSA VACCINE",
+  "conceptId": "ncit:C2433",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-MGP100 VACCINE",
+  "conceptId": "ncit:C51978",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY ICR62",
+  "conceptId": "ncit:C2720",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT DHER2 VACCINE",
+  "conceptId": "ncit:C49177",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ALBUMIN-BINDING IL-12 SON-1010",
+  "conceptId": "ncit:C200286",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FOWLPOX-TYROSINASE VACCINE",
+  "conceptId": "ncit:C2807",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 11D10",
+  "conceptId": "ncit:C2446",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 2A11",
+  "conceptId": "ncit:C29211",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT OX40 LIGAND",
+  "conceptId": "ncit:C1548",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FOWLPOX-CEA(6D)/TRICOM VACCINE",
+  "conceptId": "ncit:C2620",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY ABGN-7",
+  "conceptId": "ncit:C99162",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-TRICOM VACCINE",
+  "conceptId": "ncit:C2685",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT TYROSINASE-RELATED PROTEIN-2",
+  "conceptId": "ncit:C38682",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-17",
+  "conceptId": "ncit:C1684",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 81C6",
+  "conceptId": "ncit:C1958",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN 10",
+  "conceptId": "ncit:C1320",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ANGIOGENIN",
+  "conceptId": "ncit:C1002",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT MYELOPEROXIDASE",
+  "conceptId": "ncit:C188401",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VESICULAR STOMATITIS VIRUS-EXPRESSING HUMAN INTERFERON BETA AND SODIUM-IODIDE SYMPORTER",
+  "conceptId": "ncit:C131580",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT GRANULOCYTE-MACROPHAGE COLONY-STIMULATING FACTOR",
+  "conceptId": "ncit:C1288",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY SGN-14",
+  "conceptId": "ncit:C2005",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INSULIN-LIKE GROWTH FACTOR",
+  "conceptId": "ncit:C835",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ALPHA CHEMOKINE",
+  "conceptId": "ncit:C1592",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY GD2 ANTI-IDIOTYPE VACCINE",
+  "conceptId": "ncit:C26450",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN INTERLEUKIN 12",
+  "conceptId": "ncit:C90966",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERFERON BETA",
+  "conceptId": "ncit:C495",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-13",
+  "conceptId": "ncit:C1489",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT 2019-NCOV S PROTEIN SUBUNIT-TRIMER VACCINE SCB-2019",
+  "conceptId": "ncit:C173728",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-2",
+  "conceptId": "ncit:C587",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "protein"
+    },
+    {
+      "name": "Indication",
+      "value": "antineoplastic agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Not Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT CHEMOKINE",
+  "conceptId": "ncit:C1593",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY A1G4 ANTI-IDIOTYPE VACCINE",
+  "conceptId": "ncit:C2436",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT TYROSINASE-RELATED PROTEIN-1",
+  "conceptId": "ncit:C28725",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 11D10 ANTI-IDIOTYPE VACCINE",
+  "conceptId": "ncit:C2606",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "monoclonal antibody"
+    },
+    {
+      "name": "Indication",
+      "value": "antineoplastic agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Not Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY NEO-201",
+  "conceptId": "ncit:C156398",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT MACROPHAGE INFLAMMATORY PROTEIN-2 BETA",
+  "conceptId": "ncit:C2560",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN ENDOSTATIN",
+  "conceptId": "ncit:C45515",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-1-BETA",
+  "conceptId": "ncit:C585",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INACTIVATED AVIAN INFLUENZA VIRUS, H5N3 SUBTYPE",
+  "conceptId": "chembl:CHEMBL5315104",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase  1",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT TRANSFORMING GROWTH FACTOR",
+  "conceptId": "ncit:C899",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT C5A",
+  "conceptId": "ncit:C388",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FOWLPOX-MGP100 VACCINE",
+  "conceptId": "ncit:C2805",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ADENOVIRUS 5 ENCODING TUMOR NECROSIS FACTOR-RELATED APOPTOSIS-INDUCING LIGAND",
+  "conceptId": "ncit:C116879",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT LEUKOREGULIN",
+  "conceptId": "ncit:C1143",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 14G2A",
+  "conceptId": "ncit:C2368",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 1F5",
+  "conceptId": "ncit:C29198",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT TRANSFORMING GROWTH FACTOR-BETA-2",
+  "conceptId": "ncit:C1286",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT MONOCYTE CHEMOATTRACTANT PROTEIN-1",
+  "conceptId": "ncit:C1393",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT IGF-II",
+  "conceptId": "ncit:C2263",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT THYMOSIN",
+  "conceptId": "ncit:C883",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY N901-BR",
+  "conceptId": "ncit:C29226",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ATTENUATED SALMONELLA TYPHIMURIUM EXPRESSING IL-2",
+  "conceptId": "ncit:C91096",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT TUMOR NECROSIS FACTOR ALPHA-THYMOSIN ALPHA 1 FUSION PROTEIN",
+  "conceptId": "ncit:C200833",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ONCOSTATIN M",
+  "conceptId": "ncit:C1180",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN INTERLEUKIN-15",
+  "conceptId": "ncit:C1545",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 2",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT EOTAXIN",
+  "conceptId": "ncit:C1531",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY 4B5 ANTI-IDIOTYPE VACCINE",
+  "conceptId": "ncit:C2227",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FIBROBLAST GROWTH FACTOR 4",
+  "conceptId": "ncit:C1309",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FOWLPOX-GP100P209",
+  "conceptId": "ncit:C2806",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERFERON ALFA",
+  "conceptId": "ncit:C225",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT COLONY STIMULATING FACTOR",
+  "conceptId": "ncit:C387",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-6",
+  "conceptId": "ncit:C591",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-PROSTATE SPECIFIC ANTIGEN",
+  "conceptId": "ncit:C29945",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-TRP1",
+  "conceptId": "ncit:C29564",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY CEP-37250/KHK2804",
+  "conceptId": "ncit:C98296",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA DF3/MUC1 VACCINE",
+  "conceptId": "ncit:C2510",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN STEM CELL FACTOR",
+  "conceptId": "ncit:C1410",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT PLEIOTROPHIN",
+  "conceptId": "ncit:C1307",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN EGF-RP64K/MONTANIDE ISA 51 VACCINE",
+  "conceptId": "ncit:C70674",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY HUMV833",
+  "conceptId": "ncit:C2719",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ACTIVIN",
+  "conceptId": "ncit:C989",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT NERVE GROWTH FACTOR",
+  "conceptId": "ncit:C684",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FIBROBLAST GROWTH FACTOR 5",
+  "conceptId": "ncit:C1370",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN HSP110-GP100 CHAPERONE COMPLEX VACCINE",
+  "conceptId": "ncit:C103830",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTI-IGF-1R RECOMBINANT MONOCLONAL ANTIBODY BIIB022",
+  "conceptId": "ncit:C71530",
+  "approved": false,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "Therapeutic Antibodies"
+    }
+  ],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT LYMPHOTOXIN BETA",
+  "conceptId": "ncit:C1608",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERFERON ALFA-1B",
+  "conceptId": "ncit:C53411",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-1",
+  "conceptId": "ncit:C586",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "protein"
+    },
+    {
+      "name": "Indication",
+      "value": "antineoplastic agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Not Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT SUPER-COMPOUND INTERFERON",
+  "conceptId": "ncit:C121542",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT RANTES",
+  "conceptId": "ncit:C1211",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT CTAP III",
+  "conceptId": "ncit:C1358",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN ADENOVIRUS TYPE 5 H101",
+  "conceptId": "ncit:C107504",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN PAPILLOMAVIRUS NONAVALENT VACCINE",
+  "conceptId": "ncit:C119664",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY RECEPTOR-TRAP FUSION PROTEIN IMM2520",
+  "conceptId": "ncit:C200454",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY",
+  "conceptId": "ncit:C20401",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE TORL-2-307-ADC",
+  "conceptId": "ncit:C185565",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FIBROBLAST GROWTH FACTOR",
+  "conceptId": "ncit:C496",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT MACROPHAGE INFLAMMATORY PROTEIN-2 ALPHA",
+  "conceptId": "ncit:C2559",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT LYMPHOKINE",
+  "conceptId": "ncit:C621",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT TUMOR NECROSIS FACTOR FAMILY PROTEIN",
+  "conceptId": "ncit:C1941",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT BOVINE BASIC FIBROBLAST GROWTH FACTOR",
+  "conceptId": "ncit:C158097",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT PRAME PROTEIN PLUS AS15 ADJUVANT GSK2302025A",
+  "conceptId": "ncit:C92586",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT TRANSFORMING GROWTH FACTOR-ALPHA",
+  "conceptId": "ncit:C897",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN MACROPHAGE INFLAMMATORY PROTEIN-1 BETA",
+  "conceptId": "ncit:C1467",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ANNEXIN A5",
+  "conceptId": "ncit:C188445",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT PLATELET-DERIVED GROWTH FACTOR",
+  "conceptId": "ncit:C755",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VESICULAR STOMATITIS VIRUS-EXPRESSING INTERFERON-BETA AND TYROSINASE RELATED PROTEIN 1",
+  "conceptId": "ncit:C157710",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY STING DRUG CONJUGATE TAK-500",
+  "conceptId": "ncit:C185129",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN PAPILLOMAVIRUS 14-VALENT VACCINE SCT1000",
+  "conceptId": "ncit:C181030",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FRACTALKINE",
+  "conceptId": "ncit:C2257",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT THYROID-STIMULATING HORMONE",
+  "conceptId": "ncit:C887",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INHIBIN B",
+  "conceptId": "ncit:C1349",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT BRAIN-DERIVED GROWTH FACTORS",
+  "conceptId": "ncit:C1352",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT LEUKOCYTE INTERLEUKIN",
+  "conceptId": "ncit:C2413",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN PAPILLOMAVIRUS BIVALENT VACCINE",
+  "conceptId": "ncit:C48395",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ANTI-WT1 IMMUNOTHERAPEUTIC GSK2302024A",
+  "conceptId": "ncit:C116880",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT NEUROTROPHIC FACTOR",
+  "conceptId": "ncit:C2259",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN CHORIONIC GONADOTROPIN",
+  "conceptId": "ncit:C528",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "recombinant protein"
+    },
+    {
+      "name": "Indication",
+      "value": "antineoplastic agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT LUTEINIZING HORMONE",
+  "conceptId": "ncit:C612",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT GRO1 PROTEIN",
+  "conceptId": "ncit:C1157",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FIBROBLAST GROWTH FACTOR 1",
+  "conceptId": "ncit:C1750",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE PF-06647263",
+  "conceptId": "ncit:C118572",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN ANTI-TGF-BETA MONOCLONAL ANTIBODY",
+  "conceptId": "ncit:C84873",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN MONOCYTE CHEMOATTRACTANT PROTEIN-2",
+  "conceptId": "ncit:C1671",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMANIZED ANTI-HER-2 BISPECIFIC MONOCLONAL ANTIBODY MBS301",
+  "conceptId": "ncit:C171377",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT OMEGA INTERFERON OF FELINE ORIGIN",
+  "conceptId": "chembl:CHEMBL5315074",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase  1",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT PARATHYROID HORMONE",
+  "conceptId": "ncit:C62555",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT AMPHIREGULIN",
+  "conceptId": "ncit:C1000",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VIRAL VACCINE",
+  "conceptId": "ncit:C1572",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-9",
+  "conceptId": "ncit:C1324",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VASCULAR ENDOTHELIAL GROWTH FACTOR",
+  "conceptId": "ncit:C1272",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT BRADYKININ",
+  "conceptId": "ncit:C188444",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT SPIKE-PROTEIN RECEPTOR-BINDING DOMAIN-DIMER SARS-COV-2 VACCINE",
+  "conceptId": "ncit:C173850",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FOWLPOX-TRICOM VACCINE",
+  "conceptId": "ncit:C2667",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HEPATOCYTE GROWTH FACTOR",
+  "conceptId": "ncit:C1122",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT DNA-L523S VACCINE",
+  "conceptId": "ncit:C49290",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FIBROBLAST GROWTH FACTOR 6",
+  "conceptId": "ncit:C1369",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FIBROBLAST GROWTH FACTOR 3",
+  "conceptId": "ncit:C1466",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT SOLUBLE HUMAN CD4 PROTEIN",
+  "conceptId": "ncit:C2342",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT PROTHYMOSIN ALPHA",
+  "conceptId": "ncit:C1203",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN GM-CSF-ENCODING ONCOLYTIC ADENOVIRUS SYNOV1.1",
+  "conceptId": "ncit:C179256",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY GIM-122",
+  "conceptId": "ncit:C201829",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT GLOBULIN COMPONENT MACROPHAGE-ACTIVATING FACTOR",
+  "conceptId": "ncit:C113798",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT FLT3 LIGAND",
+  "conceptId": "ncit:C1714",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT SOLUBLE T4",
+  "conceptId": "ncit:C1473",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT PARATHYROID HORMONE-RELATED PROTEIN",
+  "conceptId": "ncit:C1185",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-B7.1 VACCINE",
+  "conceptId": "ncit:C2237",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERFERON-ALPHA INDUCIBLE PROTEIN 10",
+  "conceptId": "ncit:C1664",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY HD37-SMPT-DGA IMMUNOTOXIN",
+  "conceptId": "ncit:C29222",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY HUPAM4",
+  "conceptId": "ncit:C48408",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-MUC1-B7 VACCINE",
+  "conceptId": "ncit:C29409",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-NY-ESO-1 VACCINE",
+  "conceptId": "ncit:C48419",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERLEUKIN-8",
+  "conceptId": "ncit:C1289",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ALPHA 1-ANTITRYPSIN",
+  "conceptId": "drugbank:DB05481",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ANTIBODY-DRUG CONJUGATE ANTI-TIM-1-VCMMAE CDX-014",
+  "conceptId": "ncit:C129401",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT TUMOR NECROSIS FACTOR-ALPHA",
+  "conceptId": "ncit:C913",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT INTERFERON",
+  "conceptId": "ncit:C584",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN APOLIPOPROTEIN(A) KRINGLE V MG1102",
+  "conceptId": "ncit:C116864",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "MONOCLONAL ANTIBODY CC49-DELTA CH2",
+  "conceptId": "ncit:C2698",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HEREGULIN",
+  "conceptId": "ncit:C1426",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT VACCINIA-PSA/PSMA",
+  "conceptId": "ncit:C29563",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT ADENOVIRUS-P53 SCH-58500",
+  "conceptId": "ncit:C2423",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "RECOMBINANT HUMAN MUC1-OXIDIZED POLYMANNOSE-PULSED AUTOLOGOUS DENDRITIC CELL VACCINE",
+  "conceptId": "ncit:C102782",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,YES,YES

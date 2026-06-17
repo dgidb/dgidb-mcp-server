@@ -1,0 +1,73 @@
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Breast Cancer", "therapyName": "Olaparib", "significance": "RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Mutation",
+            "feature": {
+              "name": "BRCA1"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Triple-receptor Negative Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Olaparib"
+        }
+      ],
+      "variantOrigin": "RARE_GERMLINE",
+      "description": "In a study of 26 patients with breast cancer, 10 patients were BRCA-positive and 16 patients were BRCA-negative.  Regardless of BRCA status, none showed objective response when treated with olaparib.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1775"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "OVEREXPRESSION",
+            "feature": {
+              "name": "PARP1"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Olaparib"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "Researchers compared biomarkers in breast cancer stem cell (BCSC) enriched and mature cancer cell populations from human breast cancer cell lines.  Overexpression of PARP1 was found in BCSC enriched populations (detected by ALDH+) when compared to mature cell populations (ALDH-) in 4 BRCA1 mutant and 1 BRCA1 wild-type cell lines.  Cell lines were treated with 10 µm olaparib.  The cell line with the highest PARP1 expression (HCC1937) showed a significant increase cell population after treatment (p=0.01).  PARP1 overexpression was found to be positively correlated with olaparib resistance (R²=0.9374).",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:7867"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+BRCA1,PARP1

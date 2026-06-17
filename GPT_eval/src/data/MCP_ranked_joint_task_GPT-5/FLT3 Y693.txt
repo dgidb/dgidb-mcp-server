@@ -1,0 +1,102 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Acute Myeloid Leukemia","therapyName":"Gilteritinib","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Y693",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Gilteritinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "With vitro proliferation assay in Ba/F3 cells, it was found that the cells bearing FLT3-ITD Y693C/N exhibited >10-fold resistance to Gilteritinib. Similar resistance was found in cells bearing FLT3-ITD F691L or FLT3-ITD D698N as well. It was also revealed by molecular modeling that the lack of aromatic rings in FLT3 Y693C/N may contribute to the reduced affinity of Gilteritinib to Y693 mutations. BTW, the main content of this research article supports that Gilteritinib is active against many clinically relevant activating FLT3 mutations.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8285"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "F691L",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Gilteritinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "With Ba/F3 cells bearing FLT3-ITD F691L mutations and by in vitro proliferation assay, it was found that the cells exhibited >10-fold resistance to Gilteritinib. Similar resistance was found in cells bearing FLT3-ITD Y693C/N or FLT3-ITD D698N as well. It was also revealed by molecular modeling that the smaller side chain or the lack of aromatic rings in the mutants may contribute to the reduced affinity of Gilteritinib to the mutated forms of FLT3. In addition the F691L mutation was identified in a minority of patients (4/31, 12.9%) at the time of Gilteritinib resistance.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8562"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "G697S",
+            "feature": {
+              "name": "FLT3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Acute Myeloid Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Gilteritinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Using in vitro proliferation assay in Ba/F3 cells, it was found that the cells with FLT3-ITD G697S exhibited potent resistance to Gilteritinib. Similar resistance was found in cells bearing FLT3-ITD F691L or FLT3-ITD D698N as well. Molecular modeling reveals that G697S variant caused loss of interaction and a steric clash with the phenyl ring of Gilteritinib, which may explain the reduced of inhibitory activity. The authors also noted G697S has never been identified clinically.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8898"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+FLT3

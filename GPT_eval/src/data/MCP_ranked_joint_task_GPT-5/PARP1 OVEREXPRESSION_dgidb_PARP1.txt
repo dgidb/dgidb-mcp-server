@@ -1,0 +1,242 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"PARP1"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "PARP1": [
+    {
+      "drug": {
+        "name": "NIRAPARIB TOSYLATE MONOHYDRATE",
+        "approved": true
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TALAZOPARIB TOSYLATE",
+        "approved": true
+      },
+      "interactionScore": 1.003919203055491,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NIRAPARIB",
+        "approved": true
+      },
+      "interactionScore": 0.7086488492156406,
+      "interactionTypes": [
+        {
+          "type": "other/unknown",
+          "directionality": null
+        },
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NIACINAMIDE",
+        "approved": true
+      },
+      "interactionScore": 0.6692794687036606,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RUCAPARIB CAMSYLATE",
+        "approved": true
+      },
+      "interactionScore": 0.6692794687036606,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TRABECTEDIN",
+        "approved": true
+      },
+      "interactionScore": 0.4015676812221964,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "OLAPARIB",
+        "approved": true
+      },
+      "interactionScore": 0.3928379490217139,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "other/unknown",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "RUCAPARIB",
+        "approved": true
+      },
+      "interactionScore": 0.3346397343518303,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "other/unknown",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TALAZOPARIB",
+        "approved": true
+      },
+      "interactionScore": 0.2151255435118909,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "INIPARIB",
+        "approved": false
+      },
+      "interactionScore": 4.015676812221964,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "other/unknown",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CEP-9722",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "AMELPARIB DIHYDROCHLORIDE DIHYDRATE",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "RUCAPARIB PHOSPHATE",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NIRAPARIB TOSYLATE",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NICARAVEN",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PARP-1/2 INHIBITOR ABT-767",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PARP INHIBITOR E7016",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "INO-1001",
+        "approved": false
+      },
+      "interactionScore": 2.007838406110982,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "4-[3-(1,4-DIAZEPAN-1-YLCARBONYL)-4-FLUOROBENZYL]PHTHALAZIN-1(2H)-ONE",
+        "approved": false
+      },
+      "interactionScore": 1.505878804583236,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VELIPARIB",
+        "approved": false
+      },
+      "interactionScore": 1.277715349343352,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "other/unknown",
+          "directionality": null
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+NIRAPARIB TOSYLATE MONOHYDRATE,TALAZOPARIB TOSYLATE,NIRAPARIB,NIACINAMIDE,RUCAPARIB CAMSYLATE,TRABECTEDIN,OLAPARIB,RUCAPARIB,TALAZOPARIB,INIPARIB,CEP-9722,AMELPARIB DIHYDROCHLORIDE DIHYDRATE,RUCAPARIB PHOSPHATE,NIRAPARIB TOSYLATE,NICARAVEN,PARP-1/2 INHIBITOR ABT-767,PARP INHIBITOR E7016,INO-1001,4-[3-(1,4-DIAZEPAN-1-YLCARBONYL)-4-FLUOROBENZYL]PHTHALAZIN-1(2H)-ONE,VELIPARIB

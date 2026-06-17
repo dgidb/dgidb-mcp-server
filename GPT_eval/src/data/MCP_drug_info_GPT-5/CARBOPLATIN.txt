@@ -1,0 +1,67 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"CARBOPLATIN"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "CARBOPLATIN",
+  "conceptId": "rxcui:40048",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "1989"
+    },
+    {
+      "name": "Link to Clearity Drug Class Schematic",
+      "value": "https://www.clearityfoundation.org/healthcare-pros/drugs-bio/cytotoxic-drugs/platinum-drugs.aspx"
+    },
+    {
+      "name": "Drug Subclass",
+      "value": "Cytotoxic Drugs"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Platinum"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "HemOnc",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Prescription",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,NO,YES

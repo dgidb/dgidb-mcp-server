@@ -1,0 +1,56 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"FINGOLIMOD"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "FINGOLIMOD",
+  "conceptId": "rxcui:1012892",
+  "approved": true,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "2010"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Immunosuppressive Agents"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Small molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "for treatment of multiple sclerosis"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Prescription",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,YES,YES

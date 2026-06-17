@@ -1,0 +1,34 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"BMS-986020"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "BMS-986020",
+  "conceptId": "iuphar.ligand:9498",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "Small molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "antifibrotic agent"
+    },
+    {
+      "name": "Indication",
+      "value": "antiinflammatory agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Not Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

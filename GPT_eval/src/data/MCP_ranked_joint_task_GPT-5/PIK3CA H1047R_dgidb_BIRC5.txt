@@ -1,0 +1,172 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"BIRC5"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "BIRC5": [
+    {
+      "drug": {
+        "name": "VALDECOXIB",
+        "approved": true
+      },
+      "interactionScore": 0.3954833224157995,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "OMACETAXINE MEPESUCCINATE",
+        "approved": true
+      },
+      "interactionScore": 0.2372899934494796,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ROFECOXIB",
+        "approved": true
+      },
+      "interactionScore": 0.1977416612078997,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CALCITONIN",
+        "approved": true
+      },
+      "interactionScore": 0.1977416612078997,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PLICAMYCIN",
+        "approved": true
+      },
+      "interactionScore": 0.1977416612078997,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TERIPARATIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1483062459059248,
+      "interactionTypes": [
+        {
+          "type": "agonist",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "LONAFARNIB",
+        "approved": true
+      },
+      "interactionScore": 0.1318277741385998,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "INTERLEUKIN-11",
+        "approved": true
+      },
+      "interactionScore": 0.1186449967247398,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SULINDAC",
+        "approved": true
+      },
+      "interactionScore": 0.08474642623195702,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "INTERFERON BETA-1A",
+        "approved": true
+      },
+      "interactionScore": 0.0790966644831599,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ARSENIC TRIOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.0684490365719653,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRASTUZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.06591388706929992,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PRASTERONE",
+        "approved": true
+      },
+      "interactionScore": 0.06591388706929992,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FLUTAMIDE",
+        "approved": true
+      },
+      "interactionScore": 0.05932249836236992,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MYCOPHENOLATE",
+        "approved": true
+      },
+      "interactionScore": 0.05392954396579084,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RESVERATROL",
+        "approved": true
+      },
+      "interactionScore": 0.04842652927540402,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ROMIDEPSIN",
+        "approved": true
+      },
+      "interactionScore": 0.04237321311597852,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LAPATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.03827257958862575,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EPOETIN ALFA",
+        "approved": true
+      },
+      "interactionScore": 0.03489558727198231,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CAMPTOTHECIN",
+        "approved": true
+      },
+      "interactionScore": 0.03389857049278282,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+VALDECOXIB,OMACETAXINE MEPESUCCINATE,ROFECOXIB,CALCITONIN,PLICAMYCIN,TERIPARATIDE,LONAFARNIB,INTERLEUKIN-11,SULINDAC,INTERFERON BETA-1A,ARSENIC TRIOXIDE,TRASTUZUMAB,PRASTERONE,FLUTAMIDE,MYCOPHENOLATE,RESVERATROL,ROMIDEPSIN,LAPATINIB,EPOETIN ALFA,CAMPTOTHECIN

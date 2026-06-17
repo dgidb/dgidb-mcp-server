@@ -1,0 +1,276 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names": "FLT3"}
+Invoking MCP tool get_gene_categories with input {"gene_names": "FLT3"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "FLT3": [
+    {
+      "drug": {
+        "name": "QUIZARTINIB",
+        "approved": true
+      },
+      "interactionScore": 1.009648608779967,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "MIDOSTAURIN",
+        "approved": true
+      },
+      "interactionScore": 0.5660652855782768,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "GILTERITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.5590768252624956,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PONATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.3991485988051952,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PACRITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.2751706249338845,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "VENETOCLAX",
+        "approved": true
+      },
+      "interactionScore": 0.2001240908610069,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TIRBANIBULIN",
+        "approved": true
+      },
+      "interactionScore": 0.1886884285260922,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PEXIDARTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.179703265262945,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.175015353995216,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "GLASDEGIB",
+        "approved": true
+      },
+      "interactionScore": 0.1572403571050769,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FEDRATINIB HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1572403571050769,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PACRITINIB CITRATE",
+        "approved": true
+      },
+      "interactionScore": 0.1572403571050769,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "GILTERITINIB FUMARATE",
+        "approved": true
+      },
+      "interactionScore": 0.1572403571050769,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SELINEXOR",
+        "approved": true
+      },
+      "interactionScore": 0.1257922856840615,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "OMACETAXINE MEPESUCCINATE",
+        "approved": true
+      },
+      "interactionScore": 0.1257922856840615,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "AVAPRITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1257922856840615,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SUNITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1179302678288076,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SONIDEGIB",
+        "approved": true
+      },
+      "interactionScore": 0.1048269047367179,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PEXIDARTINIB HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1048269047367179,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TAZEMETOSTAT",
+        "approved": true
+      },
+      "interactionScore": 0.07862017855253844,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+MCP tool get_gene_categories returned meta=None content=[TextContent(type='text', text='{
+  "name": "FLT3",
+  "longName": "fms related receptor tyrosine kinase 3",
+  "conceptId": "hgnc:3765",
+  "geneCategoriesWithSources": [
+    {
+      "name": "CLINICALLY ACTIONABLE",
+      "sourceNames": [
+        "CIViC",
+        "CarisMolecularIntelligence",
+        "FoundationOneGenes",
+        "MskImpact",
+        "Oncomine",
+        "Tempus"
+      ]
+    },
+    {
+      "name": "DRUG RESISTANCE",
+      "sourceNames": [
+        "CIViC",
+        "COSMIC"
+      ]
+    },
+    {
+      "name": "DRUGGABLE GENOME",
+      "sourceNames": [
+        "HingoraniCasas",
+        "HopkinsGroom",
+        "RussLampel"
+      ]
+    },
+    {
+      "name": "KINASE",
+      "sourceNames": [
+        "HopkinsGroom",
+        "Pharos",
+        "dGene"
+      ]
+    },
+    {
+      "name": "TYROSINE KINASE",
+      "sourceNames": [
+        "GO",
+        "dGene"
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+QUIZARTINIB,MIDOSTAURIN,GILTERITINIB,PONATINIB,PACRITINIB,VENETOCLAX,TIRBANIBULIN,PEXIDARTINIB,SORAFENIB,GLASDEGIB,FEDRATINIB HYDROCHLORIDE,PACRITINIB CITRATE,GILTERITINIB FUMARATE,SELINEXOR,OMACETAXINE MEPESUCCINATE,AVAPRITINIB,SUNITINIB,SONIDEGIB,PEXIDARTINIB HYDROCHLORIDE,TAZEMETOSTAT

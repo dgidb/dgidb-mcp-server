@@ -1,0 +1,28 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"LBY-135"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "LBY-135",
+  "conceptId": "chembl:CHEMBL2109247",
+  "approved": false,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "Therapeutic Antibodies"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 1",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,YES,YES

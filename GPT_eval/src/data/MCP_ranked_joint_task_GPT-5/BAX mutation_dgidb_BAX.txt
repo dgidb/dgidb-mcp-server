@@ -1,0 +1,172 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"BAX"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "BAX": [
+    {
+      "drug": {
+        "name": "PROCARBAZINE",
+        "approved": true
+      },
+      "interactionScore": 0.2784202589807228,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MEDROXYPROGESTERONE",
+        "approved": true
+      },
+      "interactionScore": 0.1988716135576592,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MECHLORETHAMINE",
+        "approved": true
+      },
+      "interactionScore": 0.1898319947595837,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CIPROFLOXACIN",
+        "approved": true
+      },
+      "interactionScore": 0.1898319947595837,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MEXILETINE",
+        "approved": true
+      },
+      "interactionScore": 0.1740126618629517,
+      "interactionTypes": [
+        {
+          "type": "blocker",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ROFECOXIB",
+        "approved": true
+      },
+      "interactionScore": 0.1546779216559571,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BICALUTAMIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1392101294903614,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ESTRAMUSTINE",
+        "approved": true
+      },
+      "interactionScore": 0.1265546631730558,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "INTERFERON ALFA-2B",
+        "approved": true
+      },
+      "interactionScore": 0.0994358067788296,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DACARBAZINE",
+        "approved": true
+      },
+      "interactionScore": 0.09280675299357428,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PHENYLEPHRINE",
+        "approved": true
+      },
+      "interactionScore": 0.08700633093147589,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NALTREXONE",
+        "approved": true
+      },
+      "interactionScore": 0.08188831146491848,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CARVEDILOL",
+        "approved": true
+      },
+      "interactionScore": 0.0803135362444393,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PRASTERONE",
+        "approved": true
+      },
+      "interactionScore": 0.07733896082797856,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "HUMAN CHORIONIC GONADOTROPIN",
+        "approved": true
+      },
+      "interactionScore": 0.07326848920545338,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ERYTHROMYCIN",
+        "approved": true
+      },
+      "interactionScore": 0.06052614325667888,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "OXALIPLATIN",
+        "approved": true
+      },
+      "interactionScore": 0.05495136690409004,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ARGIPRESSIN",
+        "approved": true
+      },
+      "interactionScore": 0.05354235749629286,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VINORELBINE",
+        "approved": true
+      },
+      "interactionScore": 0.05354235749629286,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VITAMIN A",
+        "approved": true
+      },
+      "interactionScore": 0.05155930721865238,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+PROCARBAZINE,MEDROXYPROGESTERONE,MECHLORETHAMINE,CIPROFLOXACIN,MEXILETINE,ROFECOXIB,BICALUTAMIDE,ESTRAMUSTINE,INTERFERON ALFA-2B,DACARBAZINE,PHENYLEPHRINE,NALTREXONE,CARVEDILOL,PRASTERONE,HUMAN CHORIONIC GONADOTROPIN,ERYTHROMYCIN,OXALIPLATIN,ARGIPRESSIN,VINORELBINE,VITAMIN A

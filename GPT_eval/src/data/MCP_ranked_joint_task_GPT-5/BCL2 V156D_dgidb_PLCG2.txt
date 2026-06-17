@@ -1,0 +1,15 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"PLCG2"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "PLCG2": [
+    {
+      "drug": {
+        "name": "IBRUTINIB",
+        "approved": true
+      },
+      "interactionScore": 4.606217519901664,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+IBRUTINIB

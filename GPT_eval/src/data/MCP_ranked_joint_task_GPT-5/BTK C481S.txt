@@ -1,0 +1,125 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Chronic Lymphocytic Leukemia","therapyName":"Ibrutinib","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "C481S",
+            "feature": {
+              "name": "BTK"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Chronic Lymphocytic Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Ibrutinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Whole exome sequencing of 6 chronic lymphocytic leukemia patients with acquired resistance to ibrutinib determined 5/6 patients harbored a C481S mutation in BTK.",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:436"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "C481S",
+            "feature": {
+              "name": "BTK"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Chronic Lymphocytic Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Ibrutinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a trial of 308 patients with chronic lymphocytic leukemia treated with ibrutinib, 31 discontinued treatment due to disease progression (13 CLL progression, 18 Richter’s transformation). 11/13 patients were deep sequenced for BTK and PLCG2. 9 patients were identified with BTK mutations (C481S in 8 patients). In 5 patients, C481S was the sole abnormality.",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:1770"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "T316A",
+            "feature": {
+              "name": "BTK"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Chronic Lymphocytic Leukemia"
+      },
+      "therapies": [
+        {
+          "name": "Ibrutinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Case report of a patient with CLL and Richter-transformed relapse under ibrutinib (after an initial partial response for 10 months). Sequencing of sequential samples of this patient revealed a novel BTK T316 mutation at relapse (allele frequency of 75%). Characterization of this mutation showed that is was located on the SH2 domain, not associated with Ibrutinib binding. Introduction of this mutation in an Ibrutinib-sensitive lymphoma cell line showed resistance comparable to the known C481 resistance mutations, which was also confirmed by absence of downstream signaling.",
+      "evidenceLevel": "C",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:1985"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+Invoking MCP tool get_variant_assertions with input {"diseaseName":"Chronic Lymphocytic Leukemia","therapyName":"Ibrutinib","significance":"RESISTANCE"}
+MCP tool get_variant_assertions returned meta=None content=[TextContent(type='text', text='{
+  "errors": [
+    {
+      "message": "Variable $molecularProfileName of type String! was provided invalid value",
+      "locations": [
+        {
+          "line": 2,
+          "column": 22
+        }
+      ],
+      "extensions": {
+        "value": null,
+        "problems": [
+          {
+            "path": [],
+            "explanation": "Expected value to not be null"
+          }
+        ]
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+BTK

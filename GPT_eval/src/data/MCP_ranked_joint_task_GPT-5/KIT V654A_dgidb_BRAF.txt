@@ -1,0 +1,206 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"BRAF"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "BRAF": [
+    {
+      "drug": {
+        "name": "DABRAFENIB",
+        "approved": true
+      },
+      "interactionScore": 2.474846746495314,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "VEMURAFENIB",
+        "approved": true
+      },
+      "interactionScore": 1.587277658885033,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "activator",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ENCORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 1.537111846456074,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TRAMETINIB DIMETHYL SULFOXIDE",
+        "approved": true
+      },
+      "interactionScore": 1.488363618487375,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PANITUMUMAB",
+        "approved": true
+      },
+      "interactionScore": 1.305094963972138,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CETUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.9029846237212633,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BINIMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.5872927337874623,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "COBIMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.4533487769587427,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TOVORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.3915284891916415,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SELUMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.2293803270011637,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DOXORUBICIN LIPOSOME",
+        "approved": true
+      },
+      "interactionScore": 0.1740126618629517,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DENOSUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.1740126618629517,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TORIPALIMAB-TPZI",
+        "approved": true
+      },
+      "interactionScore": 0.1305094963972138,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NIVOLUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.1003919203055491,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.08851948451289288,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ATEZOLIZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.08700633093147589,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DASATINIB ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.07899258992462942,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ALECTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.07830569783832829,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "REGORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.0711869980348439,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NERATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.06960506474518072,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+DABRAFENIB,VEMURAFENIB,ENCORAFENIB,TRAMETINIB DIMETHYL SULFOXIDE,PANITUMUMAB,CETUXIMAB,BINIMETINIB,COBIMETINIB,TOVORAFENIB,SELUMETINIB,DOXORUBICIN LIPOSOME,DENOSUMAB,TORIPALIMAB-TPZI,NIVOLUMAB,SORAFENIB,ATEZOLIZUMAB,DASATINIB ANHYDROUS,ALECTINIB,REGORAFENIB,NERATINIB

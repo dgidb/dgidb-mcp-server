@@ -1,0 +1,102 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Thyroid Gland Carcinoma","therapyName":"Vemurafenib","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Q61R",
+            "feature": {
+              "name": "NRAS"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Thyroid Gland Carcinoma"
+      },
+      "therapies": [
+        {
+          "name": "Vemurafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In an in vitro study, a HTH7 cell line expressing NRAS Q61R demonstrated reduced sensitivity to vemurafenib treatment, compared to BRAF V600E expressing cells (8505C, SWI1736, BHT101 and BCPAP). Sensitivity was determined by assessing cell proliferation (HTH7, EC50: greater or equal to 1000nM vs. 8505C, EC50: 57nM; SWI1736, EC50: 29nM; BHT101, EC50: 97nM; BCPAP, EC50: 78nM), and MAPK1 and MAP2K1 phosphorylation.",
+      "evidenceLevel": "D",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:3831"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "G13R",
+            "feature": {
+              "name": "HRAS"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Thyroid Gland Carcinoma"
+      },
+      "therapies": [
+        {
+          "name": "Vemurafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In an in vitro study, a C643 cell line expressing HRAS G13R demonstrated reduced sensitivity to vemurafenib treatment, compared to BRAF V600E expressing cells (8505C, SWI1736, BHT101 and BCPAP). Sensitivity was determined by assessing cell proliferation (C643, EC50: greater or equal to 500nM vs. 8505C, EC50: 57nM; SWI1736, EC50: 29nM; BHT101, EC50: 97nM; BCPAP, EC50: 78nM), and MAPK1 and MAP2K1 phosphorylation.",
+      "evidenceLevel": "D",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:3853"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "G12R",
+            "feature": {
+              "name": "KRAS"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Thyroid Gland Carcinoma"
+      },
+      "therapies": [
+        {
+          "name": "Vemurafenib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In an in vitro study, a CAL62 cell line expressing KRAS G12R demonstrated reduced sensitivity to vemurafenib treatment, compared to BRAF V600E expressing cells (8505C, SWI1736, BHT101 and BCPAP). Sensitivity was determined by assessing cell proliferation (CAL62, EC50: greater than 1000nM vs. 8505C, EC50: 57nM; SWI1736, EC50: 29nM; BHT101, EC50: 97nM; BCPAP, EC50: 78nM), and MAPK1 and MAP2K1 phosphorylation.",
+      "evidenceLevel": "D",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:3999"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+NRAS,HRAS,KRAS

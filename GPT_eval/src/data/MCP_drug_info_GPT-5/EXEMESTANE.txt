@@ -1,0 +1,87 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"EXEMESTANE"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "EXEMESTANE",
+  "conceptId": "rxcui:258494",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "1999"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Hormonal therapy"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Antineoplastic Agents"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Small Molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "antineoplastic agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "HemOnc",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Prescription",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Discontinued",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,NO,YES

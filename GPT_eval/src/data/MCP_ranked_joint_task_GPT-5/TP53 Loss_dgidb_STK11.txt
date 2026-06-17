@@ -1,0 +1,92 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"STK11"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "STK11": [
+    {
+      "drug": {
+        "name": "PHENFORMIN",
+        "approved": true
+      },
+      "interactionScore": 2.610189927944276,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EVEROLIMUS",
+        "approved": true
+      },
+      "interactionScore": 0.4606217519901664,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ATEZOLIZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.2900211031049196,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NIVOLUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.2007838406110982,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PEMBROLIZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.1581933289663198,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SELUMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1581933289663198,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DOCETAXEL ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.1257922856840615,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "AMPKINONE",
+        "approved": false
+      },
+      "interactionScore": 10.4407597117771,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MITOGEN-ACTIVATED PROTEIN KINASE KINASE INHIBITOR",
+        "approved": false
+      },
+      "interactionScore": 0.8700633093147588,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TOZASERTIB",
+        "approved": false
+      },
+      "interactionScore": 0.1430241056407822,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+PHENFORMIN,EVEROLIMUS,ATEZOLIZUMAB,NIVOLUMAB,PEMBROLIZUMAB,SELUMETINIB,DOCETAXEL ANHYDROUS,AMPKINONE,MITOGEN-ACTIVATED PROTEIN KINASE KINASE INHIBITOR,TOZASERTIB

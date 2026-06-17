@@ -1,0 +1,252 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"KIT"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "KIT": [
+    {
+      "drug": {
+        "name": "AVAPRITINIB",
+        "approved": true
+      },
+      "interactionScore": 2.088151942355421,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "RIPRETINIB",
+        "approved": true
+      },
+      "interactionScore": 1.59682207356591,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "IMATINIB",
+        "approved": true
+      },
+      "interactionScore": 1.049193990644268,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NILOTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.6525474819860692,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "QUIZARTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.6141623359868885,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SUNITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.499006897989347,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "REGORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.3536086176894206,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PONATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.3307027963006323,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TORIPALIMAB-TPZI",
+        "approved": true
+      },
+      "interactionScore": 0.3070811679934442,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DASATINIB ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.2909190012569472,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PEXIDARTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.2632124297086666,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "MIDOSTAURIN",
+        "approved": true
+      },
+      "interactionScore": 0.2105699437669332,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PEXIDARTINIB HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.2047207786622961,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TOCERANIB PHOSPHATE",
+        "approved": true
+      },
+      "interactionScore": 0.2047207786622961,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "MASITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1806359811726142,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AXITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.175474953139111,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CABOZANTINIB S-MALATE",
+        "approved": true
+      },
+      "interactionScore": 0.167498818905515,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.1281730092494376,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "BINIMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1228324671973777,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TIVOZANIB HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1228324671973777,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+AVAPRITINIB,RIPRETINIB,IMATINIB,NILOTINIB,QUIZARTINIB,SUNITINIB,REGORAFENIB,PONATINIB,TORIPALIMAB-TPZI,DASATINIB ANHYDROUS,PEXIDARTINIB,MIDOSTAURIN,PEXIDARTINIB HYDROCHLORIDE,TOCERANIB PHOSPHATE,MASITINIB,AXITINIB,CABOZANTINIB S-MALATE,SORAFENIB,BINIMETINIB,TIVOZANIB HYDROCHLORIDE

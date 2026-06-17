@@ -1,0 +1,189 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Pancreatic Cancer","therapyName":"Trametinib","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "H123Q",
+            "feature": {
+              "name": "MAP2K2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Pancreatic Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trametinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In this case report, a 66-year old woman with pancreatic ductal adenocarcinoma was treated with trametinib for a BRAF in-frame-deletion and TP53 mutation and achieved an initial partial response for close to 6 months. Resequencing after progression revealed the emergence of MAP2K2 H123Q, G132D and G132S mutations in cfDNA measurements.",
+      "evidenceLevel": "C",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:7731"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "CIC"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Pancreatic Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trametinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a CRISPR-Cas9 screen in two KRAS G12V pancreatic cancer cell lines (PATU8902, PATU8988T), CIC was found to promote proliferation/survival in the context of trametinib treatment. Additional in vitro and in vivo studies in these cell lines showed that CIC knockout conferred resistance to trametinib.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:5108"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Overexpression",
+            "feature": {
+              "name": "ETV1"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Pancreatic Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trametinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In vitro studies in KRAS G12V pancreatic cancer cells (PATU8902) showed that overexpression of ETV1 reduced sensitivity to trametinib.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:5117"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Overexpression",
+            "feature": {
+              "name": "ETV4"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Pancreatic Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trametinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In vitro studies in KRAS G12V pancreatic cancer cells (PATU8902) showed that overexpression of ETV4 reduced sensitivity to trametinib.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:5119"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Overexpression",
+            "feature": {
+              "name": "ETV5"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Pancreatic Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trametinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In vitro studies in KRAS G12V pancreatic cancer cells (PATU8902) showed that overexpression of ETV5 reduced sensitivity to trametinib.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:5120"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "ATXN1L"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Pancreatic Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trametinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "ATXN1L loss reduced sensitivity to trametinib in KRAS G12V pancreatic cancer cells (PATU8902, PATU8988T).",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:5123"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+MAP2K2,CIC,ETV1,ETV4,ETV5,ATXN1L

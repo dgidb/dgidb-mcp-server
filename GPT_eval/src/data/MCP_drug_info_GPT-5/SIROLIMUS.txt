@@ -1,0 +1,110 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"SIROLIMUS"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "SIROLIMUS",
+  "conceptId": "rxcui:35302",
+  "approved": true,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "1999"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Pan-TK inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "EGFR inhibitor 1st gen"
+    },
+    {
+      "name": "Drug Class",
+      "value": "MTOR inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "EGFR mAb inhibitor"
+    },
+    {
+      "name": "Indication",
+      "value": "for treatment of wet age-related macular degeneration"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Small Molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "immunosuppressant"
+    },
+    {
+      "name": "Year of Approval",
+      "value": "2007"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Immunosuppressive Agents"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01266057"
+    },
+    {
+      "name": "Notes",
+      "value": "rapalogue"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Kinase Inhibitors"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "HemOnc",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Prescription",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,YES,YES

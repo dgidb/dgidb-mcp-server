@@ -1,0 +1,247 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"MAP2K2"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "MAP2K2": [
+    {
+      "drug": {
+        "name": "COBIMETINIB FUMARATE",
+        "approved": true
+      },
+      "interactionScore": 0.6070209134754131,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SELUMETINIB SULFATE",
+        "approved": true
+      },
+      "interactionScore": 0.6070209134754131,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "COBIMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.3194846913028489,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "BINIMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.3035104567377065,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SELUMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1839457313561857,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TRAMETINIB DIMETHYL SULFOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1291533858458325,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "DABRAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.08992902421857972,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "VEMURAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.03281194126894125,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VANDETANIB",
+        "approved": true
+      },
+      "interactionScore": 0.02093175563708321,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DASATINIB ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.01597423456514245,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL1956073",
+        "approved": false
+      },
+      "interactionScore": 1.214041826950826,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TAK-733",
+        "approved": false
+      },
+      "interactionScore": 0.7284250961704957,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AZD8330",
+        "approved": false
+      },
+      "interactionScore": 0.6070209134754131,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "RO-4987655",
+        "approved": false
+      },
+      "interactionScore": 0.6070209134754131,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "RG-7167",
+        "approved": false
+      },
+      "interactionScore": 0.6070209134754131,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AZD-8330",
+        "approved": false
+      },
+      "interactionScore": 0.6070209134754131,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AS-703988",
+        "approved": false
+      },
+      "interactionScore": 0.6070209134754131,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "BALAMAPIMOD",
+        "approved": false
+      },
+      "interactionScore": 0.6070209134754131,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "MIRDAMETINIB",
+        "approved": false
+      },
+      "interactionScore": 0.5203036401217828,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PIMASERTIB",
+        "approved": false
+      },
+      "interactionScore": 0.4552656851065598,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+COBIMETINIB FUMARATE,SELUMETINIB SULFATE,COBIMETINIB,BINIMETINIB,SELUMETINIB,TRAMETINIB DIMETHYL SULFOXIDE,DABRAFENIB,VEMURAFENIB,VANDETANIB,DASATINIB ANHYDROUS,CHEMBL:CHEMBL1956073,TAK-733,AZD8330,RO-4987655,RG-7167,AZD-8330,AS-703988,BALAMAPIMOD,MIRDAMETINIB,PIMASERTIB

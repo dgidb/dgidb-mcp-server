@@ -1,0 +1,167 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"RUNX1"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "RUNX1": [
+    {
+      "drug": {
+        "name": "METHACHOLINE CHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.4971790338941478,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PYROGALLOL",
+        "approved": true
+      },
+      "interactionScore": 0.09943580677882959,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TAMOXIFEN CITRATE",
+        "approved": true
+      },
+      "interactionScore": 0.07850195272012861,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "IMATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.04143158615784565,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DISULFIRAM",
+        "approved": true
+      },
+      "interactionScore": 0.03468690934145218,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CYTARABINE",
+        "approved": true
+      },
+      "interactionScore": 0.01864421377103054,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DAUNORUBICIN LIPOSOMAL",
+        "approved": true
+      },
+      "interactionScore": 0.01639051760090597,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CETIRIZINE HYDROCHLORIDE",
+        "approved": false
+      },
+      "interactionScore": 0.7457685508412218,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CYTARABINE HYDROCHLORIDE",
+        "approved": false
+      },
+      "interactionScore": 0.4971790338941478,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DIPYRIDYL",
+        "approved": false
+      },
+      "interactionScore": 0.3728842754206109,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "QUINOLINIC ACID",
+        "approved": false
+      },
+      "interactionScore": 0.2485895169470739,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ERGOCORNINE",
+        "approved": false
+      },
+      "interactionScore": 0.2485895169470739,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FUSARIC ACID",
+        "approved": false
+      },
+      "interactionScore": 0.2130767288117777,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "L-NOREPINEPHRINE",
+        "approved": false
+      },
+      "interactionScore": 0.1864421377103054,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SHIKONIN",
+        "approved": false
+      },
+      "interactionScore": 0.1491537101682443,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "&ALPHA;-ERGOCRYPTINE",
+        "approved": false
+      },
+      "interactionScore": 0.1491537101682443,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL1341830",
+        "approved": false
+      },
+      "interactionScore": 0.1491537101682443,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL313737",
+        "approved": false
+      },
+      "interactionScore": 0.1491537101682443,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL260311",
+        "approved": false
+      },
+      "interactionScore": 0.1355942819711312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "IRIGINOL HEXAACEATATE",
+        "approved": false
+      },
+      "interactionScore": 0.1355942819711312,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+METHACHOLINE CHLORIDE,PYROGALLOL,TAMOXIFEN CITRATE,IMATINIB,DISULFIRAM,CYTARABINE,DAUNORUBICIN LIPOSOMAL,CETIRIZINE HYDROCHLORIDE,CYTARABINE HYDROCHLORIDE,DIPYRIDYL,QUINOLINIC ACID,ERGOCORNINE,FUSARIC ACID,L-NOREPINEPHRINE,SHIKONIN,&ALPHA;-ERGOCRYPTINE,CHEMBL:CHEMBL1341830,CHEMBL:CHEMBL313737,CHEMBL:CHEMBL260311,IRIGINOL HEXAACEATATE

@@ -1,0 +1,44 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Colon Cancer","therapyName":"Cisplatin","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Amplification",
+            "feature": {
+              "name": "BIRC7"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Colon Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Cisplatin"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "Livin (BIRC7) overexpression in two colon cancer cell lines (RKO and SW620) increased resistance of these cells to cisplatin. siRNA knockdown of Livin rendered the cells more sensitive to cisplatin. The study also further showed that cytoplasmic Livin levels increased in four colon cancer cell lines (RKO, SW620, HCT116, and KM12C) after cisplatin treatment in a dose-dependent manner. This study highlighted Livin as a potential player in colon cancer therapy.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:661"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+BIRC7

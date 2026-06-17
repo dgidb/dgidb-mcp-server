@@ -1,0 +1,234 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"CD274"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "CD274": [
+    {
+      "drug": {
+        "name": "AVELUMAB",
+        "approved": true
+      },
+      "interactionScore": 2.41684252587433,
+      "interactionTypes": [
+        {
+          "type": "other/unknown",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ATEZOLIZUMAB",
+        "approved": true
+      },
+      "interactionScore": 1.074152233721924,
+      "interactionTypes": [
+        {
+          "type": "antibody",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "immunotherapy",
+          "directionality": null
+        },
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "DURVALUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.9667370103497319,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NIVOLUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.2974575416460714,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TREMELIMUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.2762105743856377,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CEMIPLIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.2762105743856377,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PEMBROLIZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.2343604873575107,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "IPILIMUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.1288982680466309,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PEMETREXED DISODIUM",
+        "approved": true
+      },
+      "interactionScore": 0.07436438541151785,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PACMILIMAB",
+        "approved": false
+      },
+      "interactionScore": 3.866948041398927,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ENVAFOLIMAB",
+        "approved": false
+      },
+      "interactionScore": 3.866948041398927,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SHR-1316",
+        "approved": false
+      },
+      "interactionScore": 1.933474020699463,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "DANBURSTOTUG",
+        "approved": false
+      },
+      "interactionScore": 1.933474020699463,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "COSIBELIMAB",
+        "approved": false
+      },
+      "interactionScore": 1.933474020699463,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ANTI-PD-L1 MONOCLONAL ANTIBODY FAZ053",
+        "approved": false
+      },
+      "interactionScore": 1.933474020699463,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SUGEMALIMAB",
+        "approved": false
+      },
+      "interactionScore": 1.933474020699463,
+      "interactionTypes": [
+        {
+          "type": "binder",
+          "directionality": null
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ATEZOLIZUMAB",
+        "approved": false
+      },
+      "interactionScore": 1.933474020699463,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LODAPOLIMAB",
+        "approved": false
+      },
+      "interactionScore": 1.933474020699463,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ANTI-PD-L1 MONOCLONAL ANTIBODY MDX-1105",
+        "approved": false
+      },
+      "interactionScore": 1.933474020699463,
+      "interactionTypes": [
+        {
+          "type": "immunotherapy",
+          "directionality": null
+        },
+        {
+          "type": "antibody",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SOCAZOLIMAB",
+        "approved": false
+      },
+      "interactionScore": 1.933474020699463,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+AVELUMAB,ATEZOLIZUMAB,DURVALUMAB,NIVOLUMAB,TREMELIMUMAB,CEMIPLIMAB,PEMBROLIZUMAB,IPILIMUMAB,PEMETREXED DISODIUM,PACMILIMAB,ENVAFOLIMAB,SHR-1316,DANBURSTOTUG,COSIBELIMAB,ANTI-PD-L1 MONOCLONAL ANTIBODY FAZ053,SUGEMALIMAB,LODAPOLIMAB,ANTI-PD-L1 MONOCLONAL ANTIBODY MDX-1105,SOCAZOLIMAB

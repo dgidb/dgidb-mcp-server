@@ -1,0 +1,23 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"CHLOROQUINE"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "CHLOROQUINE",
+  "conceptId": "rxcui:2393",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,NO,YES

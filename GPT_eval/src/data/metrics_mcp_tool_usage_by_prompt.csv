@@ -1,0 +1,6 @@
+,n_positive,n_positive,n_subset,n_subset,precision,precision,recall,recall,f1,f1
+,MCP,No MCP,MCP,No MCP,MCP,No MCP,MCP,No MCP,MCP,No MCP
+label,,,,,,,,,,
+Antineoplastic,17.0,47.0,45.0,55.0,1.0,0.914286,0.882353,0.680851,0.9375,0.780488
+FDA-Approved,10.0,38.0,45.0,55.0,0.909091,0.926829,1.0,1.0,0.952381,0.962025
+Immunotherapy,15.0,32.0,45.0,55.0,1.0,0.956522,1.0,0.6875,1.0,0.8

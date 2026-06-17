@@ -1,0 +1,30 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"TIMAPIPRANT"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "TIMAPIPRANT",
+  "conceptId": "iuphar.ligand:9277",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "small molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "antiallergy agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Not Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

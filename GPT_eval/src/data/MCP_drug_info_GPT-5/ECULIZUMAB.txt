@@ -1,0 +1,69 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"ECULIZUMAB"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "ECULIZUMAB",
+  "conceptId": "rxcui:591781",
+  "approved": true,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "2007"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Immunomodulatory Agents"
+    },
+    {
+      "name": "Drug Class",
+      "value": "monoclonal antibody"
+    },
+    {
+      "name": "Indication",
+      "value": "DMARD"
+    },
+    {
+      "name": "Indication",
+      "value": "antiinflammatory agent"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "HemOnc",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,YES,YES

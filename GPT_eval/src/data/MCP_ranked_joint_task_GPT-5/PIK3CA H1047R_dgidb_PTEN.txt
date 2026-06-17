@@ -1,0 +1,167 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"PTEN"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "PTEN": [
+    {
+      "drug": {
+        "name": "CAPIVASERTIB",
+        "approved": true
+      },
+      "interactionScore": 0.311148468231768,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CAPMATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.2304803468383467,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TEMSIROLIMUS",
+        "approved": true
+      },
+      "interactionScore": 0.1843842774706774,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EVEROLIMUS",
+        "approved": true
+      },
+      "interactionScore": 0.17286026012876,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ENCORAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.1536535645588978,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ALPELISIB",
+        "approved": true
+      },
+      "interactionScore": 0.1440502167739667,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TIRBANIBULIN",
+        "approved": true
+      },
+      "interactionScore": 0.138288208103008,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ENZALUTAMIDE",
+        "approved": true
+      },
+      "interactionScore": 0.12964519509657,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "NIVOLUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.07978165852096618,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "IDELALISIB",
+        "approved": true
+      },
+      "interactionScore": 0.0768267822794489,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VEMURAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.07475038275838272,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ABIRATERONE ACETATE",
+        "approved": true
+      },
+      "interactionScore": 0.07408296862661146,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "BINIMETINIB",
+        "approved": true
+      },
+      "interactionScore": 0.06914410405150402,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DABRAFENIB",
+        "approved": true
+      },
+      "interactionScore": 0.06402231856620742,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SAPANISERTIB",
+        "approved": true
+      },
+      "interactionScore": 0.06012530787087306,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "AFATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.05762008670958668,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RIBOCICLIB",
+        "approved": true
+      },
+      "interactionScore": 0.05762008670958668,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CETUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.05606278706878705,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ERDAFITINIB",
+        "approved": true
+      },
+      "interactionScore": 0.05318777234731078,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PEMBROLIZUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.05238189700871516,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+CAPIVASERTIB,CAPMATINIB,TEMSIROLIMUS,EVEROLIMUS,ENCORAFENIB,ALPELISIB,TIRBANIBULIN,ENZALUTAMIDE,NIVOLUMAB,IDELALISIB,VEMURAFENIB,ABIRATERONE ACETATE,BINIMETINIB,DABRAFENIB,SAPANISERTIB,AFATINIB,RIBOCICLIB,CETUXIMAB,ERDAFITINIB,PEMBROLIZUMAB

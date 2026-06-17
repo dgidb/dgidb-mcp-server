@@ -1,0 +1,109 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"PANITUMUMAB"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "PANITUMUMAB",
+  "conceptId": "rxcui:263034",
+  "approved": true,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "2006"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Therapeutic Antibodies"
+    },
+    {
+      "name": "Drug Class",
+      "value": "monoclonal antibody"
+    },
+    {
+      "name": "Indication",
+      "value": "antineoplastic agent"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Pan-kinase inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "MEK inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "PI3K inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "BRAF inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "EGFR mAb inhibitor"
+    },
+    {
+      "name": "Link to Clearity Drug Class Schematic",
+      "value": "https://www.clearityfoundation.org/healthcare-pros/drugs-bio/clinicla-trial-agents/egfr-inhibitors.aspx"
+    },
+    {
+      "name": "Drug Subclass",
+      "value": "Clinical Trial Agents (Approved in other Cancers)"
+    },
+    {
+      "name": "Drug Class",
+      "value": "EGFR Inhibitors"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01296035"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT00610948"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Antineoplastic Agents"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "HemOnc",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,YES,YES

@@ -1,0 +1,101 @@
+,index,drug_name,approved,immunotherapy,anti_neoplastic,pred_approved,pred_immunotherapy,pred_anti_neoplastic
+0,0,ENCORAFENIB,True,False,True,True,False,True
+1,1,TAMOXIFEN,True,False,True,True,False,True
+2,2,FARUDODSTAT,False,False,True,False,False,True
+3,3,[D-TYR8]CYN 154806,False,False,False,False,False,False
+4,4,FAM-TRASTUZUMAB DERUXTECAN-NXKI,True,False,True,True,False,True
+5,5,RITUXIMAB,True,True,True,True,True,True
+6,6,HOMOGENTISIC ACID,False,False,False,False,False,False
+7,7,GW785804X,False,False,False,False,False,False
+8,8,SRT2104,False,False,False,False,False,False
+9,9,NIVOLUMAB,True,True,True,True,True,True
+10,10,INTERFERON ALFACON-1,True,True,True,True,True,True
+11,11,OLAPARIB,True,False,True,True,False,True
+12,12,EXEMESTANE,True,False,True,True,False,True
+13,13,MOGAMULIZUMAB,True,True,True,True,True,True
+14,14,CS+,False,False,False,False,False,False
+15,15,ANTI-THYMOCYTE GLOBULIN,True,True,False,False,True,False
+16,16,EVEROLIMUS,True,True,True,True,True,True
+17,17,"L-797,591",False,False,False,False,False,False
+18,18,PEMBROLIZUMAB,True,True,True,True,True,True
+19,19,INTERFERON ALFA-2B,True,True,True,True,True,True
+20,20,DALOTUZUMAB,False,True,True,False,True,True
+21,21,PEGINTERFERON ALFA-2A,True,True,True,True,True,True
+22,22,THALIDOMIDE,True,True,True,True,True,True
+23,23,[125I]TYR45-KISSPEPTIN-15,False,False,False,False,False,False
+24,24,IBRITUMOMAB TIUXETAN,True,True,True,True,True,True
+25,25,ATN-161,False,False,False,False,False,False
+26,26,ECULIZUMAB,True,True,True,True,True,True
+27,27,FICLATUZUMAB,False,True,True,False,True,True
+28,28,ALDOXORUBICIN,False,False,True,False,False,True
+29,29,CHEMBL:CHEMBL426404,False,False,False,False,False,False
+30,30,CHEMBL:CHEMBL473721,False,False,False,False,False,False
+31,31,MUROMONAB-CD3,True,True,True,True,True,True
+32,32,DULANERMIN,False,True,True,False,True,True
+33,33,ROMIDEPSIN,True,False,True,True,False,True
+34,34,ALEFACEPT,True,True,True,True,True,True
+35,35,IXAZOMIB CITRATE,True,False,True,True,False,True
+36,36,PIDILIZUMAB,False,True,True,False,True,True
+37,37,NECITUMUMAB,True,True,True,True,True,True
+38,38,CONATUMUMAB,False,True,True,False,True,True
+39,39,"[SAR1, D-ALA12]GALANIN(1-16)",False,False,False,False,False,False
+40,40,GSK-2586881,False,False,False,False,False,False
+41,41,ODM-203,False,False,False,False,False,False
+42,42,(+)-ADTN,False,False,False,False,False,False
+43,43,NIMOTUZUMAB,False,True,True,False,True,True
+44,44,ANTI-IGF-1R RECOMBINANT MONOCLONAL ANTIBODY BIIB022,False,True,True,False,True,True
+45,45,BELIMUMAB,True,True,True,True,True,True
+46,46,SELECTIVE ESTROGEN RECEPTOR MODULATOR,False,False,False,False,False,False
+47,47,GSK065,False,False,False,False,False,False
+48,48,CYCLOSPORINE,True,True,True,True,True,True
+49,49,"3-(2,6-DIFLUOROPHENYL)-2-(METHYLTHIO)QUINAZOLIN-4(3H)-ONE",False,False,False,False,False,False
+50,50,PEMIGATINIB,True,False,True,True,False,True
+51,51,CHLOROQUINE,True,False,True,True,False,True
+52,52,AFLIBERCEPT,True,True,True,True,True,True
+53,53,TIGATUZUMAB,False,False,False,False,False,False
+54,54,INTERFERON ALFA-N3,True,True,True,True,True,True
+55,55,RXP470.1,False,False,False,False,False,False
+56,56,ABT-239,False,False,False,False,False,False
+57,57,TIMAPIPRANT,False,False,False,False,False,False
+58,58,OFATUMUMAB,True,True,True,True,True,True
+59,59,IMIQUIMOD,True,True,True,True,True,True
+60,60,DIFLUOROMETHIONINE,False,False,False,False,False,False
+61,61,ALEMTUZUMAB,True,True,True,True,True,True
+62,62,IFOSFAMIDE,True,False,True,True,False,True
+63,63,CANAKINUMAB,True,True,True,True,True,True
+64,64,APOMAB,False,True,True,False,True,True
+65,65,DIPLAMINE B,False,False,False,False,False,False
+66,66,CARBOPLATIN,True,False,True,True,False,True
+67,67,CHEMBL:CHEMBL373937,False,False,False,False,False,False
+68,68,LEUCOVORIN CALCIUM,True,False,True,True,False,True
+69,69,LBY-135,False,True,True,False,True,True
+70,70,STING AGONIST 3,False,False,False,False,False,False
+71,71,SIROLIMUS,True,True,True,True,True,True
+72,72,ANTI-ERBB3 MONOCLONAL ANTIBODY AV-203,False,True,True,False,True,True
+73,73,JNJ-5207852,False,False,False,False,False,False
+74,74,JNK INHIBITOR 9L,False,False,False,False,False,False
+75,75,ISOBAVACHALCONE,False,False,False,False,False,False
+76,76,GOLIMUMAB,True,True,True,True,True,True
+77,77,PANITUMUMAB,True,True,True,True,True,True
+78,78,IPILIMUMAB,True,True,True,True,True,True
+79,79,ENTRECTINIB,True,False,True,True,False,True
+80,80,ALNIDITAN,False,False,True,False,False,True
+81,81,BEVACIZUMAB-AWWB,False,False,False,False,False,False
+82,82,TOVETUMAB,False,True,True,False,True,True
+83,83,RAMUCIRUMAB,True,True,True,True,True,True
+84,84,EFALIZUMAB,True,True,True,True,True,True
+85,85,DECYL DIHYDROGEN PHOSPHATE,False,False,False,False,False,False
+86,86,ETANERCEPT-SZZS,False,False,False,False,False,False
+87,87,CETUXIMAB,True,True,True,True,True,True
+88,88,FINGOLIMOD,True,True,True,True,True,True
+89,89,OMIGAPIL,False,False,True,False,False,True
+90,90,CHEMBL:CHEMBL1513392,False,False,False,False,False,False
+91,91,TREMELIMUMAB,True,True,True,True,True,True
+92,92,ANHYDROUS TACROLIMUS,True,True,True,True,True,True
+93,93,BMS-986020,False,False,False,False,False,False
+94,94,TOCILIZUMAB,True,True,True,True,True,True
+95,95,CEFDITORIN PIVOXIL,False,False,False,False,False,False
+96,96,ATEVIRDINE MESYLATE,False,False,True,False,False,True
+97,97,DACLIZUMAB,True,True,True,True,True,True
+98,98,CHEMBL:CHEMBL19954,False,False,False,False,False,False
+99,99,CIXUTUMUMAB,False,True,True,False,True,True

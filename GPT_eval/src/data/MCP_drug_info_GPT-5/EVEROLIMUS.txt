@@ -1,0 +1,153 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"EVEROLIMUS"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "EVEROLIMUS",
+  "conceptId": "rxcui:141704",
+  "approved": true,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Notes",
+      "value": "rapalogue"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Kinase Inhibitors"
+    },
+    {
+      "name": "Link to Clearity Drug Class Schematic",
+      "value": "https://www.clearityfoundation.org/healthcare-pros/drugs-bio/clinicla-trial-agents/mtor-inhibitors.aspx"
+    },
+    {
+      "name": "Drug Subclass",
+      "value": "Clinical Trial Agents (Approved in other Cancers)"
+    },
+    {
+      "name": "Drug Class",
+      "value": "mTOR Inhibitors"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01031381"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01624766"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01596140"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01582191"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01482156"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01281514"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01122199"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01087554"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT00610948"
+    },
+    {
+      "name": "Year of Approval",
+      "value": "2009"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Immunosuppressive Agents"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Somatostatin analog"
+    },
+    {
+      "name": "Drug Class",
+      "value": "VEGFR inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "EGFR inhibitor 1st gen"
+    },
+    {
+      "name": "Drug Class",
+      "value": "VEGFR mAb inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Chemotherapy"
+    },
+    {
+      "name": "Drug Class",
+      "value": "ERBB2 mAb inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Hormonal therapy"
+    },
+    {
+      "name": "Drug Class",
+      "value": "MTOR inhibitor"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Small Molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "immunosuppressant"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Prescription",
+      "source": {
+        "sourceDbName": "Drugs@FDA",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,YES,YES

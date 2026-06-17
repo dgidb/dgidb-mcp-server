@@ -1,0 +1,80 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"TAMOXIFEN"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "TAMOXIFEN",
+  "conceptId": "rxcui:10324",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Year of Approval",
+      "value": "1977"
+    },
+    {
+      "name": "Drug Class",
+      "value": "small molecule"
+    },
+    {
+      "name": "Indication",
+      "value": "Hormonal"
+    },
+    {
+      "name": "Indication",
+      "value": "Antineoplastic Agents"
+    },
+    {
+      "name": "Link to Clearity Drug Class Schematic",
+      "value": "https://www.clearityfoundation.org/healthcare-pros/drugs-bio/hormonal-therapies/hormonal-therapy.aspx"
+    },
+    {
+      "name": "Drug Subclass",
+      "value": "Hormonal Therapies"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Anti-Estrogens"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Hormonal therapy"
+    },
+    {
+      "name": "Clinical Trial ID",
+      "value": "NCT01685255"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Antineoplastic Agents, Hormonal"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "HemOnc",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+YES,NO,YES

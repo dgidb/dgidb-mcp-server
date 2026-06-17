@@ -1,0 +1,67 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Colon Mucinous Adenocarcinoma","therapyName":"Panitumumab","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Q22*",
+            "feature": {
+              "name": "KRAS"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Colon Mucinous Adenocarcinoma"
+      },
+      "therapies": [
+        {
+          "name": "Panitumumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A 43-year-old female was diagnosed with an adenocarcinoma of the ascending colon and received 6-months of adjuvant chemotherapy. After 5 years of completion of adjuvant chemotherapy, the disease relapsed. EGFR was assessed by immunohistochemistry, and the patient was subsequently treated with the anti-EGFR monoclonal antibody panitumumab. However, there was a rapid clinical worsening, which may possibly be attributed to a somatic mutation in KRAS (Q22*).",
+      "evidenceLevel": "C",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:1131"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+Invoking MCP tool get_variant_assertions with input {"diseaseName":"Colon Mucinous Adenocarcinoma","therapyName":"Panitumumab","significance":"RESISTANCE"}
+MCP tool get_variant_assertions returned meta=None content=[TextContent(type='text', text='{
+  "errors": [
+    {
+      "message": "Variable $molecularProfileName of type String! was provided invalid value",
+      "locations": [
+        {
+          "line": 2,
+          "column": 22
+        }
+      ],
+      "extensions": {
+        "value": null,
+        "problems": [
+          {
+            "path": [],
+            "explanation": "Expected value to not be null"
+          }
+        ]
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+KRAS

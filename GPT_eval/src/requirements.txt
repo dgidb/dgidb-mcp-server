@@ -1,0 +1,9 @@
+# Python 3.11.7
+
+fastmcp==2.10.1
+mcp==1.26.0
+numpy==1.26.4
+openai==2.24.0
+openai-agents==0.10.2
+pandas==2.2.3
+requests==2.32.3

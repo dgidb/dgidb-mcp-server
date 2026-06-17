@@ -1,0 +1,51 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"CIXUTUMUMAB"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "CIXUTUMUMAB",
+  "conceptId": "ncit:C79828",
+  "approved": false,
+  "immunotherapy": true,
+  "antiNeoplastic": true,
+  "drugAttributes": [
+    {
+      "name": "Drug Class",
+      "value": "Therapeutic Antibodies"
+    },
+    {
+      "name": "Drug Class",
+      "value": "antibody"
+    },
+    {
+      "name": "Indication",
+      "value": "antineoplastic agent"
+    },
+    {
+      "name": "Developer",
+      "value": "ImClone Systems"
+    },
+    {
+      "name": "Drug Class",
+      "value": "Monoclonal Antibody"
+    }
+  ],
+  "drugApprovalRatings": [
+    {
+      "rating": "Not Approved",
+      "source": {
+        "sourceDbName": "TdgClinicalTrial",
+        "sourceTrustLevel": null
+      }
+    },
+    {
+      "rating": "Max Phase 2",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,YES,YES

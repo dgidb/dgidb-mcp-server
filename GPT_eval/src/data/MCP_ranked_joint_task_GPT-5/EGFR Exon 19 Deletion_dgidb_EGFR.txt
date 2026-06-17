@@ -1,0 +1,274 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"EGFR"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "EGFR": [
+    {
+      "drug": {
+        "name": "AFATINIB",
+        "approved": true
+      },
+      "interactionScore": 1.223526528723879,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "MOBOCERTINIB",
+        "approved": true
+      },
+      "interactionScore": 1.087579136643448,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NECITUMUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.6797369604021554,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "antibody",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CETUXIMAB",
+        "approved": true
+      },
+      "interactionScore": 0.6172746451219573,
+      "interactionTypes": [
+        {
+          "type": "antibody",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "DACOMITINIB ANHYDROUS",
+        "approved": true
+      },
+      "interactionScore": 0.589105365681868,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ERLOTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.5680658883360871,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NERATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.3625263788811495,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "LAPATINIB",
+        "approved": true
+      },
+      "interactionScore": 0.2718947841608621,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AMIVANTAMAB",
+        "approved": true
+      },
+      "interactionScore": 0.2718947841608621,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "OSIMERTINIB MESYLATE",
+        "approved": true
+      },
+      "interactionScore": 0.2718947841608621,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "MOBOCERTINIB SUCCINATE",
+        "approved": true
+      },
+      "interactionScore": 0.2718947841608621,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "OLMUTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.2718947841608621,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "NERATINIB MALEATE",
+        "approved": true
+      },
+      "interactionScore": 0.1812631894405747,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ERLOTINIB HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1812631894405747,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PANITUMUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.1767316097045603,
+      "interactionTypes": [
+        {
+          "type": "antibody",
+          "directionality": "INHIBITORY"
+        },
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "OSIMERTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1553684480919212,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "RAMUCIRUMAB",
+        "approved": true
+      },
+      "interactionScore": 0.135947392080431,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "LAZERTINIB",
+        "approved": true
+      },
+      "interactionScore": 0.1087579136643448,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "VANDETANIB",
+        "approved": true
+      },
+      "interactionScore": 0.1078203454431004,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "AFATINIB DIMALEATE",
+        "approved": true
+      },
+      "interactionScore": 0.09063159472028738,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+AFATINIB,MOBOCERTINIB,NECITUMUMAB,CETUXIMAB,DACOMITINIB ANHYDROUS,ERLOTINIB,NERATINIB,LAPATINIB,AMIVANTAMAB,OSIMERTINIB MESYLATE,MOBOCERTINIB SUCCINATE,OLMUTINIB,NERATINIB MALEATE,ERLOTINIB HYDROCHLORIDE,PANITUMUMAB,OSIMERTINIB,RAMUCIRUMAB,LAZERTINIB,VANDETANIB,AFATINIB DIMALEATE

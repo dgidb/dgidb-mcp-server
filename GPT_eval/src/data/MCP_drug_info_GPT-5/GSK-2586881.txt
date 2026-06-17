@@ -1,0 +1,23 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"GSK-2586881"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "GSK-2586881",
+  "conceptId": "chembl:CHEMBL4297887",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 2",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

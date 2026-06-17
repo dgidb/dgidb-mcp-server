@@ -1,0 +1,31 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"ATEVIRDINE MESYLATE"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "ATEVIRDINE MESYLATE",
+  "conceptId": "ncit:C73148",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 2",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "ATEVIRDINE",
+  "conceptId": "ncit:C73840",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,YES

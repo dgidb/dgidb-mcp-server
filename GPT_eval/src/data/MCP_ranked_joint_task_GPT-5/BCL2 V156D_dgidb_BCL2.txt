@@ -1,0 +1,172 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"BCL2"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "BCL2": [
+    {
+      "drug": {
+        "name": "TENIPOSIDE",
+        "approved": true
+      },
+      "interactionScore": 0.1414737088316681,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EDARAVONE",
+        "approved": true
+      },
+      "interactionScore": 0.1273263379485013,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ISOTRETINOIN",
+        "approved": true
+      },
+      "interactionScore": 0.1193684418267199,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "VENETOCLAX",
+        "approved": true
+      },
+      "interactionScore": 0.1157512163168193,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ESTRAMUSTINE",
+        "approved": true
+      },
+      "interactionScore": 0.1157512163168193,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TAZAROTENE",
+        "approved": true
+      },
+      "interactionScore": 0.1157512163168193,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SELENIUM",
+        "approved": true
+      },
+      "interactionScore": 0.1123467687780893,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "METHYLPREDNISOLONE",
+        "approved": true
+      },
+      "interactionScore": 0.106105281623751,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FLOXURIDINE",
+        "approved": true
+      },
+      "interactionScore": 0.09094738424892951,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RIBAVIRIN",
+        "approved": true
+      },
+      "interactionScore": 0.08376732759769821,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "URSODIOL",
+        "approved": true
+      },
+      "interactionScore": 0.07957896121781331,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "HYDROQUINONE",
+        "approved": true
+      },
+      "interactionScore": 0.0748978458520596,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "4-PHENYLBUTYRIC ACID",
+        "approved": true
+      },
+      "interactionScore": 0.06366316897425064,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ERYTHROMYCIN",
+        "approved": true
+      },
+      "interactionScore": 0.05535927736891361,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "OXALIPLATIN",
+        "approved": true
+      },
+      "interactionScore": 0.05026039655861894,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DIETHYLSTILBESTROL",
+        "approved": true
+      },
+      "interactionScore": 0.03858373877227312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PENTOXIFYLLINE",
+        "approved": true
+      },
+      "interactionScore": 0.0363789536995718,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EPIRUBICIN",
+        "approved": true
+      },
+      "interactionScore": 0.03536842720791702,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "POLATUZUMAB VEDOTIN",
+        "approved": true
+      },
+      "interactionScore": 0.03350693103907929,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ETOPOSIDE",
+        "approved": true
+      },
+      "interactionScore": 0.03292922533150895,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+TENIPOSIDE,EDARAVONE,ISOTRETINOIN,VENETOCLAX,ESTRAMUSTINE,TAZAROTENE,SELENIUM,METHYLPREDNISOLONE,FLOXURIDINE,RIBAVIRIN,URSODIOL,HYDROQUINONE,4-PHENYLBUTYRIC ACID,ERYTHROMYCIN,OXALIPLATIN,DIETHYLSTILBESTROL,PENTOXIFYLLINE,EPIRUBICIN,POLATUZUMAB VEDOTIN,ETOPOSIDE

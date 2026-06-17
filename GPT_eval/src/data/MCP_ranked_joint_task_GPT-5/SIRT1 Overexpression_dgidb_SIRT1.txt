@@ -1,0 +1,182 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"SIRT1"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "SIRT1": [
+    {
+      "drug": {
+        "name": "NIACINAMIDE",
+        "approved": true
+      },
+      "interactionScore": 1.200087323192771,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RESVERATROL",
+        "approved": true
+      },
+      "interactionScore": 0.1469494681460535,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "PANOBINOSTAT",
+        "approved": true
+      },
+      "interactionScore": 0.05625409327466113,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "ALTISSIMACOUMARIN D",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ALTISSIMACOUMARIN C",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL200762",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SIRTINOL",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL254156",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ALTISSIMACOUMARIN F",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GINSENOSIDE RH1",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL372375",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL255683",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ALTISSIMACOUMARIN E",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GISENOSIDE RK1",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL403308",
+        "approved": false
+      },
+      "interactionScore": 3.600261969578312,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SRT-1720",
+        "approved": false
+      },
+      "interactionScore": 2.700196477183734,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "EX-527",
+        "approved": false
+      },
+      "interactionScore": 1.800130984789156,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "SRT-2104",
+        "approved": false
+      },
+      "interactionScore": 1.800130984789156,
+      "interactionTypes": [
+        {
+          "type": "activator",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL1436543",
+        "approved": false
+      },
+      "interactionScore": 1.800130984789156,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CHEMBL:CHEMBL1945130",
+        "approved": false
+      },
+      "interactionScore": 1.800130984789156,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+NIACINAMIDE,RESVERATROL,PANOBINOSTAT,ALTISSIMACOUMARIN D,ALTISSIMACOUMARIN C,CHEMBL:CHEMBL200762,SIRTINOL,CHEMBL:CHEMBL254156,ALTISSIMACOUMARIN F,GINSENOSIDE RH1,CHEMBL:CHEMBL372375,CHEMBL:CHEMBL255683,ALTISSIMACOUMARIN E,GISENOSIDE RK1,CHEMBL:CHEMBL403308,SRT-1720,EX-527,SRT-2104,CHEMBL:CHEMBL1436543,CHEMBL:CHEMBL1945130

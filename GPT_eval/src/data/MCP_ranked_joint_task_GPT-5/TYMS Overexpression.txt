@@ -1,0 +1,44 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Gastric Adenocarcinoma","therapyName":"Raltitrexed","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Overexpression",
+            "feature": {
+              "name": "TYMS"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Gastric Adenocarcinoma"
+      },
+      "therapies": [
+        {
+          "name": "Raltitrexed"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "In 125 gastric tumors, plasma and tissue mRNA levels of TYMS were lower in the raltitrexed sensitive group compared to the resistant group (p = 0.007 and 0.013, respectively).",
+      "evidenceLevel": "B",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:929"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+TYMS

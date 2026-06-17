@@ -1,0 +1,197 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"TYMS"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "TYMS": [
+    {
+      "drug": {
+        "name": "ARFOLITIXORIN",
+        "approved": true
+      },
+      "interactionScore": 1.065383644058888,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RALTITREXED",
+        "approved": true
+      },
+      "interactionScore": 1.065383644058888,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PEMETREXED MONOHYDRATE",
+        "approved": true
+      },
+      "interactionScore": 0.3551278813529628,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "FLOXURIDINE",
+        "approved": true
+      },
+      "interactionScore": 0.3043953268739681,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "TEGAFUR",
+        "approved": true
+      },
+      "interactionScore": 0.2663459110147221,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PEMETREXED DISODIUM",
+        "approved": true
+      },
+      "interactionScore": 0.2458577640135896,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "PHENTOLAMINE",
+        "approved": true
+      },
+      "interactionScore": 0.1420511525411851,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "ASPARAGINASE",
+        "approved": true
+      },
+      "interactionScore": 0.1183759604509876,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "HYDROXYCHLOROQUINE",
+        "approved": true
+      },
+      "interactionScore": 0.1183759604509876,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "FOLIC ACID",
+        "approved": true
+      },
+      "interactionScore": 0.0887819703382407,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TOPOTECAN HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.0887819703382407,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SULFASALAZINE",
+        "approved": true
+      },
+      "interactionScore": 0.0887819703382407,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "MITOMYCIN",
+        "approved": true
+      },
+      "interactionScore": 0.0887819703382407,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "IRINOTECAN HYDROCHLORIDE",
+        "approved": true
+      },
+      "interactionScore": 0.08455425746499114,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RESERPINE",
+        "approved": true
+      },
+      "interactionScore": 0.08195258800452988,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CAPECITABINE",
+        "approved": true
+      },
+      "interactionScore": 0.06266962612111109,
+      "interactionTypes": [
+        {
+          "type": "inhibitor",
+          "directionality": "INHIBITORY"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "LEUCOVORIN CALCIUM",
+        "approved": true
+      },
+      "interactionScore": 0.0591879802254938,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "AZATHIOPRINE",
+        "approved": true
+      },
+      "interactionScore": 0.05607282337152044,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "AZACITIDINE",
+        "approved": true
+      },
+      "interactionScore": 0.05326918220294442,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "INDOMETHACIN",
+        "approved": true
+      },
+      "interactionScore": 0.05326918220294442,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+ARFOLITIXORIN,RALTITREXED,PEMETREXED MONOHYDRATE,FLOXURIDINE,TEGAFUR,PEMETREXED DISODIUM,PHENTOLAMINE,ASPARAGINASE,HYDROXYCHLOROQUINE,FOLIC ACID,TOPOTECAN HYDROCHLORIDE,SULFASALAZINE,MITOMYCIN,IRINOTECAN HYDROCHLORIDE,RESERPINE,CAPECITABINE,LEUCOVORIN CALCIUM,AZATHIOPRINE,AZACITIDINE,INDOMETHACIN

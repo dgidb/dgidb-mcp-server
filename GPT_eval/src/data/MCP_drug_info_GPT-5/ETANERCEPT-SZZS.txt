@@ -1,0 +1,11 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"ETANERCEPT-SZZS"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "data": {
+    "drugs": {
+      "nodes": []
+    }
+  }
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

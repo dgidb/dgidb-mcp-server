@@ -1,0 +1,105 @@
+Invoking MCP tool get_variant_evidence with input {"diseaseName":"Breast Cancer","therapyName":"Paclitaxel","significance":"RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Overexpression",
+            "feature": {
+              "name": "TIMP1"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Paclitaxel"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "High expression of TIMP-1 was assessed by IHC in 99 primary breast cancers that had not spread beyond the breast after 6 postoperative courses of paclitaxel-based chemotherapy. High TIMP1 levels were associated with worse 5-year disease free survival (71.1%) than low levels (88.5 %; P = 0.020). High TIMP-1 levels were also associated with worse 5-year overall survival (78.9 %) than low levels (96.7 %; P = 0.004).",
+      "evidenceLevel": "B",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:927"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Amplification",
+            "feature": {
+              "name": "ABCC3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Paclitaxel"
+        },
+        {
+          "name": "Monomethyl Auristatin E"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "44 cell lines and 145 patient samples were utilized in various aspects of this study. 31 breast cancer cell lines for in vitro sensitivity to paclitaxel and Monomethyl Auristatin E (MMAE). Genome wide amplification was assessed by Affymetrix SNP arrays and expression was assessed by Affymetrix gene expression arrays. ABCC3 amplification (and expression) in ERBB2 (HER2) amplified breast cancer cell lines was associated with resistance to paclitaxel and  MMAE. Three independently derived EVSA-T cell lines overexpressing ABCC3 were at least 20-fold less sensitive to paclitaxel and MMAE based on EC50 values.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:951"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Overexpression",
+            "feature": {
+              "name": "MYD88"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Paclitaxel"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In this retrospective analysis of 211 breast cancer tissues, MYD88 overexpression was correlated  with poor survival. In-vitro experiments showed a decrease in sensitivity towards paclitaxel in cell-lines with high MYD88 expression.",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:734"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+TIMP1,ABCC3,MYD88

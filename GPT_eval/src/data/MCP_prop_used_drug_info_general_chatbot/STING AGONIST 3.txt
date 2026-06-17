@@ -1,0 +1,2948 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"STING AGONIST 3"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "3-CYCLOPROPYL-5-PHENYL-N-(PYRIDIN-3-YLMETHYL)PYRAZOLO[1,5-A]PYRIMIDIN-7-AMINE",
+  "conceptId": "drugbank:DB08539",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(4-AMINO-1-TERT-BUTYL-1H-PYRAZOLO[3,4-D]PYRIMIDIN-3-YL)METHYL]PHENOL",
+  "conceptId": "drugbank:DB08461",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-NITRO-2-METHOXYFLAVONE",
+  "conceptId": "ncit:C63778",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(3,5-DIBROMO-4-HYDROXY-BENZOYL)-2-ETHYL-BENZOFURAN-6-SULFONIC ACID DIMETHYLAMIDE",
+  "conceptId": "drugbank:DB04142",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,6,9,12,15-PENTAOXAHEPTADECANE",
+  "conceptId": "drugbank:DB02343",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PYRIDIN-4-YL-2,4-DIHYDRO-INDENO[1,2-.C.] PYRAZOLE",
+  "conceptId": "drugbank:DB08569",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST",
+  "conceptId": "ncit:C176586",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-AMINO-6-HYDROXY-TYROSINE",
+  "conceptId": "drugbank:DB02928",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-THIAOCTANOYL-COA",
+  "conceptId": "drugbank:DB03415",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-DEOXY-3\'-AMINOTHYMIDINE MONOPHOSPHATE",
+  "conceptId": "drugbank:DB03233",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,6-DIAMINO-10-METHYLACRIDINIUM CHLORIDE",
+  "conceptId": "ncit:C77087",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYKYNURENINE",
+  "conceptId": "ncit:C63766",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-METHYLENEDIOXYMETHAMPHETAMINE",
+  "conceptId": "ncit:C61081",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHYLPYRIDINE",
+  "conceptId": "drugbank:DB01996",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYMETHYL-5-AZIRIDINYL-1METHYL-2-[1H-INDOLE-4,7-DIONE]-PROPANOL",
+  "conceptId": "drugbank:DB02395",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(OXALYL-AMINO)-NAPHTHALENE-2-CARBOXYLIC ACID",
+  "conceptId": "drugbank:DB01734",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,3\'-DIFLUOROBENZALDAZINE",
+  "conceptId": "iuphar.ligand:1424",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(5-AMINO-3-IMINO-3H-PYRAZOL-4-YLAZO)-BENZOIC ACID",
+  "conceptId": "drugbank:DB08668",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[3-(2,3-DIHYDROXY-PROPYLAMINO)-PHENYL]-4-(5-FLUORO-1-METHYL-1H-INDOL-3-YL)-PYRROLE-2,5-DIONE",
+  "conceptId": "drugbank:DB01772",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-6-(4-FLUOROPHENYL)-2-HYDROXY-6-OXOHEXA-2,4-DIENOIC ACID",
+  "conceptId": "drugbank:DB07510",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-NITRO-2-FLUOROFLAVONE",
+  "conceptId": "ncit:C63776",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,3\',4\',5-TETRACHLOROSALICYLANILIDE",
+  "conceptId": "chembl:CHEMBL291338",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 4",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    },
+    {
+      "rating": "Withdrawn",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-DEAZAURIDINE",
+  "conceptId": "ncit:C193",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-AMINOMETHYL NICOTINE-P. AERUGINOSA R-EXOPROTEIN A CONJUGATE VACCINE",
+  "conceptId": "ncit:C88341",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3F-MT-45",
+  "conceptId": "iuphar.ligand:10726",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,8-DIAMINO-6-PHENYL-5-[6-[1-[2-[(1,2,3,4-TETRAHYDRO-9-ACRIDINYL)AMINO]ETHYL]-1H-1,2,3-TRIAZOL-5-YL]HEXYL]-PHENANTHRIDINIUM",
+  "conceptId": "drugbank:DB03005",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-NITROPHENYLBORONIC ACID",
+  "conceptId": "drugbank:DB02797",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-BENZOTHIAZOLYLTHIO)-1-PROPANESULFONIC ACID",
+  "conceptId": "drugbank:DB03132",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-NITRO-3-METHOXYFLAVONE",
+  "conceptId": "ncit:C63777",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DIFLUOROANILINE",
+  "conceptId": "drugbank:DB03238",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-({2-[(4-{[6-(CYCLOHEXYLMETHOXY)-9H-PURIN-2-YL]AMINO}PHENYL)SULFONYL]ETHYL}AMINO)PROPAN-1-OL",
+  "conceptId": "drugbank:DB08309",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(3-NITROPHENYL)SULFAMOYL]-2-THIOPHENECARBOXYLIC ACID",
+  "conceptId": "drugbank:DB08306",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DIMETHYL-1-PHENYL-1H-PYRAZOLE-4-CARBOXYLIC ACID ETHYL ESTER",
+  "conceptId": "drugbank:DB07051",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BROMO-N\'-[(1E)-(3,5-DIBROMO-2,4-DIHYDROXYPHENYL)METHYLIDENE]BENZOHYDRAZIDE",
+  "conceptId": "drugbank:DB07044",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-AMINO-4-{3-[2-(2-PROPOXY-ETHOXY)-ETHOXY]-PROPYLAMINO}-CYCLOBUT-3-ENE-1,2-DIONE",
+  "conceptId": "drugbank:DB03077",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(3,4-DIMETHOXYPHENYL)PROPANOIC ACID",
+  "conceptId": "drugbank:DB04208",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,6,4-TRINITROFLAVONE",
+  "conceptId": "ncit:C63774",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BROMO-6-PHENYL-N-(PYRIMIDIN-5-YLMETHYL)IMIDAZO[1,2-A]PYRIDIN-8-AMINE",
+  "conceptId": "drugbank:DB08537",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DIPHENYLISOXAZOLE",
+  "conceptId": "chembl:CHEMBL1374535",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-HYDROXYPHENYL)-4,5-DIHYDRO-5-ISOXAZOLE-ACETIC ACID METHYL ESTER",
+  "conceptId": "drugbank:DB07888",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHYLCYTOSINE",
+  "conceptId": "drugbank:DB04103",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CHLORO-5-[2-CHLORO-5-(1H-PYRAZOLO[3,4-B]PYRIDIN-3-YLMETHOXY)PHENOXY]BENZONITRILE",
+  "conceptId": "drugbank:DB08459",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,6-DIHYDROXY-XANTHENE-9-PROPIONIC ACID",
+  "conceptId": "drugbank:DB01644",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-AMINO-3-BENZYL-[4.3.0]BICYCLO-1,6-DIAZANONAN-2-ONE",
+  "conceptId": "drugbank:DB07655",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-OXO-N-[(3S)-2-OXOPYRROLIDIN-3-YL]DODECANAMIDE",
+  "conceptId": "drugbank:DB08323",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PHENYL-5-(1H-PYRAZOL-3-YL)ISOXAZOLE",
+  "conceptId": "drugbank:DB07613",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-ISOPROPYLMALIC ACID",
+  "conceptId": "drugbank:DB04279",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYPYRUVIC ACID",
+  "conceptId": "drugbank:DB02951",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-AMINOETHYL)-4-(AMINOMETHYL)HEPTANEDIOIC ACID",
+  "conceptId": "drugbank:DB02878",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-AMINOQUINAZOLIN-6-YL)-4-METHYL-N-[3-(TRIFLUOROMETHYL)PHENYL]BENZAMIDE",
+  "conceptId": "drugbank:DB06925",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-AMINO-4-OXYBENZYL-2-BUTANONE",
+  "conceptId": "drugbank:DB02148",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[3-CHLORO-5-(5-{[(1S)-1-PHENYLETHYL]AMINO}ISOXAZOLO[5,4-C]PYRIDIN-3-YL)PHENYL]PROPAN-1-OL",
+  "conceptId": "drugbank:DB06897",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[2,6,8-TRIOXO-9-[(2R,3R,4R)-2,3,4,5-TETRAHYDROXYPENTYL]-3H-PURIN-7-YL]PROPYL DIHYDROGEN PHOSPHATE",
+  "conceptId": "drugbank:DB03973",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-ACETYLCOUMARIN",
+  "conceptId": "chembl:CHEMBL149463",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,6,9,12,15,18-HEXAOXAICOSANE",
+  "conceptId": "drugbank:DB06867",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(5-AMINO-7-OXO-3,7-DIHYDRO-2H-[1,2,3]TRIAZOLO[4,5-D]PYRIMIDIN-2-YL)-N-(2-{[2-(HYDROXYMETHYL)PHENYL]SULFANYL}BENZYL)BENZAMIDE",
+  "conceptId": "drugbank:DB03231",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PHENYLPROPIONIC ACID",
+  "conceptId": "drugbank:DB02024",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHYL-BENZENE-1,2-DIOL",
+  "conceptId": "drugbank:DB03454",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PYRIDIN-4-YL-2,4-DIHYDRO-INDENO[1,2-.C.]PYRAZOLE",
+  "conceptId": "drugbank:DB03490",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DIIODOTYROSINE",
+  "conceptId": "drugbank:DB03374",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DIHYDRO-5-METHYL-ISOQUINOLINONE",
+  "conceptId": "drugbank:DB03722",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-NITROFLAVONE",
+  "conceptId": "ncit:C63956",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(HYDROXYMETHYL)-1-METHYL-5-(2-METHYLAZIRIDIN-1-YL)-2-PHENYL-1H-INDOLE-4,7-DIONE",
+  "conceptId": "drugbank:DB07385",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-PHOSPHATE-ADENOSINE-5\'-DIPHOSPHATE",
+  "conceptId": "drugbank:DB01842",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-FLUOROPHENYL)-2-(6-METHYLPYRIDIN-2-YL)-5,6-DIHYDRO-4H-PYRROLO[1,2-B]PYRAZOLE",
+  "conceptId": "drugbank:DB04480",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-BIS(7-CHLORO-1H-INDOL-3-YL)-1H-PYRROLE-2,5-DICARBOXYLIC ACID",
+  "conceptId": "drugbank:DB06955",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(ALPHA-D-GALACTOPYRANOSYLOXY)-N-(3-{4-[3-({2-[(3-{4-[3-({[3-(HEXOPYRANOSYLOXY)-5-NITROPHENYL]CARBONYL}AMINO)PROPYL]PIPERAZIN-1-YL}PROPYL)AMINO]-3,4-DIOXOCYCLOBUT-1-EN-1-YL}AMINO)PROPYL]PIPERAZIN-1-YL}PROPYL)-5-NITROBENZAMIDE",
+  "conceptId": "drugbank:DB04210",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-4-{[(2R)-2-HYDROXY-2-(5,5,8,8-TETRAMETHYL-5,6,7,8-TETRAHYDRO-2-NAPHTHALENYL)ACETYL]AMINO}BENZOIC ACID",
+  "conceptId": "drugbank:DB07031",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,6-ANHYDRO-2-(HYDROGEN SULFATE)-ALPHA-D-GALACTOPYRANOSE",
+  "conceptId": "drugbank:DB01981",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(HEPTYLOXY)BENZOIC ACID",
+  "conceptId": "drugbank:DB07355",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHYL-N-(PYRIDIN-4-YLMETHYL)IMIDAZO[1,2-A]PYRAZIN-8-AMINE",
+  "conceptId": "drugbank:DB08533",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3570-0208 [PMID:19807662]",
+  "conceptId": "iuphar.ligand:5828",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,6,9,12,15-PENTAOXATRICOSAN-1-OL",
+  "conceptId": "drugbank:DB08249",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-KETO-LITHOCHOLIC ACID",
+  "conceptId": "iuphar.ligand:2766",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DIMETHOXYBENZALDEHYDE",
+  "conceptId": "chembl:CHEMBL1088937",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3(S)-AMINO-4-PHENYL-BUTAN-2(S)-OL",
+  "conceptId": "drugbank:DB08428",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BROMO-5-PHENYL-N-(PYRIDIN-4-YLMETHYL)PYRAZOLO[1,5-A]PYRIMIDIN-7-AMINE",
+  "conceptId": "drugbank:DB07210",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHYLPHENYLALANINE",
+  "conceptId": "drugbank:DB02685",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(3-(2-CARBOXYETHYL)-4-METHYLPYRROL-2-YL)METHYLENE]-2-INDOLINONE",
+  "conceptId": "drugbank:DB08577",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PHENYL-CPP",
+  "conceptId": "iuphar.ligand:4104",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BICYCLO[2.2.1]HEPT-2-YL-BENZENE-1,2-DIOL",
+  "conceptId": "iuphar.ligand:2569",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DIAMINOPHTHALHYDRAZIDE",
+  "conceptId": "drugbank:DB04169",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(1-NAPHTHYLMETHOXY)PYRIDIN-2-AMINE",
+  "conceptId": "drugbank:DB08093",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CHLORO-9-ETHYL-6,7,8,9,10,11-HEXAHYDRO-7,11-METHANOCYCLOOCTA[B]QUINOLIN-12-AMINE",
+  "conceptId": "drugbank:DB04114",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-DEOXY 3\'-AMINO ADENOSINE-5\'-DIPHOSPHATE",
+  "conceptId": "drugbank:DB04366",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CHLORO-2-(4-HYDROXYPHENYL)-2H-INDAZOL-5-OL",
+  "conceptId": "drugbank:DB07708",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{[(9-CYANO-9,10-DIHYDRO-10-METHYLACRIDIN-9-YL)CARBONYL]AMINO}PROPANOIC ACID",
+  "conceptId": "drugbank:DB07441",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(1H-TETRAZOL-5-YLMETHYL)-5,6,7,8-TETRAHYDRO[1]BENZOTHIENO[2,3-D]PYRIMIDIN-4(3H)-ONE",
+  "conceptId": "drugbank:DB06889",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(P-TOLYL)PROPIONIC ACID",
+  "conceptId": "drugbank:DB03400",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-O-N-OCTANOYL-A-D-GLUCOPYRANOSYL-B-D-FRUCTOFURANOSIDE",
+  "conceptId": "drugbank:DB02346",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-({4-[(6-CHLORO-1-BENZOTHIEN-2-YL)SULFONYL]-2-OXOPIPERAZIN-1-YL}METHYL)BENZENECARBOXIMIDAMIDE",
+  "conceptId": "drugbank:DB08487",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{5-[AMINO(IMINIO)METHYL]-1H-INDOL-2-YL}-5-METHOXY-1,1\'-BIPHENYL-2-OLATE",
+  "conceptId": "drugbank:DB07229",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-C-ETHYNYLCYTIDINE",
+  "conceptId": "ncit:C29475",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{3-[(DIMETHYLAMINO)METHYL]-1H-INDOL-7-YL}PROPAN-1-OL",
+  "conceptId": "drugbank:DB08447",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHYLTHIOFENTANYL",
+  "conceptId": "drugbank:DB01439",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-EPOXYBUTYL-ALPHA-D-GLUCOPYRANOSIDE",
+  "conceptId": "drugbank:DB02645",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(HYDROXY-PHENYL-PHOSPHINOYLOXY)-8-METHYL-8-AZA-BICYCLO[3.2.1]OCTANE-2-CARBOXYLIC ACID METHYL ESTER",
+  "conceptId": "drugbank:DB08618",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-({4-[(1E)-3-MORPHOLIN-4-YL-3-OXOPROP-1-EN-1-YL]-2,3-BIS(TRIFLUOROMETHYL)PHENYL}SULFANYL)ANILINE",
+  "conceptId": "drugbank:DB07486",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-XYLENOL",
+  "conceptId": "drugbank:DB04052",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,8,9,10-TETRAHYDROXY-7-HYDROXYMETHYL-6-OXA-1,3-DIAZA-SPIRO[4.5]DECANE-2,4-DIONE",
+  "conceptId": "drugbank:DB02447",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-FLUOROPHENYL)-1-HYDROXY-2-(PYRIDIN-4-YL)-1H-PYRROLO[3,2-B]PYRIDINE",
+  "conceptId": "drugbank:DB02195",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(5-METHOXY-1H-INDOL-3-YL)PROPANOIC ACID",
+  "conceptId": "drugbank:DB07723",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[3-(4-METHYLPIPERAZIN-1-YL)-7-(TRIFLUOROMETHYL)QUINOXALIN-5-YL]PHENOL",
+  "conceptId": "drugbank:DB07969",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-IODO-TYROSINE",
+  "conceptId": "drugbank:DB01758",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-({[3,5-DIFLUORO-3\'-(TRIFLUOROMETHOXY)BIPHENYL-4-YL]AMINO}CARBONYL)THIOPHENE-2-CARBOXYLIC ACID",
+  "conceptId": "drugbank:DB07977",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DIHYDROXYBENZOIC ACID",
+  "conceptId": "iuphar.ligand:5783",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DICHLOROBENZAMIL",
+  "conceptId": "iuphar.ligand:4597",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FORMYLINDOLE",
+  "conceptId": "chembl:CHEMBL147741",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,6,9,12,15-PENTAOXAHEPTADECAN-1-OL",
+  "conceptId": "drugbank:DB07344",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-CHLOROPHENYL)-1-(2-{[(1S)-2-HYDROXY-1,2-DIMETHYLPROPYL]AMINO}PYRIMIDIN-4-YL)-1-(4-METHOXYPHENYL)UREA",
+  "conceptId": "drugbank:DB08095",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(6-AMINOPYRIDIN-3-YL)-N-METHYL-N-[(1-METHYL-1H-INDOL-2-YL)METHYL]ACRYLAMIDE",
+  "conceptId": "drugbank:DB01865",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DICHLOROISOCOUMARIN",
+  "conceptId": "drugbank:DB04459",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(5-{[4-(AMINOMETHYL)PIPERIDIN-1-YL]METHYL}-1H-INDOL-2-YL)QUINOLIN-2(1H)-ONE",
+  "conceptId": "drugbank:DB07025",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(N-MORPHOLINO)PROPANESULFONIC ACID",
+  "conceptId": "drugbank:DB03434",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(5-{[4-(AMINOMETHYL)PIPERIDIN-1-YL]METHYL}-1H-INDOL-2-YL)-1H-INDAZOLE-6-CARBONITRILE",
+  "conceptId": "drugbank:DB07075",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-FLUOROPHENYL)-5-PHENYL-4H-1,2,4-TRIAZOLE",
+  "conceptId": "drugbank:DB08470",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(ACETYL-METHYL-AMINO)-METHYL]-4-AMINO-N-METHYL-N-(1-METHYL-1H-INDOL-2-YLMETHYL)-BENZAMIDE",
+  "conceptId": "drugbank:DB03534",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{[(2,2-DIOXIDO-1,3-DIHYDRO-2-BENZOTHIEN-5-YL)AMINO]METHYLENE}-5-(1,3-OXAZOL-5-YL)-1,3-DIHYDRO-2H-INDOL-2-ONE",
+  "conceptId": "drugbank:DB08124",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[5-(1H-IMIDAZOL-1-YL)-7-METHYL-1H-BENZIMIDAZOL-2-YL]-4-[(PYRIDIN-2-YLMETHYL)AMINO]PYRIDIN-2(1H)-ONE",
+  "conceptId": "drugbank:DB07474",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CHLOROTYROSINE",
+  "conceptId": "iuphar.ligand:5114",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(4-CHLOROANILINO)SULFONYL]THIOPHENE-2-CARBOXYLIC ACID",
+  "conceptId": "drugbank:DB08573",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{[(4-METHYLPHENYL)SULFONYL]AMINO}PROPYL PYRIDIN-4-YLCARBAMATE",
+  "conceptId": "drugbank:DB07572",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYCOUMARIN",
+  "conceptId": "chembl:CHEMBL150372",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "AGONISTIC ANTI-OX40 MONOCLONAL ANTIBODY INCAGN01949",
+  "conceptId": "ncit:C129967",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(1H-BENZIMIDAZOL-2-YL)-1H-INDAZOLE",
+  "conceptId": "drugbank:DB07959",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2,6-DIFLUOROPHENYL)-2-(METHYLTHIO)QUINAZOLIN-4(3H)-ONE",
+  "conceptId": "drugbank:DB08602",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CHLORO-2,2-DIMETHYL-N-[4-(TRIFLUOROMETHYL)PHENYL]PROPANAMIDE",
+  "conceptId": "drugbank:DB07805",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYANTHRANILIC ACID",
+  "conceptId": "drugbank:DB03644",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(5-AMINO-7-HYDROXY-(1,2,3)TRIAZOLO(4,5-D)PYRIMIDIN-2-YL)BENZOIC ACID",
+  "conceptId": "drugbank:DB01906",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-O-METHYLQUERCETIN",
+  "conceptId": "chembl:CHEMBL163316",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-BIPHENYLDIOL",
+  "conceptId": "drugbank:DB07478",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-((3-BROMO-5-O-TOLYLPYRAZOLO[1,5-A]PYRIMIDIN-7-YLAMINO)METHYL)PYRIDINE 1-OXIDE",
+  "conceptId": "drugbank:DB07179",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-PHOSPHO-5\'-ADENYLYL SULFATE",
+  "conceptId": "drugbank:DB02902",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[4-AMINO-1-(1-METHYLETHYL)-1H-PYRAZOLO[3,4-D]PYRIMIDIN-3-YL]PHENOL",
+  "conceptId": "drugbank:DB07335",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(9-HYDROXY-1,3-DIOXO-4-PHENYL-2,3-DIHYDROPYRROLO[3,4-C]CARBAZOL-6(1H)-YL)PROPANOIC ACID",
+  "conceptId": "drugbank:DB07265",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BROMO-6-HYDROXY-2-(4-HYDROXYPHENYL)-1H-INDEN-1-ONE",
+  "conceptId": "drugbank:DB07230",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-FLUORO-3\'-DEOXYTHYMIDINE 5\'-MONOPHOSPHATE",
+  "conceptId": "drugbank:DB03195",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BROMO-5-PHENYL-N-(PYRIDIN-3-YLMETHYL)PYRAZOLO[1,5-A]PYRIMIDIN-7-AMINE",
+  "conceptId": "drugbank:DB08535",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST KL340399",
+  "conceptId": "ncit:C188059",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[[(3R,4S,5S,6R)-7-BENZYL-4,5-DIHYDROXY-1,1-DIOXO-3,6-BIS(PHENOXYMETHYL)-1,2,7-THIADIAZEPAN-2-YL]METHYL]-N-METHYLBENZAMIDE",
+  "conceptId": "drugbank:DB03076",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHYLHEXANAL",
+  "conceptId": "iuphar.ligand:12471",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-DIPHENOL-6-NITRO-3H-BENZO[DE]ISOCHROMEN-1-ONE",
+  "conceptId": "drugbank:DB08204",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(1H-INDOL-3-YL)-2-[4-(4-PHENYL-PIPERIDIN-1-YL)-BENZENESULFONYLAMINO]-PROPIONIC ACID",
+  "conceptId": "drugbank:DB02449",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[5-(3-NITROPHENYL)THIOPHEN-2-YL]PROPANOIC ACID",
+  "conceptId": "drugbank:DB07139",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,3-DICHLORO-2-PHOSPHONOMETHYL-ACRYLIC ACID",
+  "conceptId": "drugbank:DB04317",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{[4-(BUT-2-YN-1-YLOXY)PHENYL]SULFONYL}PROPANE-1-THIOL",
+  "conceptId": "drugbank:DB07079",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(6-CYCLOHEXYLMETHOXY-9H-PURIN-2-YLAMINO)-BENZENESULFONAMIDE",
+  "conceptId": "drugbank:DB08248",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BROMO-7-NITROINDAZOLE",
+  "conceptId": "drugbank:DB01997",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(1H-TETRAZOL-5-YLAMINO)CYCLOHEX-2-EN-1-ONE",
+  "conceptId": "drugbank:DB07865",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DI-1H-INDOL-3-YL-1H-PYRROLE-2,5-DICARBOXYLIC ACID",
+  "conceptId": "drugbank:DB07588",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-4-[2-HYDROXY-2-(5,5,8,8-TETRAMETHYL-5,6,7,8,-TETRAHYDRO-NAPHTALEN-2-YL)-ACETYLAMINO]-BENZOIC ACID",
+  "conceptId": "drugbank:DB07294",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-DEOXY-D-GLUCOSAMINE",
+  "conceptId": "drugbank:DB02700",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(6-HYDROXY-NAPHTHALEN-2-YL)-BENZO[D]ISOOXAZOL-6-OL",
+  "conceptId": "drugbank:DB07236",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST BI 1703880",
+  "conceptId": "ncit:C203329",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-CARBAMOYL-1-CARBOXY-2-METHYLSULFONYL-BUTA-1,3-DIENYLAMINO)-INDOLIZINE-2-CARBOXYLIC ACID",
+  "conceptId": "drugbank:DB02876",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{[4-([AMINO(IMINO)METHYL]AMINOSULFONYL)ANILINO]METHYLENE}-2-OXO-2,3-DIHYDRO-1H-INDOLE",
+  "conceptId": "drugbank:DB08126",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[4-(2,4-DIMETHYL-THIAZOL-5-YL)-PYRIMIDIN-2-YLAMINO]-PHENOL",
+  "conceptId": "drugbank:DB04518",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-N-BUTYLPHTHALIDE",
+  "conceptId": "rxcui:1484499",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DIMETHYL-1H-PYRAZOLE-4-CARBOXYLIC ACID ETHYL ESTER",
+  "conceptId": "drugbank:DB04271",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PYRIDINE-ACETIC ACID",
+  "conceptId": "iuphar.ligand:1590",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{2,6,8-TRIOXO-9-[(2S,3R,4R)-2,3,4,5-TETRAHYDROXYPENTYL]-1,2,3,6,8,9-HEXAHYDRO-7H-PURIN-7-YL}PROPYL DIHYDROGEN PHOSPHATE",
+  "conceptId": "drugbank:DB03812",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-({1-[3-CARBAMIMIDOYL-1-(4-CARBAMIMIDOYL-BENZYLCARBAMOYL)-PROPYLCARBAMOYL]-2-METHYL-BUTYLSULFAMOYL}-METHYL)-BENZOIC ACID",
+  "conceptId": "drugbank:DB04593",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-({4-[(5-CHLORO-1,3-BENZODIOXOL-4-YL)AMINO]PYRIMIDIN-2-YL}AMINO)BENZENESULFONAMIDE",
+  "conceptId": "drugbank:DB07252",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(3-METHOXYBENZYL)-1H-PYRROLO[2,3-B]PYRIDINE",
+  "conceptId": "drugbank:DB07525",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-N-[3-(1H-TETRAZOL-5-YL)PHENYL]BENZAMIDE",
+  "conceptId": "drugbank:DB07729",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYIMINO QUINIC ACID",
+  "conceptId": "drugbank:DB03739",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-2-METHYL-ANILINE",
+  "conceptId": "drugbank:DB01986",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(4-CARBOXY-2-HYDROXYPHENYL)SULFAMOYL]-2-THIOPHENECARBOXYLIC ACID",
+  "conceptId": "drugbank:DB07927",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(3-METHYL-2-BUTEN-1-YL)-3H-PURIN-6-AMINE",
+  "conceptId": "drugbank:DB08074",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,6-DINITROFLAVONE",
+  "conceptId": "ncit:C63773",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYOCTANOIC ACID",
+  "conceptId": "iuphar.ligand:2933",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BROMO-3-BUTEN-1-OL",
+  "conceptId": "drugbank:DB04592",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-THIO-THYMIDINE-5\'-PHOSPHATE",
+  "conceptId": "drugbank:DB08651",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST GSK3745417",
+  "conceptId": "ncit:C165748",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYLAURIC ACID",
+  "conceptId": "iuphar.ligand:5850",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-AMINO-6-BENZOYLQUINAZOLIN-3(4H)-YL)-N-CYCLOHEXYL-N-METHYLPROPANAMIDE",
+  "conceptId": "drugbank:DB08749",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PHENYL-1,2-PROPANDIOL",
+  "conceptId": "drugbank:DB02803",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(7-DIAMINOMETHYL-NAPHTHALEN-2-YL)-PROPIONIC ACID ETHYL ESTER",
+  "conceptId": "drugbank:DB07639",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST PF-07820435",
+  "conceptId": "ncit:C206715",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYGLUTARIC ACID",
+  "conceptId": "drugbank:DB04594",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-BENZENESULFONYL-THIOPHENE-2-SULFONYLAMINO)-PHENYLBORONIC ACID",
+  "conceptId": "drugbank:DB02858",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(CARBOXYMETHOXY)THIENO[2,3-B]PYRIDINE-2-CARBOXYLIC ACID",
+  "conceptId": "drugbank:DB07298",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BROMOPYRUVATE-BASED AGENT KAT-101",
+  "conceptId": "ncit:C193480",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-NITRO-4-CHLOROFLAVONE",
+  "conceptId": "ncit:C63772",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(10-METHYL-9-ANTHRYL)PROPANOIC ACID",
+  "conceptId": "drugbank:DB07371",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(1H-INDOL-3-YL)-4-{1-[2-(1-METHYLPYRROLIDIN-2-YL)ETHYL]-1H-INDOL-3-YL}-1H-PYRROLE-2,5-DIONE",
+  "conceptId": "drugbank:DB07458",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,3\',5,5\'-TETRACHLOROBIPHENYL-4,4\'-DIOL",
+  "conceptId": "drugbank:DB03346",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DIHYDRO-2\'-DEOXYURIDINE-5\'-MONOPHOSPHATE",
+  "conceptId": "drugbank:DB04280",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-DECYL-2,5-DIOXO-4-HYDROXY-3-PYRROLINE",
+  "conceptId": "drugbank:DB03064",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST 2",
+  "conceptId": "iuphar.ligand:10127",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-AMINOQUINAZOLIN-6-YL)-1-(3,3-DIMETHYLINDOLIN-6-YL)-4-METHYLPYRIDIN-2(1H)-ONE",
+  "conceptId": "drugbank:DB07514",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(2,2-DIMETHYLPROPANOYL)AMINO]-N-1,3-THIAZOL-2-YLPYRIDINE-2-CARBOXAMIDE",
+  "conceptId": "drugbank:DB07903",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-PHENYLAMINO-PHENYLAMINO)-2-(1H-TETRAZOL-5-YL)-ACRYLONITRILE",
+  "conceptId": "drugbank:DB04430",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CHLOROPHENOL",
+  "conceptId": "drugbank:DB01957",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CARBAMIMIDAMIDO-1,1-DIPHENYLUREA",
+  "conceptId": "drugbank:DB07120",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING-ACTIVATING CYCLIC DINUCLEOTIDE AGONIST MIW815",
+  "conceptId": "ncit:C125902",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{2,6,8-TRIOXO-9-[(2S,3S,4R)-2,3,4,5-TETRAHYDROXYPENTYL]-1,2,3,6,8,9-HEXAHYDRO-7H-PURIN-7-YL}PROPYL DIHYDROGEN PHOSPHATE",
+  "conceptId": "drugbank:DB02290",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHYLFENTANYL",
+  "conceptId": "drugbank:DB01571",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHYLADENINE",
+  "conceptId": "drugbank:DB04104",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(1-AMINO-2-CARBOXY-ETHYL)-HYDROXY-PHOSPHINOYL]-2-METHYL-PROPIONIC ACID",
+  "conceptId": "drugbank:DB03340",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXY CAPRIC ACID",
+  "conceptId": "iuphar.ligand:5848",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PHENYLPROPYLAMINE",
+  "conceptId": "drugbank:DB04410",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING-EXPRESSING E. COLI SYNB1891",
+  "conceptId": "ncit:C167270",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-({3-[(1S,4AS,6S,7S,9S,9AR)-1,6-DIMETHYL-2-OXODECAHYDRO-6,9-EPOXY-4A,7-METHANOBENZO[7]ANNULEN-1-YL]PROPANOYL}AMINO)-2,4-DIHYDROXYBENZOIC ACID",
+  "conceptId": "drugbank:DB08366",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "AGONISTIC ANTI-OX40 MONOCLONAL ANTIBODY MEDI6469",
+  "conceptId": "ncit:C117293",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(1E,7E)-8-(2,6-DIOXO-1,2,3,6-TETRAHYDROPYRIMIDIN-4-YL)-3,6-DIOXA-2,7-DIAZAOCTA-1,7-DIEN-1-YL]BENZOIC ACID",
+  "conceptId": "drugbank:DB07760",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-AMINOBENZAMIDE",
+  "conceptId": "chembl:CHEMBL81977",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-TRIMETHYLSILYLSUCCINIC ACID",
+  "conceptId": "drugbank:DB03452",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[1-(4-BROMO-PHENYL)-2-METHYL-PROPYL]-4-HYDROXY-CHROMEN-2-ONE",
+  "conceptId": "drugbank:DB08662",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-AMINO-AZACYCLOTRIDECAN-2-ONE",
+  "conceptId": "drugbank:DB08476",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(PROP-2-ENE-1-SULFINYL)-PROPENE-1-THIOL",
+  "conceptId": "drugbank:DB02895",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-OXO-PENTADECANOIC ACID",
+  "conceptId": "drugbank:DB04039",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-NITRO-4-(2-OXO-PYRROLIDIN-1-YL)-BENZENESULFONAMIDE",
+  "conceptId": "drugbank:DB04394",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-IODOBENZYLGUANIDINE",
+  "conceptId": "rxcui:14448",
+  "approved": true,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Prescribable",
+      "source": {
+        "sourceDbName": "RxNorm",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-1-CARBOXY-1-PHOSPHONOOXY-ETHOXY-URIDINE-DIPHOSPHATE-N-ACETYLGLUCOSAMINE",
+  "conceptId": "drugbank:DB04174",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CYCLOHEXYL-D-ALANYL-N-(3-CHLOROBENZYL)-L-PROLINAMIDE",
+  "conceptId": "drugbank:DB07190",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DIHYDRO-2H-PYRROLIUM-5-CARBOXYLATE",
+  "conceptId": "drugbank:DB02838",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-L-TYROSINE",
+  "conceptId": "drugbank:DB04436",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXY-3\',4\'-DIMETHOXYFLAVONE",
+  "conceptId": "chembl:CHEMBL77098",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST SB 11285",
+  "conceptId": "ncit:C165566",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-AMINO-ALANINE",
+  "conceptId": "drugbank:DB03320",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHOXYBENZAMIDE",
+  "conceptId": "drugbank:DB03073",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-N3-PHPA-LVA",
+  "conceptId": "iuphar.ligand:2193",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST BI 1387446",
+  "conceptId": "ncit:C201207",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DIMETHYL-1-(3-NITROPHENYL)-1H-PYRAZOLE-4-CARBOXYLIC ACID ETHYL ESTER",
+  "conceptId": "drugbank:DB01959",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DIFLUOROBENZENESULFONAMIDE",
+  "conceptId": "drugbank:DB02087",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYBENZYLHYDRAZINE",
+  "conceptId": "iuphar.ligand:5116",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST IMSA101",
+  "conceptId": "ncit:C165655",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,6-DIMETHOXYFLAVONE",
+  "conceptId": "chembl:CHEMBL1331521",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYPROPYL 3-[(7-CARBAMIMIDOYL-1-NAPHTHYL)CARBAMOYL]BENZENESULFONATE",
+  "conceptId": "drugbank:DB07022",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(3,5-DIBROMO-4-HYDROXY-BENZOYL)-2-ETHYL-BENZOFURAN-6-SULFONIC ACID [4-(THIAZOL-2-YLSULFAMOYL)-PHENYL]-AMIDE",
+  "conceptId": "drugbank:DB03311",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DIHYDROXY-1-METHYLQUINOLIN-2(1H)-ONE",
+  "conceptId": "drugbank:DB01754",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[3-(3-METHYL-6-{[(1S)-1-PHENYLETHYL]AMINO}-1H-PYRAZOLO[4,3-C]PYRIDIN-1-YL)PHENYL]PROPANAMIDE",
+  "conceptId": "drugbank:DB06963",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-TYROSINE",
+  "conceptId": "ncit:C61817",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-DEOXY-ALPHA-D-MANNO-OCT-2-ULOPYRANOSONIC ACID",
+  "conceptId": "drugbank:DB03548",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DINITROCATECHOL",
+  "conceptId": "drugbank:DB02105",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-AMINO-4,5-DIHYDROXY-CYCLOHEX-1-ENECARBOXYLATE",
+  "conceptId": "drugbank:DB03746",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-5-MORPHOLIN-4-YL-N-[3-(2-PYRIDIN-4-YLETHYL)-1H-INDOL-5-YL]BENZAMIDE",
+  "conceptId": "drugbank:DB08091",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(5S)-1-ACETYL-3-(2-CHLOROPHENYL)-4,5-DIHYDRO-1H-PYRAZOL-5-YL]PHENOL",
+  "conceptId": "drugbank:DB03996",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BROMO-7NI",
+  "conceptId": "iuphar.ligand:5113",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-ETHYL-6-{[(4-FLUOROPHENYL)SULFONYL]AMINO}-2-METHYLBENZOIC ACID",
+  "conceptId": "drugbank:DB07746",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST-CONTAINING PTGFRN-EXPRESSING EXOSOMES CDK002",
+  "conceptId": "ncit:C176581",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CARBOXAMIDO-1,3,5(10)-ESTRATRIEN-17(R)-SPIRO-2\'(5\',5\'-DIMETHYL-6\'OXO)TETRAHYDROPYRAN",
+  "conceptId": "drugbank:DB07700",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-N-[1-(4-FLUOROPHENYL)-3-(2-THIENYL)-1H-PYRAZOL-5-YL]BENZENESULFONAMIDE",
+  "conceptId": "drugbank:DB08560",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(5-AMINO-7-HYDROXY-[1,2,3]TRIAZOLO[4,5-D]PYRIMIDIN-2-YL)-N-(3,5-DICHLOROBENZYL)-BENZAMIDE",
+  "conceptId": "drugbank:DB03571",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-({2-[(2-AMINO-6-METHYLPYRIMIDIN-4-YL)ETHYNYL]BENZYL}AMINO)-1,3-OXAZOL-2(3H)-ONE",
+  "conceptId": "drugbank:DB07324",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHYLCHOLANTHRENE",
+  "conceptId": "chembl:CHEMBL40583",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-SULFINO-L-ALANINE",
+  "conceptId": "drugbank:DB02153",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[1-(3-AMINOPROPYL)-1H-INDOL-3-YL]-4-(1H-INDOL-3-YL)-1H-PYRROLE-2,5-DIONE",
+  "conceptId": "drugbank:DB07457",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-AMINOPROPANENITRILE",
+  "conceptId": "ncit:C83513",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-({[(3S)-3,4-DIHYDROXYBUTYL]OXY}AMINO)-1H,2\'H-2,3\'-BIINDOL-2\'-ONE",
+  "conceptId": "drugbank:DB07676",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5,6,8-TETRAMETHYL-N-METHYL PHENANTHROLINIUM",
+  "conceptId": "drugbank:DB02310",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(BENZYLOXY)PYRIDIN-2-AMINE",
+  "conceptId": "drugbank:DB02352",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DIHYDROXYXANTHONE",
+  "conceptId": "chembl:CHEMBL446323",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[5-(2-NITROPENT-1-EN-1-YL)FURAN-2-YL]BENZOIC ACID",
+  "conceptId": "drugbank:DB08302",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(CARBOXYAMIDE(2-CARBOXYAMIDE-2-TERTBUTYLETHYL))PENTAN",
+  "conceptId": "drugbank:DB08474",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-OXIRAN-2YLALANINE",
+  "conceptId": "drugbank:DB03191",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FORMYL-2-HYDROXY-5-METHYL-HEXANOIC ACID HYDROXYAMIDE",
+  "conceptId": "drugbank:DB07900",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DIIODO-L-TYROSINE",
+  "conceptId": "iuphar.ligand:6651",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-DEAZACYTIDINE",
+  "conceptId": "drugbank:DB04385",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-ACETYLPYRIDINE ADENINE DINUCLEOTIDE",
+  "conceptId": "drugbank:DB03363",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{[(3-FLUORO-3\'-METHOXYBIPHENYL-4-YL)AMINO]CARBONYL}THIOPHENE-2-CARBOXYLIC ACID",
+  "conceptId": "drugbank:DB07976",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-({4-[(5-CHLORO-1,3-BENZODIOXOL-4-YL)AMINO]PYRIMIDIN-2-YL}AMINO)BENZAMIDE",
+  "conceptId": "drugbank:DB07256",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-NITROPHENYL)-1H-PYRAZOLE",
+  "conceptId": "drugbank:DB08695",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BROMOPYRUVATE-BASED AGENT KAT-201",
+  "conceptId": "ncit:C193479",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-NITRO-PHENOXY)-PROPAN-1-OL",
+  "conceptId": "drugbank:DB07722",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PHENACYL-UDP",
+  "conceptId": "iuphar.ligand:1745",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-5-MORPHOLIN-4-YL-N-[1-(2-PYRIDIN-4-YLETHYL)-1H-INDOL-6-YL]BENZAMIDE",
+  "conceptId": "drugbank:DB08730",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3K3A-ACTIVATED PROTEIN C",
+  "conceptId": "wikidata:Q123598631",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[2-BROMO-4-(1H-PYRAZOLO[3,4-C]PYRIDAZIN-3-YLMETHYL)PHENOXY]-5-METHYLBENZONITRILE",
+  "conceptId": "drugbank:DB08444",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(4-FLUOROPHENYL)SULFANYL]-N-(4-METHYL-1,3-THIAZOL-2-YL)-6-[(4-METHYL-4H-1,2,4-TRIAZOL-3-YL)SULFANYL]PYRIDINE-2-CARBOXAMIDE",
+  "conceptId": "drugbank:DB07359",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-NITRO-3-CHLOROFLAVONE",
+  "conceptId": "ncit:C63775",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-OXO-ADENOSINE",
+  "conceptId": "drugbank:DB03273",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(3-AMINOPHENYL)-N-(3-CHLOROPHENYL)PYRAZOLO[1,5-A]PYRIMIDIN-5-AMINE",
+  "conceptId": "drugbank:DB07698",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(BUTYLSULPHONYL)-PROPANOIC ACID",
+  "conceptId": "drugbank:DB07387",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-URIDINEMONOPHOSPHATE",
+  "conceptId": "drugbank:DB02714",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-NITRO-L-TYROSINE",
+  "conceptId": "drugbank:DB03867",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-MERCURI-4-AMINOBENZENESULFONAMIDE",
+  "conceptId": "drugbank:DB04203",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DIDESMETHYL-5-DESHYDROXY-3\'-ETHOXYSCLEROIN",
+  "conceptId": "chembl:CHEMBL1336287",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3&BETA;-HYDROXYDIHYDROCOSTUNOLIDE",
+  "conceptId": "iuphar.ligand:12472",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(3-SEC-BUTYL-4-HYDROXYBENZOYL)AMINO]AZEPAN-4-YL 4-(2-HYDROXY-5-METHOXYBENZOYL)BENZOATE",
+  "conceptId": "drugbank:DB02155",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-DEAZAADENOSINE",
+  "conceptId": "iuphar.ligand:5115",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DIHYDROXYPHENYLACETIC ACID",
+  "conceptId": "chembl:CHEMBL1284",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3F8",
+  "conceptId": "chembl:CHEMBL2109418",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": [
+    {
+      "rating": "Max Phase 3",
+      "source": {
+        "sourceDbName": "ChEMBL",
+        "sourceTrustLevel": {
+          "level": "Expert curated"
+        }
+      }
+    }
+  ]
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-OXO-OCTANOIC ACID (2-OXO-TETRAHYDRO-FURAN-3-YL)-AMIDE",
+  "conceptId": "drugbank:DB08081",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-IODOTYROSINE",
+  "conceptId": "iuphar.ligand:5117",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{[(1R)-1-PHENYLETHYL]AMINO}-4-(PYRIDIN-4-YLAMINO)CYCLOBUT-3-ENE-1,2-DIONE",
+  "conceptId": "drugbank:DB07234",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3M-002",
+  "conceptId": "iuphar.ligand:9270",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-N-1H-INDOL-5-YL-5-MORPHOLIN-4-YLBENZAMIDE",
+  "conceptId": "drugbank:DB08092",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-ETHYL-2-(4-HYDROXYPHENYL)-2H-INDAZOL-5-OL",
+  "conceptId": "drugbank:DB07712",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{[(1R)-1-BENZYL-2-SULFANYLETHYL]AMINO}-3-OXOPROPANOIC ACID",
+  "conceptId": "drugbank:DB01935",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CHLOROALANINATE",
+  "conceptId": "drugbank:DB01735",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-NITRO-8-METHOXY-4-CHLOROFLAVONE",
+  "conceptId": "ncit:C63771",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(INDOL-3-YL) LACTATE",
+  "conceptId": "drugbank:DB07060",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXYBUTYRYL-COENZYME A",
+  "conceptId": "drugbank:DB03612",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DINITROFLAVONE",
+  "conceptId": "ncit:C63944",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,7-DIMETHOXYFLAVONE",
+  "conceptId": "chembl:CHEMBL1449187",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{6-[(8-HYDROXY-QUINOLINE-2-CARBONYL)-AMINO]-2-THIOPHEN-2-YL-HEXANOYLAMINO}-4-OXO-BUTYRI ACID",
+  "conceptId": "drugbank:DB07916",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3H-INDOLE-5,6-DIOL",
+  "conceptId": "drugbank:DB01811",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-AMINO-5-PHENYLPENTANE",
+  "conceptId": "drugbank:DB02869",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-DEHYDROQUINIC ACID",
+  "conceptId": "drugbank:DB03868",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BUTYLTHIOLANE 1-OXIDE",
+  "conceptId": "drugbank:DB02871",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DINITROCATECHOL (OR-486)",
+  "conceptId": "chembl:CHEMBL168276",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST SNX281",
+  "conceptId": "ncit:C179271",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(7-HYDROXY-8-RIBITYLLUMAZINE-6-YL) PROPIONIC ACID",
+  "conceptId": "drugbank:DB04262",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DIHYDROXY-9,10-SECOANDROSTA-1(10),2,4-TRIENE-9,17-DIONE",
+  "conceptId": "drugbank:DB08542",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-ISOBUTYL-8-PYRROLIDINOXANTHINE",
+  "conceptId": "iuphar.ligand:447",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(3,5-DIBROMO-4-HYDROXY-BENZOYL)-2-ETHYL-BENZOFURAN-6-SULFONIC ACID (4-SULFAMOYL-PHENYL)-AMIDE",
+  "conceptId": "drugbank:DB02259",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[4-(1-FORMYLPIPERAZIN-4-YL)-BENZYLIDENYL]-2-INDOLINONE",
+  "conceptId": "drugbank:DB02058",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CHLORO-5-[2-CHLORO-5-(1H-INDAZOL-3-YLMETHOXY)PHENOXY]BENZONITRILE",
+  "conceptId": "drugbank:DB08154",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-HYDROXY-3-IMINO-6-OXO-CYCLOHEXA-1,4-DIENYL)-ALANINE",
+  "conceptId": "drugbank:DB03631",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DIMETHYLANILINE",
+  "conceptId": "drugbank:DB03018",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3 ALPHA-AMINOCHOLESTANE",
+  "conceptId": "iuphar.ligand:9564",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-2-(PHOSPHONOOXY)PROPANOIC ACID",
+  "conceptId": "drugbank:DB03113",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,20-PREGNANEDIONE",
+  "conceptId": "drugbank:DB07557",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PHOSPHONO-D-ALANINE",
+  "conceptId": "drugbank:DB03292",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-AMINO-1-TERT-BUTYL-1H-PYRAZOLO[3,4-D]PYRIMIDIN-3-YL)PHENOL",
+  "conceptId": "drugbank:DB04463",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING-DEPENDENT ACTIVATORS-LOADED AUTOLOGOUS LEUKEMIC CELLS",
+  "conceptId": "ncit:C187299",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(2-AMINOQUINAZOLIN-6-YL)-4-METHYL-1-[3-(TRIFLUOROMETHYL)PHENYL]PYRIDIN-2(1H)-ONE",
+  "conceptId": "drugbank:DB07528",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(1H-INDOL-3-YL)-4-(1-{2-[(2S)-1-METHYLPYRROLIDINYL]ETHYL}-1H-INDOL-3-YL)-1H-PYRROLE-2,5-DIONE",
+  "conceptId": "drugbank:DB07456",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(1-AMINOETHYL)NONANEDIOIC ACID",
+  "conceptId": "drugbank:DB02941",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CYCLOHEXYL-L-ALANINE",
+  "conceptId": "drugbank:DB02884",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{(R)-(DIHYDROXYBORYL)[(2-THIENYLACETYL)AMINO]METHYL}BENZOIC ACID",
+  "conceptId": "drugbank:DB08551",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-HYDROXY-4-(3,4,5-TRIHYDROXY-TETRAHYDRO-PYRAN-2-YLOXY)-PIPERIDIN-2-ONE",
+  "conceptId": "drugbank:DB03717",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[(4\'-CYANOBIPHENYL-4-YL)OXY]-N-HYDROXYPROPANAMIDE",
+  "conceptId": "drugbank:DB08030",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(ALPHA-D-GALACTOPYRANOSYLOXY)-5-NITROBENZAMIDE",
+  "conceptId": "drugbank:DB02802",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\',4\'-DIMETHOXYFLAVONE",
+  "conceptId": "chembl:CHEMBL91153",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-{[(5R,6R)-5-BENZYL-6-HYDROXY-2,4-BIS(4-HYDROXYBENZYL)-3-OXO-1,2,4-TRIAZEPAN-1-YL]SULFONYL}BENZONITRIL",
+  "conceptId": "drugbank:DB03141",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-METHOXYCATECHOL",
+  "conceptId": "chembl:CHEMBL1518159",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,8-DIBROMO-7-HYDROXY-4-METHYL-2H-CHROMEN-2-ONE",
+  "conceptId": "drugbank:DB07802",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[[(METHYLAMINO)SULFONYL]AMINO]-2-OXO-6-PHENYL-N-[3,3,3-TRIFLUORO-1-(1-METHYLETHYL)-2-OXOPHENYL]-1(2H)-PYRIDINE ACETAMIDE",
+  "conceptId": "drugbank:DB08614",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-CHLOROPHENYL)-5-(METHYLTHIO)-4H-1,2,4-TRIAZOLE",
+  "conceptId": "drugbank:DB08062",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-DEOXYGUANOSINE",
+  "conceptId": "drugbank:DB03609",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[2,6,8-TRIOXO-9-[(2R,3S,4R)-2,3,4,5-TETRAHYDROXYPENTYL]-3H-PURIN-7-YL]PROPYL DIHYDROGEN PHOSPHATE",
+  "conceptId": "drugbank:DB03022",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,6-DIAMINO-5-CYANO-4-(4-ETHOXYPHENYL)THIENO[2,3-B]PYRIDINE-2-CARBOXAMIDE",
+  "conceptId": "drugbank:DB08788",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-DEHYDROSHIKIMATE",
+  "conceptId": "drugbank:DB04347",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-DICAFFEOYLQUINIC ACID",
+  "conceptId": "chembl:CHEMBL249447",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-AMINO-3-BENZYL-9-CARBOXAMIDE[4.3.0]BICYCLO-1,6-DIAZANONAN-2-ONE",
+  "conceptId": "drugbank:DB07461",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[6-BROMO-2-FLUORO-3-(1H-PYRAZOLO[3,4-C]PYRIDAZIN-3-YLMETHYL)PHENOXY]-5-CHLOROBENZONITRILE",
+  "conceptId": "drugbank:DB08446",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,5-XYLYL METHYLCARBAMATE",
+  "conceptId": "ncit:C163714",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,4-DIMETHOXYDALBERGIONE",
+  "conceptId": "chembl:CHEMBL1591258",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-ISOBUTYL-1-METHYL-7H-XANTHINE",
+  "conceptId": "drugbank:DB07954",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-MPPTS",
+  "conceptId": "iuphar.ligand:1401",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-O-METHYLFRUCTOSE IN LINEAR FORM",
+  "conceptId": "drugbank:DB02438",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3D-EXPANDED PLACENTA-DERIVED CELLS PLX-R18",
+  "conceptId": "ncit:C133823",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3H-PYRAZOLO[4,3-D]PYRIMIDIN-7-OL",
+  "conceptId": "drugbank:DB03153",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BENZYLOXYCARBONYLAMINO-2-HYDROXY-4-PHENYL-BUTYRIC ACID",
+  "conceptId": "drugbank:DB08041",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PHOSPHO-D-GLYCERIC ACID",
+  "conceptId": "drugbank:DB04510",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST MK-2118",
+  "conceptId": "ncit:C176562",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-CARBOXY-N,N,N-TRIMETHYL-2-(OCTANOYLOXY)PROPAN-1-AMINIUM",
+  "conceptId": "drugbank:DB03832",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST CRD3874",
+  "conceptId": "ncit:C201525",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-PYRIDIN-4-YL-1H-INDAZOLE",
+  "conceptId": "drugbank:DB08113",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-[4-(AMINOSULFONYL)PHENYL]PROPANOIC ACID",
+  "conceptId": "drugbank:DB08156",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(4-{2-[2-(2-BROMO-ACETYLAMINO)-ETHYLDISULFANYL]-ETHYLCARBAMOYL}-CYCLOHEXYLCARBAMOYL)-PYRAZINE-2-CARBOXYLIC ACID",
+  "conceptId": "drugbank:DB02620",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST BMS-986301",
+  "conceptId": "ncit:C167292",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": true,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-FLUORO-4-HYDROXYBENZALDEHYDE O-(CYCLOHEXYLCARBONYL)OXIME",
+  "conceptId": "drugbank:DB08334",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-BROMO-5-PHENYL-N-(PYRIMIDIN-5-YLMETHYL)PYRAZOLO[1,5-A]PYRIDIN-7-AMINE",
+  "conceptId": "drugbank:DB08536",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3,8-DIAMINO-6-PHENYL-5-[6-[1-[2-[(1,2,3,4-TETRAHYDRO-9-ACRIDINYL)AMINO]ETHYL]-1H-1,2,3-TRIAZOL-4-YL]HEXYL]-PHENANTHRIDINIUM",
+  "conceptId": "drugbank:DB02226",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-MERCAPTO-1-(1,3,4,9-TETRAHYDRO-B-CARBOLIN-2-YL)-PROPAN-1-ONE",
+  "conceptId": "drugbank:DB03372",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3\'-O-ACETYLTHYMIDINE-5\'-DIPHOSPHATE",
+  "conceptId": "drugbank:DB02549",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "STING AGONIST 3",
+  "conceptId": "iuphar.ligand:10128",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3S,4R-293B",
+  "conceptId": "iuphar.ligand:8610",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None), TextContent(type='text', text='{
+  "name": "3-(MERCAPTOMETHYLENE)PYRIDINE",
+  "conceptId": "drugbank:DB04490",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

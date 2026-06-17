@@ -1,0 +1,121 @@
+Invoking MCP tool get_drug_interactions_for_gene_list with input {"gene_names":"WT1"}
+MCP tool get_drug_interactions_for_gene_list returned meta=None content=[TextContent(type='text', text='{
+  "WT1": [
+    {
+      "drug": {
+        "name": "DIMETHYL SULFOXIDE",
+        "approved": true
+      },
+      "interactionScore": 0.5019596015277455,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DEFEROXAMINE",
+        "approved": true
+      },
+      "interactionScore": 0.4724325661437604,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "SIROLIMUS",
+        "approved": true
+      },
+      "interactionScore": 0.1384716142145504,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "TRETINOIN",
+        "approved": true
+      },
+      "interactionScore": 0.1323849498534713,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CURCUMIN",
+        "approved": true
+      },
+      "interactionScore": 0.1216871761279383,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "CYTARABINE",
+        "approved": true
+      },
+      "interactionScore": 0.05019596015277455,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "DAUNORUBICIN LIPOSOMAL",
+        "approved": true
+      },
+      "interactionScore": 0.04412831661782378,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "GALINPEPIMUT-S",
+        "approved": false
+      },
+      "interactionScore": 4.015676812221964,
+      "interactionTypes": [
+        {
+          "type": "vaccine",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "OMBIPEPIMUT-S",
+        "approved": false
+      },
+      "interactionScore": 4.015676812221964,
+      "interactionTypes": [
+        {
+          "type": "vaccine",
+          "directionality": "ACTIVATING"
+        }
+      ]
+    },
+    {
+      "drug": {
+        "name": "IH636 GRAPE SEED PROANTHOCYANIDIN EXTRACT",
+        "approved": false
+      },
+      "interactionScore": 1.606270724888785,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "HALOFUGINONE",
+        "approved": false
+      },
+      "interactionScore": 1.338558937407321,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RECOMBINANT 70-KD HEAT-SHOCK PROTEIN",
+        "approved": false
+      },
+      "interactionScore": 0.8031353624443928,
+      "interactionTypes": []
+    },
+    {
+      "drug": {
+        "name": "RECOMBINANT CYTOKINE",
+        "approved": false
+      },
+      "interactionScore": 0.3088982163247665,
+      "interactionTypes": []
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+DIMETHYL SULFOXIDE,DEFEROXAMINE,SIROLIMUS,TRETINOIN,CURCUMIN,CYTARABINE,DAUNORUBICIN LIPOSOMAL,GALINPEPIMUT-S,OMBIPEPIMUT-S,IH636 GRAPE SEED PROANTHOCYANIDIN EXTRACT,HALOFUGINONE,RECOMBINANT 70-KD HEAT-SHOCK PROTEIN,RECOMBINANT CYTOKINE

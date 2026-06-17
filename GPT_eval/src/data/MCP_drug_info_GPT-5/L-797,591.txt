@@ -1,0 +1,13 @@
+Invoking MCP tool get_drug_info with input {"drug_names":"L-797,591"}
+MCP tool get_drug_info returned meta=None content=[TextContent(type='text', text='{
+  "name": "L-797,591",
+  "conceptId": "iuphar.ligand:2015",
+  "approved": false,
+  "immunotherapy": false,
+  "antiNeoplastic": false,
+  "drugAttributes": [],
+  "drugApprovalRatings": []
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+fda_approval,immunotherapy,anti_neoplastic
+NO,NO,NO

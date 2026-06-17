@@ -1,0 +1,276 @@
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Gastrointestinal Stromal Tumor", "therapyName": "Regorafenib", "significance": "RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Exon 15 Mutation",
+            "feature": {
+              "name": "BRAF"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Gastrointestinal Stromal Tumor"
+      },
+      "therapies": [
+        {
+          "name": "Regorafenib Anhydrous"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "This retrospective study of a phase 2 clinical trial (NCT01068769) examined regorafenib safety and efficacy in advanced gastrointestinal stromal tumor (GIST) patients refractory to at least imatinib and sunitinib. One patient whose GIST harbored a BRAF exon 15 mutation and wildtype KIT and PDGFRA experienced rapid disease progression despite regorafenib administration.",
+      "evidenceLevel": "C",
+      "evidenceRating": 1,
+      "url": "https://identifiers.org/civic.eid:4605"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "T670I",
+            "feature": {
+              "name": "KIT"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Gastrointestinal Stromal Tumor"
+      },
+      "therapies": [
+        {
+          "name": "Regorafenib Anhydrous"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A preclinical study tested the effects of a tyrosine kinase inhibitor (TKI) on Ba/F3 cell lines with representative primary regorafenib-sensitizing mutation del 557-558, which induced IL-3 independent growth, and secondary mutation T670I. The cells were tested for Regorafenib resistance. Ba/F3 cells with del 557-558/T670I mutations (IC50 = 132 +- 25 nM) did show resistance towards  Regorafenib  compared to Ba/F3 cells with del 557-558 alone (IC50 = 30 +- 14 nM). In addition, Ba/F3 cells were mutagenized with N-ethyl-N-nitrosourea and incubated with varying concentrations of Regorafenib. In Regorafenib incubated cells, T670I mutations were seen in approximately 10% of the resistant cell populations. The results suggest that T670I does induce regorafenib resistance in del 557-558/T670I cells.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:4510"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "N822K",
+            "feature": {
+              "name": "KIT"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Gastrointestinal Stromal Tumor"
+      },
+      "therapies": [
+        {
+          "name": "Regorafenib Anhydrous"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A preclinical study tested the effects of tyrosine kinase inhibitor (TKI) on Ba/F3 cell lines with primary regorafenib-sensitizing mutation del 557-558, which induced IL-3 independent growth, and secondary mutation N822K. The cells were tested for Regorafenib resistance. Ba/F3 cells with del 557-558 and N822K mutations did show resistance towards Regorafenib (IC50 for growth inhibition: 131 +- 9 nM) compared to Ba/F3 cells with the del 557-558 mutation (IC50 for growth inhibition: 30 +- 14 nM). Regorafenib inhibited KIT phosphorylation only at high concentrations. The results suggest that N822K does induce Regorafenib resistance.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:4169"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "V654A",
+            "feature": {
+              "name": "KIT"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Gastrointestinal Stromal Tumor"
+      },
+      "therapies": [
+        {
+          "name": "Regorafenib Anhydrous"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In an in vitro study, a Ba/F3 cell line expressing KIT W557_K558del primary mutation (known to confer sensitivity to regorafenib) and KIT V654A secondary mutation, KIT V654A was associated with decreased sensitivity to regorafenib treatment (IC50: 350nmol/L vs. 30nmol/L), compared to Ba/F3 cells expressing KIT W557_K558del. Resistance was determined by assessing cell viability.",
+      "evidenceLevel": "D",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:4148"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D816H",
+            "feature": {
+              "name": "KIT"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Gastrointestinal Stromal Tumor"
+      },
+      "therapies": [
+        {
+          "name": "Regorafenib Anhydrous"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In an in vitro study, a Ba/F3 cell line expressing KIT W557_K558del primary mutation (known to confer sensitivity to regorafenib) and KIT D816H secondary mutation, KIT D816H was associated with decreased sensitivity to regorafenib treatment (IC50: 170nmol/L vs. 30nmol/L), compared to Ba/F3 cells expressing KIT W557_K558del. Resistance was determined by assessing cell viability.",
+      "evidenceLevel": "D",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:4152"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D816Y",
+            "feature": {
+              "name": "KIT"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Gastrointestinal Stromal Tumor"
+      },
+      "therapies": [
+        {
+          "name": "Regorafenib Anhydrous"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In an in vitro study, a Ba/F3 cell line expressing KIT 557-558del primary mutation (known to confer sensitivity to regorafenib) and KIT D816Y secondary mutation, KIT D816Y was associated with decreased sensitivity to regorafenib treatment. Resistance was determined by assessing cell viability and the resistant mutation was identified based on next-generation sequencing data of an in vitro mutagenesis screen.",
+      "evidenceLevel": "D",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:4156"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D816G",
+            "feature": {
+              "name": "KIT"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Gastrointestinal Stromal Tumor"
+      },
+      "therapies": [
+        {
+          "name": "Regorafenib Anhydrous"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In an in vitro study, a Ba/F3 cell line expressing KIT W557_K558del primary mutation (known to confer sensitivity to regorafenib) and KIT D816G secondary mutation, KIT D816G was associated with decreased sensitivity to regorafenib treatment (IC50: 88nmol/L vs. 30nmol/L), compared to Ba/F3 cells expressing KIT W557_K558del. Resistance was determined by assessing cell viability.",
+      "evidenceLevel": "D",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:4157"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D820A",
+            "feature": {
+              "name": "KIT"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Gastrointestinal Stromal Tumor"
+      },
+      "therapies": [
+        {
+          "name": "Regorafenib Anhydrous"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In an in vitro study, a Ba/F3 cell line expressing KIT W557_K558del primary mutation (known to confer sensitivity to regorafenib) and KIT D820A secondary mutation, KIT D820A was associated with decreased sensitivity to regorafenib treatment (IC50: 134nmol/L vs. 30nmol/L), compared to Ba/F3 cells expressing KIT W557_K558del. Resistance was determined by assessing cell viability.",
+      "evidenceLevel": "D",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:4164"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "D820G",
+            "feature": {
+              "name": "KIT"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Gastrointestinal Stromal Tumor"
+      },
+      "therapies": [
+        {
+          "name": "Regorafenib Anhydrous"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In an in vitro study, a Ba/F3 cell line expressing KIT W557_K558del primary mutation (known to confer sensitivity to regorafenib) and KIT D820G secondary mutation, KIT D820G was associated with decreased sensitivity to regorafenib treatment (IC50: 79nmol/L vs. 30nmol/L), compared to Ba/F3 cells expressing KIT W557_K558del. Resistance was determined by assessing cell viability.",
+      "evidenceLevel": "D",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:4165"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+BRAF,KIT

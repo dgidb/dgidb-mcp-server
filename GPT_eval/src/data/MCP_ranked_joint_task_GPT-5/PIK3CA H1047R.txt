@@ -1,0 +1,1222 @@
+Invoking MCP tool get_variant_evidence with input {"molecularProfileName": null, "diseaseName": "Breast Cancer", "therapyName": "Trastuzumab", "significance": "RESISTANCE"}
+MCP tool get_variant_evidence returned meta=None content=[TextContent(type='text', text='{
+  "Field Descriptions": "evidenceType: Category describing the type of clinical or biological evidence (e.g., predictive, diagnostic).\
+evidenceDirection: Indicates whether the evidence supports or refutes the association.\
+significance: The clinical relevance of the evidence.\
+description: Detailed summary of the evidence from CIViC curators.\
+evidenceLevel: Describes the robustness of the study type. A - Validated association, B - Clinical evidence, C - Case study, D - Preclinical evidence, and E - Inferential association\
+evidenceRating: Quality score assigned to the evidence by curators (scored 1-5).\
+url: Direct link to the CIViC record for this evidence item.\
+When returning information to users you MUST cite URLs used for specific information.",
+  "API Results": [
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Overexpression",
+            "feature": {
+              "name": "BIRC5"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "13 HER2 breast cancer patients were treated with trastuzumab and then trastuzumab + docetaxel prior to surgery. Pretreatment biopsies and post-treatment surgical samples were obtained, and microarray performed. 5 of 13 patients responded to treatment, and pretreatment biopsies from non-responders showed significantly higher survivin (BIRC5) mRNA (p=0.026) levels than responders. In HER2 positive, trastuzumab-sensitive BT474 cells, overexpression of survivin blunted sensitivity to trastuzumab. In HER2 positive trastuzumab-resistant breast cancer cell lines, knockdown of survivin with RNAi or with YM155 induced growth inhibition and apoptosis.",
+      "evidenceLevel": "B",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:1449"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "PTEN"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A subgroup of HER2-positive breast cancer patients that received first-line trastuzumab treatment were assessed for PTEN loss via IHC of FFPE samples. 46 samples showed PTEN loss while 41 did not, and PTEN loss alone was found to be significantly associated with resistance to trastuzumab (p=0.028) and shorter overall survival (p=0.008).",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1385"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "PTEN"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "While some reports indicate PTEN loss is associated with resistance to trastuzumab, in a subgroup of HER2 breast cancer FFPE samples from patients receiving trastuzumab as later line therapy (second or greater line therapy), with 25 PTEN loss and and 25 normal samples, no association was seen between trastuzumab response and PTEN status (p=1.000) or overall survival and PTEN status (p=0.863).",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:1386"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Mutation",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In retrospective study of 175 metastatic breast cancer patients treated with trastuzumab-based therapy, the presence of a PIK3CA mutation (E542K, E545K, or H1047R) was associated with a greater risk of progression (HR = 1.86, P = 0.014, multivariate analysis ) compared to wildtype PIK3CA.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:2087"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Mutation",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a retrospective study of 105 HER2-positive metastic breast cancer patients treated with trastuzumab-based therapy, the presence of a PIK3CA mutation (E542K, E545K, or H1047R) was associated with a greater risk of progression (HR = 2.50, P = 0.003, multivariate analysis) compared to wildtype PIK3CA.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:2098"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "L753E",
+            "feature": {
+              "name": "ERBB2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "K753E was identified in 6/338 HER2-positive tumors (2/1248 total tumors). In vitro studies showed that MCF10A cells with HER2 K753E were more resistant to trastuzumab treatment than HER2 WT cells. 2/18 metastatic HER2-positive breast cancers had the L753E mutation after one year of adjuvant trastuzumab. L753E was undetectable in the corresponding primary tumors.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:3025"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "K755S",
+            "feature": {
+              "name": "ERBB2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "3/18 metastatic HER2-positive breast cancers had the K755S mutation after one year of adjuvant trastuzumab. K755S was undetectable in the corresponding primary tumors. In vitro experiments showed that MCF10A cells with HER2 K755S were resistant to trastuzumab.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:3026"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Mutation",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab Emtansine"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a phase 3 clinical trial (NCT00829166), metastatic HER-2 amplified breast cancer patients whose tumors harbored PIK3CA mutations treated with ado-trastuzumab emtansine (T-DM1; n=40) were associated with similar median progression free survival (PFS), overall response rate (ORR), and overall survival (OS) compared to patients whose tumors harbored wild-type PIK3CA (n=93; PFS: 10.9 vs. 9.8 months, ORR: 50% vs 47.4%, OS not reached for either group). Of PIK3CA mutant HER2 patients, those treated with T-DM1 experienced a greater decrease in disease progression than those treated with standard of care capecitabine + lapatinib. In vitro, HER2 amplified cell lines with various PIK3CA mutations were associated with similar sensitivity to T-DM1 as PIK3CA wild-type cell line SK-BR-3. In mouse xenograft models of various PIK3CA mutations (H1047R, E545K, or K111N), tumor regression or complete tumor suppression >20 days was seen following a single dose >10mg/kg for all models.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8536"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "PTEN"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab Emtansine"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a phase 3 clinical trial (NCT00829166), metastatic HER-2 amplified breast cancer patients whose tumors had decreased, slightly decreased, or absent PTEN expression (assessed by IHC) treated with ado-trastuzumab emtansine (T-DM1; n= 113) were associated with similar median progression free survival (PFS) compared to patients whose tumors expressed PTEN normally or greater (n=21; 8.4 vs. 9.9 months). In HER2 patients with decreased or absent PTEN expression, T-DM1 was a more effective treatment than standard of care capecitabine + lapatinib as measured by PFS, although no difference in OS was seen.",
+      "evidenceLevel": "B",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:8706"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Mutation",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "The HER2 overexpressing breast cancer cell line BT-474 transduced with mutant PIK3CA H1047R demonstrated essentially normal proliferation under trastuzumab, while control cells showed negligible proliferation with trastuzumab. Sequencing of 55 HER2 breast cancer samples revealed 25% PIK3CA mutation rate and Kaplan Meier curves showed decreased time to progression for mutant PIK3CA at borderline statistical significance (p=0.052). This was potentially explained by presence of PTEN loss in wild-type PIK3CA sample and combining PTEN loss with PIK3CA mutation resulted in significant differences in time to progression (p=0.007).",
+      "evidenceLevel": "B",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:1384"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "PTEN"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a retrospective study of 111 HER2-positive metastatic breast cancer patients treated with trastuzumab-based therapy, PTEN loss (as measured by IHC) was associated with shorter survival as measured from initiation of trastuzumab (HR = 1.92, P = 0.017) and diagnosis of first metastasis (HR = 1.69, P = 0.047).",
+      "evidenceLevel": "B",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:2035"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "PTEN"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a retrospective study of 182 metastatic breast cancer patients of mixed HER2 status treated with trastuzumab-based therapy, PTEN loss (as measured by IHC) was associated with a higher risk of death measured from initiation of trastuzumab (HR = 1.64, P = 0.029) and diagnosis of first metastasis (HR = 1.85, P = 0.003).",
+      "evidenceLevel": "B",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:2043"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Overexpression",
+            "feature": {
+              "name": "ERBB3"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab Emtansine"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "In a phase 3 clinical trial (NCT00829166), metastatic HER-2 amplified breast cancer patients whose tumors harbored higher than median levels of ERBB3 mRNA treated with ado-trastuzumab emtansine (T-DM1; n=210) were associated with similar median progression free survival (PFS) compared to patients whose tumors harbored the median or lower levels of ERBB3 mRNA (n=214; PFS: 9.8 vs. 9.3 months).",
+      "evidenceLevel": "B",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8707"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "PTEN"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "PTEN loss is associated with loss of sensitivity to the HER2-antibody trastuzumab in breast cancer in smaller trials, a phase III trial (NCCTG N9831) did not show an effect of PTEN on disease-free survival.",
+      "evidenceLevel": "B",
+      "evidenceRating": 1,
+      "url": "https://identifiers.org/civic.eid:645"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "H1047R",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In unilateral breast cancer patients, PIK3CA mutation was associated with improved local recurrence-free survival.",
+      "evidenceLevel": "B",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:2101"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "V777L",
+            "feature": {
+              "name": "ERBB2"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        },
+        {
+          "name": "Trastuzumab Emtansine"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a cohort of 205 Her2-receptor amplified breast cancers, 20 experienced recurrence after trastuzumab therapy. Of the 20 recurrent cases, only six patients had metastatic sites, excluding brain metastases, which were resistant to trastuzumab. NGS of thes six clinical specimens before and after trastuzumab therapy revealed one case of intrinsic activating mutation that leads to a valine-to-leucine substitution at codon 777 within the HER2 kinase domain (HER2 V777L).",
+      "evidenceLevel": "C",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:5817"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "E542K",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In HER2-positive metastic breast cancer patients treated with trastuzumab-based therapy, the presence of a PIK3CA mutation was associated with an increased risk of progression (HR:2.50, 95% CI:1.35-4.61, P=0.003, univariate analysis; HR:1.86, 95% CI:1.13-3.05, P=0.014, multivariate analysis) and reduced time to progression (HR:2.50, 95% CI:1.35-4.61, P=0.003) compared to wildtype PIK3CA.",
+      "evidenceLevel": "C",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:2024"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "E545G",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In HER2-positive metastic breast cancer patients treated with trastuzumab-based therapy, the presence of a PIK3CA mutation was associated with an increased risk of progression (HR:2.50, 95% CI:1.35-4.61, P=0.003, univariate analysis; HR:1.86, 95% CI:1.13-3.05, P=0.014, multivariate analysis) and reduced time to progression (HR:2.50, 95% CI:1.35-4.61, P=0.003) compared to wildtype PIK3CA.",
+      "evidenceLevel": "C",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:2060"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "E545V",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In HER2-positive metastic breast cancer patients treated with trastuzumab-based therapy, the presence of a PIK3CA mutation was associated with an increased risk of progression (HR:2.50, 95% CI:1.35-4.61, P=0.003, univariate analysis; HR:1.86, 95% CI:1.13-3.05, P=0.014, multivariate analysis) and reduced time to progression (HR:2.50, 95% CI:1.35-4.61, P=0.003) compared to wildtype PIK3CA.",
+      "evidenceLevel": "C",
+      "evidenceRating": null,
+      "url": "https://identifiers.org/civic.eid:2072"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "H1047R",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "This preclinical study tested, in vitro, the resistance to trastuzumab (an anti-HER2 drug) of HER2-positive cell lines (BT474 and SKBR3) retrovirally transduced with H1047R. The study found that the H1047R transduced cells were almost completely resistant to the growth inhibitory effects of trastuzumab. Furthermore, the transduced cells abrogated the proliferation inhibitory effects of trastuzumab; there was no significant difference in proliferation of H1047R transduced cells treated with trastuzumab relative to wild-type PIK3CA expressing cells in non-treated samples. The authors concluded that the H1047R variant can counteract trastuzumab sensitivity in HER2-positive cells.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:6203"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "H1047R",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Lapatinib"
+        },
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a preclinical study, efficacy of lapatinib and trastuzumab was evaluated in vitro against HER2 amplified breast cancer cell line BT474 (heterozygous for PIK3CA K111N) retrovirally transduced with PIK3CA H1047R. The study found that H1047R abrogated the growth inhibitory effects of lapatinib and trastuzumab, either in isolation or in combination, though somewhat increased cell death was observed with combination therapy relative to monotherapy. The authors concluded that the PIK3CA H1047R induces resistance to lapatinib and trastuzumab in HER2-positive breast cancer cells.",
+      "evidenceLevel": "D",
+      "evidenceRating": 4,
+      "url": "https://identifiers.org/civic.eid:6204"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "E545K",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab Emtansine"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "As part of a pre-clinical experiment, the efficacy of ado-trastuzumab emtansine (T-DM1) was compared to that of trastuzumab against various HER2 positive cell lines. MCF7-neo/HER2 cell line harboring PIK3CA E545K was associated with similar sensitivity to T-DM1 as PIK3CA wild-type cell line SK-BR-3; reduced cell viability was observed at concentrations >0.01 ug/mL in both cell lines. Conversely, the cell line harboring PIK3CA E545K was resistant to trastuzumab in vitro at all concentrations tested (0-10 ug/mL). Further, treatment with T-DM1 on nude mice xenografted with PIK3CA E545K-harboring cells resulted in inhibition of tumor growth. A single dose of T-DM1 >3mg/kg was sufficient to induce tumor suppression lasting >20 days after administration.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:2036"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "H1047R",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab Emtansine"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "As part of a pre-clinical experiment, the efficacy of ado-trastuzumab emtansine (T-DM1) was compared to that of trastuzumab against various HER2 positive cell lines. HCC1954 and KPL-4 cell lines expressing PIK3CA H1047R were associated with similar sensitivity to T-DM1 as PIK3CA wild-type cell line SK-BR-3; reduced cell viability was observed at concentrations > 0.01 ug/mL in all three cell lines. Conversely, the cell lines harboring PIK3CA H1047R were resistant to trastuzumab in vitro at all concentrations tested (0-10 ug/mL). Further, treatment with T-DM1 on SCID mice xenografted with KPL-4 (PIK3CA H1047R cells) resulted in inhibition of tumor growth. A single dose of T-DM1 >5mg/kg was sufficient to induce tumor regression >20 days after administration.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:2103"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "C420R",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab Emtansine"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "As part of a pre-clinical experiment, the efficacy of ado-trastuzumab emtansine (T-DM1) was compared to that of trastuzumab against various HER2 positive cell lines. EFM-192A cell line expressing PIK3CA C420R was associated with similar sensitivity to T-DM1 as PIK3CA wild-type cell line SK-BR-3; substantially reduced cell viability was observed at concentrations > 0.01 ug/mL in both cell lines. Conversely, when treated with trastuzumab, the cell line harboring PIK3CA C420R experienced a smaller reduction in cell viability.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:2346"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "K111N",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab Emtansine"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "As part of a pre-clinical experiment, the efficacy of ado-trastuzumab emtansine (T-DM1) was evaluated against various HER2 positive cell lines. BT-474 cell line expressing PIK3CA K111N was associated with similar sensitivity to T-DM1 as PIK3CA wild-type cell line SK-BR-3; reduced cell viability was observed at concentrations > 0.01 ug/mL in both cell lines. Conversely, when treated with trastuzumab, the cell line harboring PIK3CA K111N experienced a smaller reduction in cell viability. Further, treatment with T-DM1 on SCID mice xenografted with PIK3CA K111N cells resulted in inhibition of tumor growth. A single dose of T-DM1 >5mg/kg was sufficient to induce tumor regression >20 days after administration.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:2866"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "I391M",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab Emtansine"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "As part of a pre-clinical experiment, the efficacy of ado-trastuzumab emtansine (T-DM1) was evaluated against various HER2 positive cell lines. ZR-75-30 cell line expressing PIK3CA I391M was associated with similar sensitivity to T-DM1 as PIK3CA wild-type cell line SK-BR-3; reduced cell viability was observed at concentrations > 0.01 ug/mL in both cell lines. When treated with trastuzumab, the cell line harboring PIK3CA I391M experienced similar reduction in cell viability.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:2867"
+    },
+    {
+      "status": "SUBMITTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "E545K",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "This preclinical study tested, in vitro, the resistance to trastuzumab (an anti-HER2 drug) of HER2-positive cell lines (BT474 and SKBR3) retrovirally transduced with E545K. The study found that the E545K transduced cells were almost completely resistant to the growth inhibitory effects of trastuzumab compared to PIK3CA wt expressing cells. There was no substantial difference in proliferation of E545K transduced cells treated with trastuzumab relative to wild-type PIK3CA expressing cells in non-treated samples. The authors concluded that the E545K variant induces resistance to trastuzumab in HER2-positive cells.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:6209"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "E545K",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Lapatinib"
+        },
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a preclinical study, efficacy of lapatinib and trastuzumab was evaluated in vitro against HER2 amplified breast cancer cell line BT474 (heterozygous for PIK3CA K111N) retrovirally transduced with PIK3CA E45K. The study found that E545K abrogated the growth inhibitory effects of lapatinib and trastuzumab, either in isolation or in combination, though increased cell death was observed with combination therapy relative to monotherapy. The authors concluded that the PIK3CA E545K induces resistance to lapatinib and trastuzumab in HER2-positive breast cancer cells.",
+      "evidenceLevel": "D",
+      "evidenceRating": 3,
+      "url": "https://identifiers.org/civic.eid:6211"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "NUCLEAR TRANSLOCATION",
+            "feature": {
+              "name": "ERBB4"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "HER4 nuclear translocation was identified as a mediator of trastuzumab resistance in HER2 positive breast cancer cell lines. Increased nuclear staining was also identified in xenograft and patient samples after trastuzumab treatment.",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:867"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "EXPRESSION",
+            "feature": {
+              "name": "ERBB4"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "NA",
+      "description": "siRNA knockdown of HER4 or inhibition with neratinib enhanced trastuzumab response in breast cancer cell lines.",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:868"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "PTEN"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "A large-scale RNAi genetic sereen in HER2 overexpressing breast cancer cell line BT-474 was performed to discover genes whose loss induced trastuzumab resistance. The most prominently enriched gene in trastuzumab resistant populations was PTEN. Subsequent knockdown of PTEN in BT-474 cells increased cell survival when treated with trastuzumab, and growth curves showed partial restoration of proliferation in PTEN knockdown BT-474 cells treated with trastuzumab.",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:1383"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "E545K",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "PI3K mutant E545K was overexpressed in the trastuzumab sensitive HER2 BT474 breast cancer cell line, and significant resistance to trastuzumab was induced in comparison to control cells.",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:1453"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "K111N",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Dactolisib"
+        },
+        {
+          "name": "Trastuzumab"
+        },
+        {
+          "name": "Lapatinib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "The BT-474 HER2 positive human breast cancer cell line, which is heterozygous for the PIK3CA K111N mutation, demonstrated strongly reduced colony formation when treated with lapatinib, trastuzumab or dactolisib alone or in combination, suggesting that K111N does not induce resistance to these drugs.",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8183"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Amplification",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "HER2-positive breast cancer cell line BT-474 (heterozygous for PIK3CA K111N) was retrovirally transduced with wildtype PIK3CA and treated with trastuzumab. PIK3CA amplification diminished the growth inhibitory effects of trastuzumab monotherapy in comparison to the inhibition of controls without PIK3CA overexpression.",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8267"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "PTEN"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a preclinical study, efficacy of trastuzumab monotherapy was evaluated in vitro against HER2 amplified human breast cancer cell line BT474 (heterozygous for PIK3CA K111N) with shRNA-induced PTEN expression loss. Authors found that loss of PTEN expression induced resistance to trastuzumab as assessed by colony formation assay compared to PTEN expressing control cells. Among trastuzumab treated cells, concentration of phosphorylated AKT (S473 and T308) was higher in PTEN knockdown cells compared to PTEN expression cells, by western blot.",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8274"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "Loss",
+            "feature": {
+              "name": "PTEN"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        },
+        {
+          "name": "Dactolisib"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "In a preclinical study, efficacy of NVP-BEZ235 (dactolisib; a dual PI3K/mTOR inhibitor) and trastuzumab combination therapy was evaluated in vitro against HER2 amplified human breast cancer cell line BT474 (heterozygous for PIK3CA K111N) with shRNA-induced PTEN expression loss. Authors found that while PTEN loss induced resistance to trastuzumab, combination with dactolisib produced an additive anti-proliferation effect.",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8279"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "E545K",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "As part of a pre-clinical experiment, the efficacy of trastuzumab was evaluated against various HER2 positive cell lines. MCF7-neo/HER2 cell line harboring PIK3CA E545K was associated with resistance to trastuzumab compared to PIK3CA wild-type cell line SK-BR-3, at all concentrations tested (0-10 ug/mL).",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8547"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "H1047R",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "As part of a pre-clinical experiment, the efficacy of trastuzumab was evaluated against various HER2 positive cell lines. CC1954 and KPL-4 cell lines expressing PIK3CA H1047R were associated with resistance to trastuzumab compared to PIK3CA wild-type cell line SK-BR-3, at all concentrations tested (0-10 ug/mL).",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8548"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "SUPPORTS",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "C420R",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "As part of a pre-clinical experiment, the efficacy of trastuzumab was evaluated against various HER2 positive cell lines. EFM-192A cell line expressing PIK3CA C420R was associated with resistance to trastuzumab compared to PIK3CA wild-type cell line SK-BR-3, at all concentrations tested (0-10 ug/mL).",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8549"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "K111N",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "As part of a pre-clinical experiment, the efficacy of trastuzumab was evaluated against various HER2 positive cell lines in cell viability assays. BT-474 cell line expressing PIK3CA K111N was associated with similar sensitivity to trastuzumab as PIK3CA wild-type cell line SK-BR-3, at all concentrations tested (0-10 ug/mL).",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8662"
+    },
+    {
+      "status": "ACCEPTED",
+      "evidenceType": "PREDICTIVE",
+      "evidenceDirection": "DOES_NOT_SUPPORT",
+      "significance": "RESISTANCE",
+      "molecularProfile": {
+        "variants": [
+          {
+            "name": "I391M",
+            "feature": {
+              "name": "PIK3CA"
+            }
+          }
+        ]
+      },
+      "disease": {
+        "displayName": "Her2-receptor Positive Breast Cancer"
+      },
+      "therapies": [
+        {
+          "name": "Trastuzumab"
+        }
+      ],
+      "variantOrigin": "SOMATIC",
+      "description": "As part of a pre-clinical experiment, the efficacy of trastuzumab was evaluated against various HER2 positive cell lines using cell viability assays. ZR-75-30 cell line expressing PIK3CA I391M was associated with similar sensitivity to trastuzumab compared to PIK3CA wild-type cell line SK-BR-3, at all concentrations tested (0-10 ug/mL).",
+      "evidenceLevel": "D",
+      "evidenceRating": 2,
+      "url": "https://identifiers.org/civic.eid:8663"
+    }
+  ]
+}', annotations=None, meta=None)] structuredContent=None isError=False
+### LLM OUTPUT ###
+BIRC5,ERBB2,PIK3CA,PTEN,ERBB4
