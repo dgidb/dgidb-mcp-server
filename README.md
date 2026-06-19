@@ -216,5 +216,5 @@ Chat links to conversations with Opus 4.5 via Claude Desktop on 1/14/2026 and 3/
 GPT_eval/src details the scripts used for the published evaluation. The randomly sampled input files used for this are available. The full experiment can be run with this command:
 
 ```bash
-bash run_experiments.sh
+bash GPT_eval/src/run_experiments.sh
 ```
