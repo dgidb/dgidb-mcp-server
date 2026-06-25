@@ -1,7 +1,7 @@
 index,drug_name,approved,immunotherapy,anti_neoplastic,pred_approved,pred_immunotherapy,pred_anti_neoplastic
 0,ENCORAFENIB,True,False,True,True,False,True
 1,TAMOXIFEN,True,False,True,True,False,True
-2,FARUDODSTAT,False,False,False,False,False,True
+2,FARUDODSTAT,False,False,True,False,False,True
 3,[D-TYR8]CYN 154806,False,False,False,False,False,False
 4,FAM-TRASTUZUMAB DERUXTECAN-NXKI,True,False,True,True,False,True
 5,RITUXIMAB,True,True,True,True,True,True
@@ -25,15 +25,15 @@ index,drug_name,approved,immunotherapy,anti_neoplastic,pred_approved,pred_immuno
 23,[125I]TYR45-KISSPEPTIN-15,False,False,False,False,False,False
 24,IBRITUMOMAB TIUXETAN,True,True,True,True,True,True
 25,ATN-161,False,False,False,False,False,False
-26,ECULIZUMAB,True,True,False,True,True,True
+26,ECULIZUMAB,True,True,True,True,True,True
 27,FICLATUZUMAB,False,True,True,False,True,True
-28,ALDOXORUBICIN,False,False,False,False,False,True
+28,ALDOXORUBICIN,False,False,True,False,False,True
 29,CHEMBL:CHEMBL426404,False,False,False,False,False,False
 30,CHEMBL:CHEMBL473721,False,False,False,False,False,False
-31,MUROMONAB-CD3,True,True,False,True,True,True
+31,MUROMONAB-CD3,True,True,True,True,True,True
 32,DULANERMIN,False,True,True,False,True,True
 33,ROMIDEPSIN,True,False,True,True,False,True
-34,ALEFACEPT,True,True,False,True,True,True
+34,ALEFACEPT,True,True,True,True,True,True
 35,IXAZOMIB CITRATE,True,False,True,True,False,True
 36,PIDILIZUMAB,False,True,True,False,True,True
 37,NECITUMUMAB,True,True,True,True,True,True
@@ -47,7 +47,7 @@ index,drug_name,approved,immunotherapy,anti_neoplastic,pred_approved,pred_immuno
 45,BELIMUMAB,True,True,True,True,True,True
 46,SELECTIVE ESTROGEN RECEPTOR MODULATOR,False,False,False,False,False,False
 47,GSK065,False,False,False,False,False,False
-48,CYCLOSPORINE,True,True,False,True,True,True
+48,CYCLOSPORINE,True,True,True,True,True,True
 49,"3-(2,6-DIFLUOROPHENYL)-2-(METHYLTHIO)QUINAZOLIN-4(3H)-ONE",False,False,False,False,False,False
 50,PEMIGATINIB,True,False,True,True,False,True
 51,CHLOROQUINE,True,False,True,True,False,True
@@ -58,7 +58,7 @@ index,drug_name,approved,immunotherapy,anti_neoplastic,pred_approved,pred_immuno
 56,ABT-239,False,False,False,False,False,False
 57,TIMAPIPRANT,False,False,False,False,False,False
 58,OFATUMUMAB,True,True,True,True,True,True
-59,IMIQUIMOD,True,True,False,True,True,True
+59,IMIQUIMOD,True,True,True,True,True,True
 60,DIFLUOROMETHIONINE,False,False,False,False,False,False
 61,ALEMTUZUMAB,True,True,True,True,True,True
 62,IFOSFAMIDE,True,False,True,True,False,True
@@ -75,27 +75,27 @@ index,drug_name,approved,immunotherapy,anti_neoplastic,pred_approved,pred_immuno
 73,JNJ-5207852,False,False,False,False,False,False
 74,JNK INHIBITOR 9L,False,False,False,False,False,False
 75,ISOBAVACHALCONE,False,False,False,False,False,False
-76,GOLIMUMAB,True,True,False,True,True,True
+76,GOLIMUMAB,True,True,True,True,True,True
 77,PANITUMUMAB,True,True,True,True,True,True
 78,IPILIMUMAB,True,True,True,True,True,True
 79,ENTRECTINIB,True,False,True,True,False,True
-80,ALNIDITAN,False,False,False,False,False,True
-81,BEVACIZUMAB-AWWB,True,True,True,False,False,False
+80,ALNIDITAN,False,False,True,False,False,True
+81,BEVACIZUMAB-AWWB,False,False,False,False,False,False
 82,TOVETUMAB,False,True,True,False,True,True
 83,RAMUCIRUMAB,True,True,True,True,True,True
-84,EFALIZUMAB,True,True,False,True,True,True
-85,DECYL DIHYDROGEN PHOSPHATE,False,False,True,False,False,False
-86,ETANERCEPT-SZZS,False,False,True,False,False,False
-87,CETUXIMAB,False,False,True,True,True,True
-88,FINGOLIMOD,False,False,True,True,True,True
+84,EFALIZUMAB,True,True,True,True,True,True
+85,DECYL DIHYDROGEN PHOSPHATE,False,False,False,False,False,False
+86,ETANERCEPT-SZZS,False,False,False,False,False,False
+87,CETUXIMAB,True,True,True,True,True,True
+88,FINGOLIMOD,True,True,True,True,True,True
 89,OMIGAPIL,False,False,True,False,False,True
-90,CHEMBL:CHEMBL1513392,False,False,True,False,False,False
-91,TREMELIMUMAB,False,False,True,True,True,True
-92,ANHYDROUS TACROLIMUS,False,False,True,True,True,True
-93,BMS-986020,False,False,True,False,False,False
-94,TOCILIZUMAB,False,False,True,True,True,True
-95,CEFDITORIN PIVOXIL,False,False,True,False,False,False
+90,CHEMBL:CHEMBL1513392,False,False,False,False,False,False
+91,TREMELIMUMAB,True,True,True,True,True,True
+92,ANHYDROUS TACROLIMUS,True,True,True,True,True,True
+93,BMS-986020,False,False,False,False,False,False
+94,TOCILIZUMAB,True,True,True,True,True,True
+95,CEFDITORIN PIVOXIL,False,False,False,False,False,False
 96,ATEVIRDINE MESYLATE,False,False,True,False,False,True
-97,DACLIZUMAB,False,False,True,True,True,True
-98,CHEMBL:CHEMBL19954,False,False,True,False,False,False
-99,CIXUTUMUMAB,False,False,True,False,True,True
+97,DACLIZUMAB,True,True,True,True,True,True
+98,CHEMBL:CHEMBL19954,False,False,False,False,False,False
+99,CIXUTUMUMAB,False,True,True,False,True,True

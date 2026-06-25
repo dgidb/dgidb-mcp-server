@@ -14,6 +14,8 @@
 
 set -euo pipefail
 
+cd GPT_eval/src
+
 # Pin to the package versions used for the published evaluation
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
@@ -36,9 +38,6 @@ if [[ -n "$OPENAI_API_KEY" && "$OPENAI_API_KEY" != '[INSERT YOUR API KEY]' ]]; t
     python GPT_no_MCP_drug_info.py        # Experiment 2: No MCP + DGIdb-specific prompt
     python GPT_MCP_drug_info_prop_used.py # Experiment 3: MCP + generic prompt (measures tool-use rate)
 
-    # ── Evaluate all experiments ──────────────────────────────────────────────
-    python eval_drug_info.py              # Reports metrics for all 3 experiments + MCP usage analysis
-
     # ── DGIdb + CIViC joint task: LLM-assisted drug candidate ranking ─────────
     # Requires host_dgidb_civic_MCP.py in the working directory (launched as a
     # subprocess by joint_task_rank_GPT_MCP.py via `fastmcp run`).
@@ -49,8 +48,9 @@ else
     echo "No API key specified — skipping experiments and evaluating previous outputs."
 fi
 
-# ── Always run final joint evaluation ────────────────────────────────────────
-python eval_rank_joint.py
+# ── Evaluate all experiments ──────────────────────────────────────────────
+python eval_drug_info.py              # Reports metrics for all 3 experiments + MCP usage analysis
+
 
 # ── Evaluate joint task ───────────────────────────────────────────────────────
 python eval_rank_joint.py
