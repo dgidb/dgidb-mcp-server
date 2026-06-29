@@ -107,49 +107,13 @@ View the original chat here: [https://claude.ai/share/8e9224cd-4927-4337-9a76-cc
 
 </details></details></details>
 
-## Configuring Claude Desktop
+## Adding DGIdb MCP as a Claude Connector
 
-Example video taken from CIViC MCP
-
-https://github.com/user-attachments/assets/5890f79a-e2fc-49f6-b5f4-ef191d07872d
-
-Install Node.js (https://nodejs.org/)
-
-Click "LTS" (Recommended for Most Users) — this gives you Node.js and npx
-Download and install it like any normal app
-
-Once installed:
-On Windows: Open “Command Prompt” or “PowerShell”
-On macOS: Open “Terminal”
-
-Then run:
-```bash
-node -v
-npx -v
-```
-
-Confirm that both give versions.
-
-## Accessing DGIdb via MCP
-Add this configuration to your `claude_desktop_config.json` file:
-
-```json
-{
-  "mcpServers": {
-    "lars-dgidb-mcp-server": {
-    "command": "npx",
-    "args": [
-          "mcp-remote",
-          "https://dgidb-mcp-server.larscivic.workers.dev/mcp"
-        ]
-    }
-  }
-}
-```
+<img width="3216" height="1094" alt="Claude connector setup dgidb" src="https://github.com/user-attachments/assets/8fb75b67-3faa-44f8-99df-5179d738a091" />
 
 ## Usage
 
-Once configured, restart Claude Desktop. The server provides 4 main tools:
+The server provides 4 main tools:
 
 1. **`get_drug_info`**: Gets drug info including approval, if used in immunotherapy, and other drug attributes for a list of drugs.
 2. **`get_gene_info`**: Gets gene category info for a list of genes.
@@ -171,30 +135,11 @@ Chat links to conversations with Opus 4.5 via Claude Desktop on 1/14/2026.
 
 *API responses are not visible in the linked chats.
 
-## Joint Access to DGIdb and CIViC via MCP
-Add this configuration to your `claude_desktop_config.json` file:
+## Joint Access to DGIdb and CIViC via MCP with Connectors
 
-```json
-{
-"mcpServers": {
-    "lars-civic-mcp-server": {
-    "command": "npx",
-    "args": [
-          "mcp-remote",
-          "https://civic-mcp-server-v2.larscivic.workers.dev/mcp"
-        ]
-      },
+After adding the DGIdb Connector, also add the CIViC MCP
 
-    "lars-dgidb-mcp-server": {
-    "command": "npx",
-    "args": [
-          "mcp-remote",
-          "https://dgidb-mcp-server.larscivic.workers.dev/mcp"
-        ]
-      }
-  }
-}
-```
+<img width="3218" height="1094" alt="Claude connector setup civic-v2" src="https://github.com/user-attachments/assets/12d0bf87-5bfb-49c0-a935-ba5d5fb0c6f5" />
 
 ### Joint Use Cases (DGIdb + CIViC)
 
