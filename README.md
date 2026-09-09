@@ -1,14 +1,14 @@
 # DGIdb MCP Server
 
-Preprint: https://www.biorxiv.org/content/10.64898/2026.01.18.700012v1
+This is a Cloudflare Workers-based Model Context Protocol (MCP) server that provides tools for querying the DGIdb (Drug Gene Interaction Database) API.
 
-This is a Cloudflare Workers-based Model Context Protocol (MCP) server that provides tools for querying the DGIdb (Drug Gene Interaction Database) API. 
+DGIdb streamlines the search for druggable therapeutic targets through the aggregation, categorization, and curation of drug and gene data from publications and expert resources.
 
-DGIdb streamlines the search for druggable therapeutic targets through the aggregation, categorization, and curation of drug and gene data from publications and expert resources. 
+If you use the DGIdb MCP Server in published work, please cite [*Searching the druggable genome using large language models*](https://doi.org/10.1093/bioinformatics/btag632). Complete citation metadata is available in [`CITATION.cff`](CITATION.cff).
 
 ## Example of DGIdb MCP Server on Claude Desktop
 
-### User Prompt: 
+### User Prompt:
 "What genes interact with the drug Ibrutinib and by what mechanism of interaction according to DGIdb?"
 
   <summary>Tool Called: <code>get_gene_interactions_for_drug_list</code></summary>
@@ -21,9 +21,9 @@ DGIdb streamlines the search for druggable therapeutic targets through the aggre
   "drugNames": "Ibrutinib"
 }
 ```
-</details> 
+</details>
 <details> <summary><b>API Response</b></summary>
-  
+
 ```json
 {
   "Instructions": "Interaction Score: Scoring metric based on the evidence supporting an interaction.
@@ -63,13 +63,13 @@ DGIdb streamlines the search for druggable therapeutic targets through the aggre
   ]
 }
 ```
-  
+
 </details>
 
 
 <details>
     <summary><b>Claude Response</b></summary>
-  
+
 
 According to DGIdb, **Ibrutinib** interacts with multiple genes. Here are the top interactions ranked by interaction score:
 
