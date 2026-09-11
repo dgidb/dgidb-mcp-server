@@ -4,7 +4,7 @@ This is a Cloudflare Workers-based Model Context Protocol (MCP) server that prov
 
 DGIdb streamlines the search for druggable therapeutic targets through the aggregation, categorization, and curation of drug and gene data from publications and expert resources.
 
-If you use the DGIdb MCP Server in published work, please cite [*Searching the druggable genome using large language models*](https://doi.org/10.1093/bioinformatics/btag632). Complete citation metadata is available in [`CITATION.cff`](CITATION.cff).
+If you use the DGIdb MCP Server in published work, please cite [*Searching the druggable genome using large language models*](https://doi.org/10.1093/bioinformatics/btag632). Complete citation metadata is available in [`CITATION.md`](CITATION.md).
 
 ## Example of DGIdb MCP Server on Claude Desktop
 
