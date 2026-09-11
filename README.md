@@ -111,6 +111,10 @@ View the original chat here: [https://claude.ai/share/8e9224cd-4927-4337-9a76-cc
 
 <img width="3216" height="1094" alt="Claude connector setup dgidb" src="https://github.com/user-attachments/assets/8fb75b67-3faa-44f8-99df-5179d738a091" />
 
+Connector URL: https://dgidb-mcp-server.larscivic.workers.dev/mcp
+
+Select no sign-in required
+
 ## Usage
 
 The server provides 4 main tools:
